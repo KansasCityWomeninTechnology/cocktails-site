@@ -1,0 +1,39 @@
+@import '~styles/variables';
+@import '~styles/typography';
+
+#scholarship {
+    background: $plum;
+    padding: 100px 0px;
+    border-top: solid 10px $light-plum;
+    border-bottom: solid 10px $light-plum;
+  
+    h1 {
+        font-weight: 800;
+        font-size: 3.8em;
+        text-align: center;
+    }
+  
+    h2 {
+        font-weight: 600;
+        font-size: 2.8em;
+        text-align: center;
+    }
+  
+    p, li {
+      font-size: 1.3em;
+    }
+
+    .btn {
+        background-color: $dark-purple;
+        border-color: $dark-purple;
+        color: $white;
+        &:hover {
+          background-color: darken($dark-purple, 10%);
+          color: $white;
+        }
+    }
+
+    h6 {
+        padding-top: 1em;
+    }
+}

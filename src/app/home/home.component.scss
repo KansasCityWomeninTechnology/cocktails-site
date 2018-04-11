@@ -1,0 +1,101 @@
+@import '~styles/variables';
+@import '~styles/typography';
+
+// Global styles
+section {
+    min-height: 600px;
+    img {
+        width: 100%;
+    }
+}
+
+// Section specific styles
+#code {
+    background: $dark-olive;
+    padding: 150px 0px 100px 0px;
+    border-top: solid 10px $light-olive;
+    border-bottom: solid 10px $light-olive;
+    img {
+        margin-top: 20px;
+    }
+}
+
+#cocktails {
+    background: $plum;
+    text-align: center;
+    padding: 150px 0px 100px 0px;
+    border-top: solid 10px $light-plum;
+    border-bottom: solid 10px $light-plum;
+    img {
+        width: auto;
+    }
+    .cocktails {
+        display: block;
+        height: 200px;
+        width: 271px;
+        border: solid 5px #fff;
+        margin-top:20px;
+        background: url(../../assets/images/laura2.png) no-repeat 0px 0px;
+        background-size: contain;
+    }
+}
+
+#mentors {
+    background: $light-purple;
+    text-align: center;
+    padding: 150px 0px 100px 0px;
+    border-top: solid 10px $dark-purple;
+    border-bottom: solid 10px $dark-purple;
+    .mentor {
+        a {
+            text-decoration: none;
+            color:$white;
+            display: block;
+            overflow: hidden;
+            img {
+               width: 50%;
+            }
+        }
+
+    }
+    h6 {
+        margin-top: 20px;
+    }
+}
+
+#mc_embed_signup{
+    background: #666b8f !important;
+}
+
+#signup {
+    background: $dark-olive;
+    padding: 150px 0px 100px 0px;
+    border-top: solid 10px $light-olive;
+    border-bottom: solid 10px $light-olive;
+    text-align: center;
+    ul {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .host {
+       display: inline-block;
+       margin: 10px auto;
+    }
+
+    a {
+      color: $dark-purple;
+    }
+
+    #hosting-venue {
+        margin-bottom: 0;
+    }
+
+    iframe {
+        margin-top: 1.1em;
+    }
+
+    agm-map {
+        height: 300px;
+    }
+}

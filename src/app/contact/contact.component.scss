@@ -1,0 +1,22 @@
+@import '~styles/variables';
+@import '~styles/typography';
+
+#contact {
+    background: $white;
+    padding: 100px 0px 100px 0px;
+    border-bottom: solid 10px $light-olive;
+    img {
+        margin-bottom: 30px;
+    }
+    h4, h5, p{
+        color: $teal;
+    }
+
+    a.kcwit-logo {
+       display: block;
+       height: 250px;
+       width: 400px;
+       background: url(../../assets/images/logos/kcwit-logo.png) no-repeat 0px 0px;
+       background-size: contain;
+    }
+}

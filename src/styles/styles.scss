@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import './variables';
+@import './typography';
+
+/* Space out content a bit */
+body {
+    padding:0px;
+    margin:0px;
+    font-family: $font-stack;
+    color: $white;
+}
+
+.btn {
+    margin: .5em 0;
+}

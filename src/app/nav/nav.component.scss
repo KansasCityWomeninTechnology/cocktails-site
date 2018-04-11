@@ -1,0 +1,19 @@
+@import '~styles/variables';
+@import '~styles/typography';
+
+.nav-background {
+    background: $dark-purple;
+}
+
+.dropdown-item:hover{
+    background-color: $dark-purple;
+}
+
+.dropdown-menu>li>a{
+    color: $white;
+    opacity: 0.5;
+
+    &:hover {
+        opacity: 0.75;
+    }
+}

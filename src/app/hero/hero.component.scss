@@ -1,0 +1,16 @@
+@import '~styles/variables';
+@import '~styles/typography';
+
+#hero {
+    background: $light-purple;
+    text-align: center;
+    padding: 150px 0px 100px 0px;
+
+    a.cocktails-logo {
+        display: block;
+        height: 300px;
+        width: 300px;
+        background: url(../../assets/images/logos/logo.png) no-repeat 0px 0px;
+        background-size: contain;
+    }
+}

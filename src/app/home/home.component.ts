@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   public tools: Array<Object>; 
-  public venue: Object;
-  public map: Object;
+  public venue;
+  public map;
   public lat: number = 39.105692;
   public lng: number = -94.581287;
   public zm: number = 15;

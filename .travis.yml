@@ -1,12 +1,3 @@
 language: node_js
 node_js:
- — “8”
-script:
- — echo “Deploy!!”
- — npm run lint
- — npm test
- — npm run build
-install:
- — npm install -g firebase-tools
-after_success:
- — firebase deploy — project coding-cocktails-site — token $FIREBASE_TOKEN.
+ — “lts/*”

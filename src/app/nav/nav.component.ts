@@ -1,17 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'navigation',
+  selector: 'app-navigation',
   templateUrl: './nav.component.html',
   styleUrls: ['./nav.component.scss']
 })
 export class NavComponent implements OnInit {
-  public isCollapsed: boolean = false;
+  public isCollapsed = false;
 
   collapsed(event: any): void {
     // console.log(event);
   }
- 
+
   expanded(event: any): void {
     // console.log(event);
   }

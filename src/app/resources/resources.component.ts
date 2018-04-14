@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+// import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-resources',
@@ -9,11 +9,11 @@ import { ActivatedRoute } from '@angular/router';
 export class ResourcesComponent implements OnInit {
 
   constructor(
-    private route: ActivatedRoute
+    // private route: ActivatedRoute
   ) { }
 
   ngOnInit() {
-    console.log(this.route);
+    // console.log(this.route);
   }
 
 }

@@ -9,7 +9,7 @@ export const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'financialaid', component: FinancialAidComponent },
   { path: 'resources', component: ResourcesComponent }
-]
+];
 
 @NgModule({
   imports: [

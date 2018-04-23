@@ -9,8 +9,12 @@ export class HomeComponent implements OnInit {
   public tools: Array<Object>;
   public venue;
   public map;
-  public lat = 39.105692;
-  public lng = -94.581287;
+  // SMG
+  public lat = 39.091890;
+  public lng = -94.579773;
+  // Nerdery
+  // public lat = 39.105692;
+  // public lng = -94.581287;
   public zm = 15;
   public topics: Array<Object>;
   public leaders: Array<Object>;
@@ -154,11 +158,18 @@ export class HomeComponent implements OnInit {
       twitter: 'codecocktailskc'
    }];
 
+    // this.venue = {
+    //   name: 'The Nerdery',
+    //   img: '../assets/images/logos/nerdery.png',
+    //   url: 'http://nerdery.com',
+    //   address: '100 E 7 St #401, Kansas City, MO 64106'
+    // };
+
     this.venue = {
-      name: 'The Nerdery',
-      img: '../assets/images/logos/nerdery.png',
-      url: 'http://nerdery.com',
-      address: '100 E 7 St #401, Kansas City, MO 64106'
+      name: 'Service Management Group',
+      img: '../assets/images/logos/smg.png',
+      url: 'https://www.smg.com/',
+      address: '1737 McGee St, Kansas City, MO 64108'
     };
 
     this.topics = [{

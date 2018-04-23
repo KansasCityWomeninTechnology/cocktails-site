@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
         <div class="col-4">
-          <div class="row margin-top">
+          <div class="row">
             <div class="col-6" *ngFor="let tool of tools">
               <a href="{{tool.url}}" target="_blank">
                 <img src="{{tool.img}}" />
@@ -73,7 +73,7 @@
         </a>
       </div>
     </div>
-    <div class="row margin-top">
+    <div class="row">
       <div class="col-3 mentor" *ngFor="let mentor of mentors">
         <a href="http://www.twitter.com/{{mentor.twitter}}" target="_blank">
           <img class="rounded-circle" src="{{mentor.img}}" alt="{{mentor.name}}"/>
@@ -139,14 +139,14 @@
                 <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
               </agm-map>
           </div>
-          <div class="col-7">
-              <h5>Upcoming Session: <br>Saturday, April 14, 2018, 5-9pm
-              <br />Session Topic: Introduction to Version Control</h5>
+          <div class="col-7 align-self-center">
+              <h5>Upcoming Session: <br>Saturday, May 12, 2018, 5-9pm
+              <br />Session Topic: Introduction to Front End Architecture</h5>
               <p>Note: wifi-enabled laptops are required to attend!</p>
-              <div style="width:100%; text-align:left;"><iframe src="//eventbrite.com/tickets-external?eid=42787776391&ref=ccweb" frameborder="0" height="325" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true"></iframe></div>
+              <div style="width:100%; text-align:left;"><iframe src="//eventbrite.com/tickets-external?eid=44043474217&ref=ccweb" frameborder="0" height="325" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true"></iframe></div>
           </div>
       </div>
-      <div class="row">
+      <div class="row mt-5">
           <div class="col-12">
              <h5>2018 Sessions</h5>
              <p>Click on the event topic to sign up.</p>

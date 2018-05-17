@@ -1,6 +1,16 @@
-# Coding & Cocktails Webstie
+# Coding & Cocktails Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
+
+To get going
+```bash
+git clone
+npm install
+npm start
+```
+
+To serve app and auto open browser use `ng serve --open` or `npm start -- --open`
+
 
 ## Development server
 

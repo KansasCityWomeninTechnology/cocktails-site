@@ -1,5 +1,5 @@
-@import '~styles/variables';
-@import '~styles/typography';
+@import 'variables';
+@import 'typography';
 
 #tools {
     background: $dark-olive;
@@ -22,13 +22,13 @@
 
     a.listlink {
         color: $light-olive;
-        text-decoration: none; 
+        text-decoration: none;
     }
 
     a.listlink:hover {
         color: $dark-olive;
         text-shadow: none;
-        border: none; 
+        border: none;
     }
 
     table.tocTable {

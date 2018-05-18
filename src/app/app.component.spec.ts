@@ -13,7 +13,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { AppRoutingModule } from './/app-routing.module';
-import { Ng2PageScrollModule } from 'ng2-page-scroll';
+import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { AgmCoreModule } from '@agm/core';
 
 describe('AppComponent', () => {
@@ -34,7 +34,7 @@ describe('AppComponent', () => {
         BsDropdownModule.forRoot(),
         CollapseModule.forRoot(),
         AppRoutingModule,
-        Ng2PageScrollModule,
+        NgxPageScrollModule,
         AgmCoreModule.forRoot({
           apiKey: 'AIzaSyASRlFMsqIDTO_2ebxq7gjOzR5nOjzItnE'
         })

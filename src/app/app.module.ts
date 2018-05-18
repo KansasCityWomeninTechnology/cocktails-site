@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
-import { Ng2PageScrollModule } from 'ng2-page-scroll';
+import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { AgmCoreModule } from '@agm/core';
 
 import { AppComponent } from './app.component';
@@ -33,7 +33,7 @@ import { HeroComponent } from './hero/hero.component';
     BsDropdownModule.forRoot(),
     CollapseModule.forRoot(),
     AppRoutingModule,
-    Ng2PageScrollModule,
+    NgxPageScrollModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyASRlFMsqIDTO_2ebxq7gjOzR5nOjzItnE'
     })

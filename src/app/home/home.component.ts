@@ -60,11 +60,6 @@ export class HomeComponent implements OnInit {
       img: '../assets/images/mentors/sarah.png',
       twitter: 'skduits'
     }, {
-      name: 'Kelly Winzer',
-      title: 'Program Co-Director',
-      img: '../assets/images/mentors/kelly.jpg',
-      twitter: 'kellyreneewinz'
-    }, {
       name: 'Kayla Hennegin',
       title: 'Curriculum Director',
       img: '../assets/images/mentors/kayla.png',
@@ -84,6 +79,11 @@ export class HomeComponent implements OnInit {
       title: 'Marketing Director',
       img: '../assets/images/mentors/melissa.jpg',
       twitter: 'Meivarpe'
+    }, {
+      name: 'Kallie Riff',
+      title: 'Presentation Director',
+      img: '../assets/images/mentors/kallie.jpg',
+      twitter: 'KallieRiff'
     }];
 
     this.mentors = [{

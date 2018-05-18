@@ -31,11 +31,11 @@ section {
     }
     .cocktails {
         display: block;
-        height: 200px;
-        width: 271px;
+        height: 210px;
+        width: 310px;
         border: solid 5px #fff;
-        margin-top:20px;
-        background: url(../../assets/images/laura2.png) no-repeat 0px 0px;
+        margin: 20px auto;
+        background: url(../../assets/images/libations.jpg) no-repeat 0px 0px;
         background-size: contain;
     }
 }
@@ -56,8 +56,12 @@ section {
                width: 50%;
             }
         }
-
     }
+
+    .leader:last-child {
+        margin: 0 auto;
+    }
+
     h6 {
         margin-top: 20px;
     }

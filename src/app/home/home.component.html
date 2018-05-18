@@ -1,16 +1,16 @@
 <section id="code">
   <div class="container">
     <div class="row">
-        <div class="col-4">
+        <div class="col-sm-4">
           <div class="row">
-            <div class="col-6" *ngFor="let tool of tools">
+            <div class="col-sm-6" *ngFor="let tool of tools">
               <a href="{{tool.url}}" target="_blank">
                 <img src="{{tool.img}}" />
               </a>
             </div>
           </div>
         </div>
-        <div class="col-8">
+        <div class="col-sm-8">
           <h4>The Code</h4>
           <h5>
             You've seen the paint &amp; wine classes, now it's time to get
@@ -43,11 +43,11 @@
 <section id="cocktails">
   <div class="container">
     <div class="row">
-      <div class="col-7">
+      <div class="col-sm-7">
       <h4>The Cocktails</h4>
       <h5>We couldn't be more excited to partner with bartender Laura Wagner of Logistics &amp; Libations. She brings the freshest local ingredients together with liquors from local vendors to create a custom cocktail menu to get your code on to.</h5>
       </div>
-      <div class="col-5">
+      <div class="col-sm-5">
           <div class="cocktails"></div>
       </div>
     </div>
@@ -56,16 +56,16 @@
 <section id="mentors">
   <div class="container">
     <div class="row">
-      <div class="col-1"></div>
-      <div class="col-10">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
         <h4>The Mentors</h4>
         <h5>As a woman, learning to program can be intimidating! We've recruited fantastic female mentors to create a welcoming learning environment and answer those questions you may be too scared to ask! </h5>
         <h5>These ladies write code for their day job and can't wait to help you get started. They're kind of like super heroes, with great taste!</h5>
       </div>
-      <div class="col-1"></div>
+      <div class="col-sm-1"></div>
     </div>
     <div class="row margin-bottom" >
-      <div class="col-4 mentor" *ngFor="let leader of leaders">
+      <div class="col-sm-4 mentor leader" *ngFor="let leader of leaders">
         <a href="http://www.twitter.com/{{leader.twitter}}" target="_blank">
           <img class="rounded-circle" src="{{leader.img}}" alt="{{leader.name}}"/>
           <h6>{{leader.name}}</h6>
@@ -74,7 +74,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-3 mentor" *ngFor="let mentor of mentors">
+      <div class="col-sm-3 mentor" *ngFor="let mentor of mentors">
         <a href="http://www.twitter.com/{{mentor.twitter}}" target="_blank">
           <img class="rounded-circle" src="{{mentor.img}}" alt="{{mentor.name}}"/>
           <h6>{{mentor.name}}</h6>
@@ -124,12 +124,12 @@
 <section id="signup">
   <div class="container">
       <div class="row">
-          <div class="col-12">
+          <div class="col-sm-12">
               <h4>Sign Up!</h4>
           </div>
       </div>
       <div class="row">
-          <div class="col-5 map">
+          <div class="col-sm-5 map">
               <h5 id="hosting-venue">Proudly hosted by {{venue.name}}</h5>
               <a href="{{venue.url}}" target="_blank" class="host">
                   <img src="{{venue.img}}" alt="{{venue.name}}">
@@ -139,15 +139,15 @@
                 <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
               </agm-map>
           </div>
-          <div class="col-7 align-self-center">
-              <h5>Upcoming Session: <br>Saturday, May 12, 2018, 5-9pm
-              <br />Session Topic: Introduction to Front End Architecture</h5>
+          <div class="col-sm-7 align-self-center">
+              <h5>Upcoming Session: <br>Saturday, June 9, 2018, 5-9pm
+              <br />Session Topic: Programming Concepts 101 - Introduction to JavaScript</h5>
               <p>Note: wifi-enabled laptops are required to attend!</p>
-              <div style="width:100%; text-align:left;"><iframe src="//eventbrite.com/tickets-external?eid=44043474217&ref=ccweb" frameborder="0" height="325" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true"></iframe></div>
+              <div style="width:100%; text-align:left;"><iframe src="//eventbrite.com/tickets-external?eid=44050656700&ref=ccweb" frameborder="0" height="325" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true"></iframe></div>
           </div>
       </div>
       <div class="row mt-5">
-          <div class="col-12">
+          <div class="col-sm-12">
              <h5>2018 Sessions</h5>
              <p>Click on the event topic to sign up.</p>
              <p>If the event is not yet available for sign ups, you will be directed to the Coding &amp; Cocktails Eventbrite page.</p>

@@ -26,148 +26,148 @@ export class HomeComponent implements OnInit {
     this.tools = [{
       name: 'HTML',
       url: 'https://www.w3.org/html/',
-      img: '../assets/images/logos/html5.png'
+      img: 'assets/images/logos/html5.png'
     }, {
       name: 'Github',
       url: 'https://github.com/',
-      img: '../assets/images/logos/femalecodertocat.png'
+      img: 'assets/images/logos/femalecodertocat.png'
     }, {
       name: 'Yeoman',
       url: 'http://yeoman.io/',
-      img: '../assets/images/logos/yo.png'
+      img: 'assets/images/logos/yo.png'
     }, {
       name: 'Angular',
       url: 'https://angular.io/',
-      img: '../assets/images/logos/angular.png'
+      img: 'assets/images/logos/angular.png'
     }, {
       name: 'node',
       url: 'https://nodejs.org/en/',
-      img: '../assets/images/logos/node.png'
+      img: 'assets/images/logos/node.png'
     }, {
       name: 'npm',
       url: 'https://www.npmjs.com/',
-      img: '../assets/images/logos/npm.png'
+      img: 'assets/images/logos/npm.png'
     }];
 
     this.leaders = [{
       name: 'Jennifer Wadella',
       title: 'Founder',
-      img: '../assets/images/mentors/jennifer.png',
+      img: 'assets/images/mentors/jennifer.png',
       twitter: 'likeOMGitsFEDAY'
     }, {
       name: 'Sarah Duitsman',
       title: 'Program Director',
-      img: '../assets/images/mentors/sarah.png',
+      img: 'assets/images/mentors/sarah.png',
       twitter: 'skduits'
     }, {
       name: 'Kayla Hennegin',
       title: 'Curriculum Director',
-      img: '../assets/images/mentors/kayla.png',
+      img: 'assets/images/mentors/kayla.png',
       twitter: 'bellafaith'
     }, {
       name: 'Gabi Dombrowski',
       title: 'Mentor Director',
-      img: '../assets/images/mentors/gabi.jpg',
+      img: 'assets/images/mentors/gabi.jpg',
       twitter: 'gabdom'
     }, {
       name: 'Alisa Duncan',
       title: 'Technical Materials Director',
-      img: '../assets/images/mentors/alisa.jpg',
+      img: 'assets/images/mentors/alisa.jpg',
       twitter: 'AlisaDuncan'
     }, {
       name: 'Melissa Arroyo',
       title: 'Marketing Director',
-      img: '../assets/images/mentors/melissa.jpg',
+      img: 'assets/images/mentors/melissa.jpg',
       twitter: 'Meivarpe'
     }, {
       name: 'Kallie Riff',
       title: 'Presentation Director',
-      img: '../assets/images/mentors/kallie.jpg',
+      img: 'assets/images/mentors/kallie.jpg',
       twitter: 'KallieRiff'
     }];
 
     this.mentors = [{
       name: 'Tamara Copple',
       title: 'Mentor',
-      img: '../../assets/images/mentors/tamara.png',
+      img: 'assets/images/mentors/tamara.png',
       twitter: 'Ceiligirl72'
    }, {
       name: 'Tatiana Alexenko',
       title: 'Mentor',
-      img: '../../assets/images/mentors/tatiana.jpg',
+      img: 'assets/images/mentors/tatiana.jpg',
       twitter: 'codecocktailskc'
    }, {
       name: 'Ashley Sullins',
       title: 'Mentor',
-      img: '../../assets/images/mentors/ashley.jpeg',
+      img: 'assets/images/mentors/ashley.jpeg',
       twitter: 'ashleycc87'
    }, {
       name: 'Sara Heins',
       title: 'Mentor',
-      img: '../../assets/images/mentors/sara.jpg',
+      img: 'assets/images/mentors/sara.jpg',
       twitter: 'theheins57'
    }, {
       name: 'Ashley Holbrook',
       title: 'Mentor',
-      img: '../../assets/images/mentors/ashleyh.jpg',
+      img: 'assets/images/mentors/ashleyh.jpg',
       twitter: 'ultralovets'
    }, {
       name: 'Amy Norris',
       title: 'Mentor',
-      img: '../../assets/images/mentors/amy.jpg',
+      img: 'assets/images/mentors/amy.jpg',
       twitter: 'amynorris'
    }, {
       name: 'Rachel Hathaway',
       title: 'Mentor',
-      img: '../../assets/images/mentors/rachel.jpg',
+      img: 'assets/images/mentors/rachel.jpg',
       twitter: 'codecocktailskc'
    }, {
       name: 'Muriel Green',
       title: 'Mentor',
-      img: '../../assets/images/mentors/muriel.jpg',
+      img: 'assets/images/mentors/muriel.jpg',
       twitter: 'murlgreen1'
    }, {
       name: 'Annie Chan',
       title: 'Mentor',
-      img: '../../assets/images/mentors/annie.jpg',
+      img: 'assets/images/mentors/annie.jpg',
       twitter: 'codecocktailskc'
    }, {
       name: 'Heather Pekrul',
       title: 'Mentor',
-      img: '../../assets/images/mentors/heatherp.jpg',
+      img: 'assets/images/mentors/heatherp.jpg',
       twitter: 'heatherpekrul'
    }, {
       name: 'Maroua Jawadi',
       title: 'Mentor',
-      img: '../../assets/images/mentors/maroua.jpg',
+      img: 'assets/images/mentors/maroua.jpg',
       twitter: 'codecocktailskc'
    }, {
       name: 'Stephanie Sammons',
       title: 'Mentor',
-      img: '../../assets/images/mentors/stephanie.jpg',
+      img: 'assets/images/mentors/stephanie.jpg',
       twitter: 'codecocktailskc'
    }, {
       name: 'Rhia Dixon',
       title: 'Mentor',
-      img: '../../assets/images/mentors/rhia.jpg',
+      img: 'assets/images/mentors/rhia.jpg',
       twitter: 'TheFakeRiRi'
    }, {
       name: 'Stacey Adams',
       title: 'Mentor',
-      img: '../../assets/images/mentors/stacey.jpg',
+      img: 'assets/images/mentors/stacey.jpg',
       twitter: 'codecocktailskc'
    }];
 
     // this.venue = {
     //   name: 'The Nerdery',
-    //   img: '../assets/images/logos/nerdery.png',
+    //   img: 'assets/images/logos/nerdery.png',
     //   url: 'http://nerdery.com',
     //   address: '100 E 7 St #401, Kansas City, MO 64106'
     // };
 
     this.venue = {
       name: 'Service Management Group',
-      img: '../assets/images/logos/smg.png',
+      img: 'assets/images/logos/smg.png',
       url: 'https://www.smg.com/',
       address: '1737 McGee St, Kansas City, MO 64108'
     };

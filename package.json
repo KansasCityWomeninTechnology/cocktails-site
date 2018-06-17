@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --aot",
     "build": "ng build --prod",
     "deploy": "ng build --prod && firebase deploy",
     "test": "ng test",

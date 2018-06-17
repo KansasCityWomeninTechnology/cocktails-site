@@ -140,10 +140,10 @@
               </agm-map>
           </div>
           <div class="col-sm-7 align-self-center">
-              <h5>Upcoming Session: <br>Saturday, July 14, 2018, 5-9pm
-              <br />Session Topic: Programming Concepts 102 - A deeper dive into JavaScript</h5>
+              <h5>Upcoming Session: <br>{{upcomingSession.date | date:'fullDate'}}, {{upcomingSession.time}}
+              <br />Session Topic: {{upcomingSession.topic}}</h5>
               <p>Note: wifi-enabled laptops are required to attend!</p>
-              <div style="width:100%; text-align:left;"><iframe src="//eventbrite.com/tickets-external?eid=46549034415&ref=ccweb" frameborder="0" height="325" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true"></iframe></div>
+              <div style="width:100%; text-align:left;"><iframe [attr.src]="upcomingSession.tickets" frameborder="0" height="325" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true"></iframe></div>
           </div>
       </div>
       <div class="row mt-5">
@@ -152,7 +152,7 @@
              <p>Click on the event topic to sign up.</p>
              <p>If the event is not yet available for sign ups, you will be directed to the Coding &amp; Cocktails Eventbrite page.</p>
              <ul class="list-unstyled" *ngFor="let topic of topics">
-                  <li><b>{{topic.month}}</b> - <a href="{{topic.url}}" target="_blank">{{topic.topic}}</a></li>
+                  <li><b>{{topic.date | date:'MMMM d'}}th</b> - <a href="{{topic.url}}" target="_blank">{{topic.topic}}</a></li>
               </ul>
           </div>
       </div>

@@ -19,60 +19,17 @@
   <div class="list">
     <h3>Monthly Slides &amp; Worksheets</h3>
     <table class="tocTable">
-      <tr>
-        <td style="text-align: left;">January: HTML</td>
-        <td><a href="http://bit.ly/CnCJanSlides" class="listlink" target="_blank">slides</a></td>
-        <td><a href="http://bit.ly/CnCJanWork" class="listlink" target="_blank">worksheet</a></td>
-      </tr>
-      <tr>
-        <td style="text-align: left;">February: CSS</td>
-        <td><a href="http://bit.ly/CnCFebSlides" class="listlink" target="_blank">slides</a></td>
-        <td><a href="http://bit.ly/CnCFebWork" class="listlink" target="_blank">worksheet</a></td>
-      </tr>
-      <tr>
-        <td style="text-align: left;">March: Command Line</td>
-        <td><a href="http://bit.ly/CnCMarSlides" class="listlink" target="_blank">slides</a></td>
-        <td><a href="http://bit.ly/CnCMarWork" class="listlink" target="_blank">worksheet</a></td>
-      </tr>
-      <tr>
-        <td style="text-align: left;">April: Version Control</td>
-        <td><a href="http://bit.ly/CnCAprSlides" class="listlink" target="_blank">slides</a></td>
-        <td><a href="http://bit.ly/CnCAprWork" class="listlink" target="_blank">worksheet</a></td>
-      </tr>
-      <tr>
-        <td style="text-align: left;">May: Front-end Architecture</td>
-        <td><a href="http://bit.ly/CnCMaySlides" class="listlink" target="_blank">slides</a></td>
-        <td><a href="http://bit.ly/CnCMayWork" class="listlink" target="_blank">worksheet</a></td>
-      </tr>
-      <tr>
-        <td style="text-align: left;">June: Intro to JavaScript</td>
-        <td><a href="http://bit.ly/CnCJunSlides" class="listlink" target="_blank">slides</a></td>
-        <td><a href="http://bit.ly/CnCJunWork" class="listlink" target="_blank">worksheet</a></td>
-      </tr>
-      <tr>
-        <td style="text-align: left;">July: A deeper dive into Javascript</td>
-        <td><font style="color: #999">slides</font></td>
-        <td><font style="color: #999">worksheet</font></td>
-      </tr>
-      <tr>
-        <td style="text-align: left;">August: Intro to Package Managers</td>
-        <td><font style="color: #999">slides</font></td>
-        <td><font style="color: #999">worksheet</font></td>
-      </tr>
-      <tr>
-        <td style="text-align: left;">September: NodeJS &amp; APIs</td>
-        <td><font style="color: #999">slides</font></td>
-        <td><font style="color: #999">worksheet</font></td>
-      </tr>
-      <tr>
-        <td style="text-align: left;">October: Single Page Applications</td>
-        <td><font style="color: #999">slides</font></td>
-        <td><font style="color: #999">worksheet</font></td>
-      </tr>
-      <tr>
-        <td style="text-align: left;">November: Micro-Hackathon</td>
-        <td><font style="color: #999">slides</font></td>
-        <td><font style="color: #999">worksheet</font></td>
+      <tr *ngFor="let session of sessions">
+          <td style="text-align: left;">{{session.name}}</td>
+          <ng-template [ngIf]="!session.available" [ngIfElse]="available">
+              <td><font style="color: #999">slides</font></td>
+              <td><font style="color: #999">worksheet</font></td>
+          </ng-template>
+
+          <ng-template #available>
+              <td><a href="{{session.slides}}" class="listlink" target="_blank">slides</a></td>
+              <td><a href="{{session.worksheet}}" class="listlink" target="_blank">worksheet</a></td>
+          </ng-template>
       </tr>
     </table>
   </div>

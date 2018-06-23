@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
@@ -16,11 +17,12 @@ export class HomeComponent implements OnInit {
   // public lat = 39.105692;
   // public lng = -94.581287;
   public zm = 15;
-  public topics: Array<Object>;
+  public topics: Array<any>;
   public leaders: Array<Object>;
   public mentors: Array<Object>;
+  public upcomingSession: any;
 
-  constructor() { }
+  constructor(private sanitizer: DomSanitizer) { }
 
   ngOnInit() {
     this.tools = [{
@@ -178,49 +180,75 @@ export class HomeComponent implements OnInit {
     };
 
     this.topics = [{
-      month: 'January 13th',
+      date: '2018-01-13',
+      time: '5-9pm',
       topic: 'Introduction to HTML',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-html-tickets-39425679268?aff=ccweb'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-html-tickets-39425679268?aff=ccweb',
+      tickets: ''
     }, {
-      month: 'February 10th',
+      date: '2018-02-10',
+      time: '5-9pm',
       topic: 'Introduction to CSS',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-css-tickets-39470123201?aff=ccweb'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-css-tickets-39470123201?aff=ccweb',
+      tickets: ''
     }, {
-      month: 'March 10th',
+      date: '2018-03-10',
+      time: '5-9pm',
       topic: 'Introduction to Command Line',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-command-line-tickets-39470265627?aff=ccweb'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-command-line-tickets-39470265627?aff=ccweb',
+      tickets: ''
     }, {
-      month: 'April 14th',
+      date: '2018-04-14',
+      time: '5-9pm',
       topic: 'Introduction to Version Control',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-version-control-tickets-42787776391?aff=ccweb'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-version-control-tickets-42787776391?aff=ccweb',
+      tickets: ''
     }, {
-      month: 'May 12th',
+      date: '2018-05-12',
+      time: '5-9pm',
       topic: 'Introduction to Front End Architecture',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-front-end-architecture-tickets-44043474217?aff=ccweb'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-front-end-architecture-tickets-44043474217?aff=ccweb',
+      tickets: ''
     }, {
-      month: 'June 9th',
+      date: '2018-06-09',
+      time: '5-9pm',
       topic: 'Programming Concepts 101: Introduction to JavaScript',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-javascript-tickets-44050656700?aff=ccweb'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-javascript-tickets-44050656700?aff=ccweb',
+      tickets: ''
     }, {
-      month: 'July 14th',
+      date: '2018-07-14',
+      time: '5-9pm',
       topic: 'Programming Concepts 102: A deeper dive into JavaScript',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-a-deeper-dive-into-javascript-tickets-46549034415?aff=ccweb'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-a-deeper-dive-into-javascript-tickets-46549034415?aff=ccweb',
+      tickets: '//eventbrite.com/tickets-external?eid=46549034415&ref=ccweb'
     }, {
-      month: 'August 11th',
+      date: '2018-08-11',
+      time: '5-9pm',
       topic: 'Introduction to Package Managers',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-package-managers-tickets-46599331856?aff=ccweb'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-package-managers-tickets-46599331856?aff=ccweb',
+      tickets: '//eventbrite.com/tickets-external?eid=46599331856&ref=ccweb'
     }, {
-      month: 'September 8th',
+      date: '2018-09-08',
+      time: '5-9pm',
       topic: 'Server-side APIs: Node.js, REST & SOAP',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-server-side-apis-tickets-46600665846?aff=ccweb'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-server-side-apis-tickets-46600665846?aff=ccweb',
+      tickets: '//eventbrite.com/tickets-external?eid=46600665846&ref=ccweb'
     }, {
-      month: 'October 13th',
+      date: '2018-10-13',
+      time: '5-9pm',
       topic: 'Introduction to Single Page Applications',
-      url: 'http://codingandcocktailskc.eventbrite.com'
+      url: 'http://codingandcocktailskc.eventbrite.com',
+      tickets: ''
     }, {
-      month: 'November 10th',
+      date: '2018-11-10',
+      time: '4-9pm',
       topic: 'Micro-Hackathon',
-      url: 'http://codingandcocktailskc.eventbrite.com'
+      url: 'http://codingandcocktailskc.eventbrite.com',
+      tickets: ''
     }];
+
+    this.upcomingSession = this.topics[6];
+    // bypass sanitization of the url so that we can display the iframe
+    this.upcomingSession.tickets = this.sanitizer.bypassSecurityTrustResourceUrl(this.upcomingSession.tickets);
   }
 }

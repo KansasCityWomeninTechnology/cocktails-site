@@ -18,4 +18,15 @@
        background: url(/assets/images/logos/kcwit-logo.png) no-repeat 0px 0px;
        background-size: contain;
     }
+
+    a.btn {
+       margin-right: 1em;
+       border-color: $teal;
+       color: $teal;
+
+       &:hover {
+           background-color: $teal;
+           color: $white;
+       }
+    }
 }

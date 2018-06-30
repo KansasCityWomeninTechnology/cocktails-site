@@ -20,15 +20,15 @@
     <h3>Monthly Slides &amp; Worksheets</h3>
     <table class="tocTable">
       <tr *ngFor="let session of sessions">
-          <td style="text-align: left;">{{session.name}}</td>
-          <ng-template [ngIf]="!session.available" [ngIfElse]="available">
+          <td style="text-align: left;">{{session.date | date:'LLLL'}}: {{session.sessionName}}</td>
+          <ng-template [ngIf]="!session.areSessionLinksEnabled" [ngIfElse]="available">
               <td><font style="color: #999">slides</font></td>
               <td><font style="color: #999">worksheet</font></td>
           </ng-template>
 
           <ng-template #available>
-              <td><a href="{{session.slides}}" class="listlink" target="_blank">slides</a></td>
-              <td><a href="{{session.worksheet}}" class="listlink" target="_blank">worksheet</a></td>
+              <td><a href="{{session.slidesLink}}" class="listlink" target="_blank">slides</a></td>
+              <td><a href="{{session.worksheetLink}}" class="listlink" target="_blank">worksheet</a></td>
           </ng-template>
       </tr>
     </table>

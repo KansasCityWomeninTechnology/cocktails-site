@@ -135,24 +135,24 @@
                   <img src="{{venue.img}}" alt="{{venue.name}}">
               </a>
               <p>{{venue.address}}</p>
-              <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zm">
-                <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+              <agm-map [latitude]="venue.lat" [longitude]="venue.lng" [zoom]="zm">
+                <agm-marker [latitude]="venue.lat" [longitude]="venue.lng"></agm-marker>
               </agm-map>
           </div>
           <div class="col-sm-7 align-self-center">
               <h5>Upcoming Session: <br>{{upcomingSession.date | date:'fullDate'}}, {{upcomingSession.time}}
-              <br />Session Topic: {{upcomingSession.topic}}</h5>
+              <br />Session Topic: {{upcomingSession.topicName}}</h5>
               <p>Note: wifi-enabled laptops are required to attend!</p>
-              <div style="width:100%; text-align:left;"><iframe [attr.src]="upcomingSession.tickets" frameborder="0" height="325" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true"></iframe></div>
+              <div style="width:100%; text-align:left;"><iframe [attr.src]="upcomingSessionTicketLink" frameborder="0" height="325" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true"></iframe></div>
           </div>
       </div>
       <div class="row mt-5">
           <div class="col-sm-12">
-             <h5>2018 Sessions</h5>
+             <h5>{{topics[0].date | date: 'y'}} Sessions</h5>
              <p>Click on the event topic to sign up.</p>
              <p>If the event is not yet available for sign ups, you will be directed to the Coding &amp; Cocktails Eventbrite page.</p>
              <ul class="list-unstyled" *ngFor="let topic of topics">
-                  <li><b>{{topic.date | date:'MMMM d'}}th</b> - <a href="{{topic.url}}" target="_blank">{{topic.topic}}</a></li>
+                  <li><b>{{topic.date | date:'MMMM d'}}th</b> - <a href="{{topic.eventbriteLink}}" target="_blank">{{topic.topicName}}</a></li>
               </ul>
           </div>
       </div>

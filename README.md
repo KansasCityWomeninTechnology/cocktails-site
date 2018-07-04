@@ -11,6 +11,15 @@ npm start
 
 To serve app and auto open browser use `ng serve --open` or `npm start -- --open`
 
+# How to activate links, update mentors, etc
+All data used to populate app is found in _src/data/data.ts_. There are separate arrays for sessions, mentors, leaders, etc.
+
+* To activate links for a session, enable the `areSessionLinksEnabled` flag for the session.
+* To display next session's ticket purchasing view:
+    1. Make sure the session's `eventbriteIFrameLink` is populated
+    1. Set the `UPCOMING_SESSION_MONTH` for the session to display using the integer representation for the month (ie 7 for July)
+
+
 
 ## Development server
 

@@ -124,26 +124,6 @@ export const MENTORS: Hero[] = [{
     img: 'assets/images/mentors/tamara.png',
     twitter: 'Ceiligirl72'
 }, {
-    name: 'Tatiana Alexenko',
-    title: 'Mentor',
-    img: 'assets/images/mentors/tatiana.jpg',
-    twitter: 'codecocktailskc'
-}, {
-    //     name: 'Ashley Sullins',
-    //     title: 'Mentor',
-    //     img: 'assets/images/mentors/ashley.jpeg',
-    //     twitter: 'ashleycc87'
-    //  }, {
-    //     name: 'Sara Heins',
-    //     title: 'Mentor',
-    //     img: 'assets/images/mentors/sara.jpg',
-    //     twitter: 'theheins57'
-    //  }, {
-    name: 'Ashley Holbrook',
-    title: 'Mentor',
-    img: 'assets/images/mentors/ashleyh.jpg',
-    twitter: 'ultralovets'
-}, {
     name: 'Amy Norris',
     title: 'Mentor',
     img: 'assets/images/mentors/amy.jpg',
@@ -193,6 +173,31 @@ export const MENTORS: Hero[] = [{
     title: 'Mentor',
     img: 'assets/images/mentors/mel.jpg',
     twitter: 'MelanieGarvey'
+}, {
+    name: 'McKenzie Hine',
+    title: 'Mentor',
+    img: 'assets/images/mentors/mckenzie.jpg',
+    twitter: 'mckenz_h'
+}, {
+    name: 'Jenn Bono',
+    title: 'Mentor',
+    img: 'assets/images/mentors/jenn.jpg',
+    twitter: 'jenn_bono24'
+}, {
+    name: 'Erin Wilson',
+    title: 'Mentor',
+    img: 'assets/images/mentors/erin.jpg',
+    twitter: 'erin_wilson92'
+}, {
+    name: 'Gabby Ortman',
+    title: 'Mentor',
+    img: 'assets/images/mentors/gabby.jpg',
+    twitter: 'gabbyortman'
+}, {
+    name: 'Jessica Kincaid',
+    title: 'Mentor',
+    img: 'assets/images/mentors/jessica.jpg',
+    twitter: 'jessica_k1ncaid'
 }];
 
 

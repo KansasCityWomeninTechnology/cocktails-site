@@ -273,7 +273,7 @@ export const SESSIONS: Session[] = [{
     sessionName: 'JavaScript like a boss',
     slidesLink: 'http://bit.ly/CnCJulSlides',
     worksheetLink: 'http://bit.ly/CnCJulWork',
-    areSessionLinksEnabled: false
+    areSessionLinksEnabled: true
 }, {
     date: '2018-08-11',
     time: '5-9pm',

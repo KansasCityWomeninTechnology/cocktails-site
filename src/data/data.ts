@@ -272,7 +272,7 @@ export const SESSIONS: Session[] = [{
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=46549034415&ref=ccweb',
     sessionName: 'JavaScript like a boss',
     slidesLink: 'http://bit.ly/CnCJulSlides',
-    worksheetLink: 'http://bit.ly/CnCJulWork',
+    worksheetLink: 'http://bit.ly/CncJulWork',
     areSessionLinksEnabled: true
 }, {
     date: '2018-08-11',

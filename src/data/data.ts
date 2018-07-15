@@ -59,25 +59,25 @@ export const TOOLS: Tool[] = [{
 }];
 
 
-export const VENUE: Venue = {
-    name: 'Service Management Group',
-    img: 'assets/images/logos/smg.png',
-    url: 'https://www.smg.com/',
-    address: '1737 McGee St, Kansas City, MO 64108',
-    lat: 39.091890,
-    lng: -94.579773
-};
+// export const VENUE: Venue = {
+//     name: 'Service Management Group',
+//     img: 'assets/images/logos/smg.png',
+//     url: 'https://www.smg.com/',
+//     address: '1737 McGee St, Kansas City, MO 64108',
+//     lat: 39.091890,
+//     lng: -94.579773
+// };
 
 // If we keep encountering multiple venues, this can be streamlined a bit more
 // For now taking the no effort route.
-// export const VENUE: Venue = {
-//     name: 'The Nerdery',
-//   img: 'assets/images/logos/nerdery.png',
-//   url: 'http://nerdery.com',
-//   address: '100 E 7 St #401, Kansas City, MO 64106',
-//   lat: 39.105692,
-//   lng: -94.581287
-// };
+export const VENUE: Venue = {
+  name: 'The Nerdery',
+  img: 'assets/images/logos/nerdery.png',
+  url: 'http://nerdery.com',
+  address: '100 E 7 St #401, Kansas City, MO 64106',
+  lat: 39.105692,
+  lng: -94.581287
+};
 
 
 export const LEADERS: Hero[] = [{
@@ -316,4 +316,4 @@ export const SESSIONS: Session[] = [{
     areSessionLinksEnabled: false
 }];
 
-export const UPCOMING_SESSION_MONTH = 7; // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
+export const UPCOMING_SESSION_MONTH = 8; // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc

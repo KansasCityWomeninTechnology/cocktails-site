@@ -198,6 +198,11 @@ export const MENTORS: Hero[] = [{
     title: 'Mentor',
     img: 'assets/images/mentors/jessica.jpg',
     twitter: 'jessica_k1ncaid'
+}, {
+    name: 'Gloria Highley',
+    title: 'Mentor',
+    img: 'assets/images/mentors/gloria.jpg',
+    twitter: 'gloriahigley'
 }];
 
 

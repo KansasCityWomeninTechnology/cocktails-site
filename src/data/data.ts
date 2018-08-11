@@ -288,7 +288,7 @@ export const SESSIONS: Session[] = [{
     sessionName: 'Intro to Package Managers',
     slidesLink: 'http://bit.ly/CnCAugSlides',
     worksheetLink: 'http://bit.ly/CnCAugWork',
-    areSessionLinksEnabled: false
+    areSessionLinksEnabled: true
 }, {
     date: '2018-09-08',
     time: '5-9pm',

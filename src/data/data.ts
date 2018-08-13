@@ -109,7 +109,7 @@ export const LEADERS: Hero[] = [{
     name: 'Melissa Arroyo',
     title: 'Marketing Director',
     img: 'assets/images/mentors/melissa.jpg',
-    twitter: 'Meivarpe'
+    twitter: 'Mel_arr'
 }, {
     name: 'Kallie Riff',
     title: 'Presentation Director',

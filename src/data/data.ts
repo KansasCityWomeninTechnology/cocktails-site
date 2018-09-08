@@ -298,7 +298,7 @@ export const SESSIONS: Session[] = [{
     sessionName: 'NodeJS & APIs',
     slidesLink: 'http://bit.ly/CnCSepSlides',
     worksheetLink: 'http://bit.ly/CnCSepWork',
-    areSessionLinksEnabled: false
+    areSessionLinksEnabled: true
 }, {
     date: '2018-10-13',
     time: '5-9pm',

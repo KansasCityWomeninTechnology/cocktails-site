@@ -91,6 +91,11 @@ export const LEADERS: Hero[] = [{
     img: 'assets/images/mentors/sarah.png',
     twitter: 'skduits'
 }, {
+    name: 'Rachel Hagan',
+    title: 'Co Director',
+    img: 'assets/images/mentors/rachelh.png',
+    twitter: 'rhagan21'
+}, {
     name: 'Kayla Hennegin',
     title: 'Curriculum Director',
     img: 'assets/images/mentors/kayla.png',
@@ -303,8 +308,8 @@ export const SESSIONS: Session[] = [{
     date: '2018-10-13',
     time: '5-9pm',
     topicName: 'Introduction to Single Page Applications',
-    eventbriteLink: 'http://codingandcocktailskc.eventbrite.com',
-    eventbriteIFrameLink: '',
+    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-single-page-applications-tickets-48457253951?aff=ccweb',
+    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=48457253951&ref=ccweb',
     sessionName: 'Single Page Applications',
     slidesLink: 'http://bit.ly/CnCOctSlides',
     worksheetLink: 'http://bit.ly/CnCOctWork',
@@ -313,12 +318,12 @@ export const SESSIONS: Session[] = [{
     date: '2018-11-10',
     time: '4-9pm',
     topicName: 'Micro-Hackathon',
-    eventbriteLink: 'http://codingandcocktailskc.eventbrite.com',
-    eventbriteIFrameLink: '',
+    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-codejam-tickets-49412482064?aff=ccweb',
+    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=49412482064&ref=ccweb',
     sessionName: 'Micro-Hackathon',
     slidesLink: 'http://bit.ly/CnCNovSlides',
     worksheetLink: 'http://bit.ly/CnCNovWork',
     areSessionLinksEnabled: false
 }];
 
-export const UPCOMING_SESSION_MONTH = 9; // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
+export const UPCOMING_SESSION_MONTH = 10; // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc

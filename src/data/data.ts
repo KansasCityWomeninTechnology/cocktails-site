@@ -93,7 +93,7 @@ export const LEADERS: Hero[] = [{
 }, {
     name: 'Rachel Hagan',
     title: 'Co Director',
-    img: 'assets/images/mentors/rachelh.png',
+    img: 'assets/images/mentors/rachelh.jpg',
     twitter: 'rhagan21'
 }, {
     name: 'Kayla Hennegin',

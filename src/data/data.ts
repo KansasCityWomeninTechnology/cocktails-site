@@ -93,7 +93,7 @@ export const LEADERS: Hero[] = [{
 }, {
     name: 'Rachel Hagan',
     title: 'Co Director',
-    img: 'assets/images/mentors/rachel.png',
+    img: 'assets/images/mentors/rachelh.png',
     twitter: 'rhagan21'
 }, {
     name: 'Kayla Hennegin',
@@ -308,7 +308,7 @@ export const SESSIONS: Session[] = [{
     date: '2018-10-13',
     time: '5-9pm',
     topicName: 'Introduction to Single Page Applications',
-    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-single-page-applications-tickets-48457253951',
+    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-single-page-applications-tickets-48457253951?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=48457253951&ref=ccweb',
     sessionName: 'Single Page Applications',
     slidesLink: 'http://bit.ly/CnCOctSlides',
@@ -318,7 +318,7 @@ export const SESSIONS: Session[] = [{
     date: '2018-11-10',
     time: '4-9pm',
     topicName: 'Micro-Hackathon',
-    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-codejam-tickets-49412482064',
+    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-codejam-tickets-49412482064?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=49412482064&ref=ccweb',
     sessionName: 'Micro-Hackathon',
     slidesLink: 'http://bit.ly/CnCNovSlides',

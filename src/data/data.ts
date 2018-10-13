@@ -313,7 +313,7 @@ export const SESSIONS: Session[] = [{
     sessionName: 'Single Page Applications',
     slidesLink: 'http://bit.ly/CnCOctSlides',
     worksheetLink: 'http://bit.ly/CnCOctWork',
-    areSessionLinksEnabled: false
+    areSessionLinksEnabled: true
 }, {
     date: '2018-11-10',
     time: '4-9pm',

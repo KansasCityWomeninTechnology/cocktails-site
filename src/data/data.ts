@@ -317,13 +317,13 @@ export const SESSIONS: Session[] = [{
 }, {
     date: '2018-11-10',
     time: '4-9pm',
-    topicName: 'Micro-Hackathon',
+    topicName: 'CodeJam',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-codejam-tickets-49412482064?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=49412482064&ref=ccweb',
-    sessionName: 'Micro-Hackathon',
+    sessionName: 'CodeJam',
     slidesLink: 'http://bit.ly/CnCNovSlides',
     worksheetLink: 'http://bit.ly/CnCNovWork',
     areSessionLinksEnabled: false
 }];
 
-export const UPCOMING_SESSION_MONTH = 10; // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
+export const UPCOMING_SESSION_MONTH = 11; // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc

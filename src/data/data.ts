@@ -323,7 +323,7 @@ export const SESSIONS: Session[] = [{
     sessionName: 'CodeJam',
     slidesLink: 'http://bit.ly/CnCNovSlides',
     worksheetLink: 'http://bit.ly/CnCNovWork',
-    areSessionLinksEnabled: false
+    areSessionLinksEnabled: true
 }];
 
 export const UPCOMING_SESSION_MONTH = 11; // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc

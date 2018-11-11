@@ -4,11 +4,8 @@
 @import './variables';
 @import './typography';
 
-/* Space out content a bit */
 body {
-    padding:0px;
-    margin:0px;
-    font-family: $font-stack;
+    font-family: $font-family-sans-serif;
     color: $white;
 }
 

@@ -41,21 +41,13 @@ export const TOOLS: Tool[] = [{
     url: 'https://github.com/',
     img: 'assets/images/logos/femalecodertocat.png'
 }, {
-    name: 'Yeoman',
-    url: 'http://yeoman.io/',
-    img: 'assets/images/logos/yo.png'
+    name: 'JavaScript',
+    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+    img: 'assets/images/logos/js-white.png'
 }, {
-    name: 'Angular',
-    url: 'https://angular.io/',
-    img: 'assets/images/logos/angular.png'
-}, {
-    name: 'node',
-    url: 'https://nodejs.org/en/',
-    img: 'assets/images/logos/node.png'
-}, {
-    name: 'npm',
-    url: 'https://www.npmjs.com/',
-    img: 'assets/images/logos/npm.png'
+    name: 'CSS',
+    url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
+    img: 'assets/images/logos/logo-css3.png'
 }];
 
 
@@ -99,7 +91,7 @@ export const LEADERS: Hero[] = [{
     name: 'Kayla Hennegin',
     title: 'Curriculum Director',
     img: 'assets/images/mentors/kayla.png',
-    twitter: 'bellafaith'
+    twitter: 'codecocktailskc'
 }, {
     name: 'Gabi Dombrowski',
     title: 'Mentor Director',
@@ -114,7 +106,7 @@ export const LEADERS: Hero[] = [{
     name: 'Melissa Arroyo',
     title: 'Marketing Director',
     img: 'assets/images/mentors/melissa.jpg',
-    twitter: 'Mel_arr'
+    twitter: 'codecocktailskc'
 }, {
     name: 'Kallie Riff',
     title: 'Presentation Director',
@@ -212,7 +204,7 @@ export const MENTORS: Hero[] = [{
 
 
 export const SESSIONS: Session[] = [{
-    date: '2018-01-13',
+    date: '2019-01-12',
     time: '5-9pm',
     topicName: 'Introduction to HTML',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-html-tickets-39425679268?aff=ccweb',
@@ -223,7 +215,7 @@ export const SESSIONS: Session[] = [{
     areSessionLinksEnabled: true
 
 }, {
-    date: '2018-02-10',
+    date: '2019-02-09',
     time: '5-9pm',
     topicName: 'Introduction to CSS',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-css-tickets-39470123201?aff=ccweb',
@@ -233,7 +225,7 @@ export const SESSIONS: Session[] = [{
     worksheetLink: 'http://bit.ly/CnCFebWork',
     areSessionLinksEnabled: true
 }, {
-    date: '2018-03-10',
+    date: '2019-03-09',
     time: '5-9pm',
     topicName: 'Introduction to Command Line',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-command-line-tickets-39470265627?aff=ccweb',
@@ -243,7 +235,7 @@ export const SESSIONS: Session[] = [{
     worksheetLink: 'http://bit.ly/CnCMarWork',
     areSessionLinksEnabled: true
 }, {
-    date: '2018-04-14',
+    date: '2019-04-13',
     time: '5-9pm',
     topicName: 'Introduction to Version Control',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-version-control-tickets-42787776391?aff=ccweb',
@@ -253,7 +245,7 @@ export const SESSIONS: Session[] = [{
     worksheetLink: 'http://bit.ly/CnCAprWork',
     areSessionLinksEnabled: true,
 }, {
-    date: '2018-05-12',
+    date: '2019-05-11',
     time: '5-9pm',
     topicName: 'Introduction to Front End Architecture',
     eventbriteLink:
@@ -264,7 +256,7 @@ export const SESSIONS: Session[] = [{
     worksheetLink: 'http://bit.ly/CnCMayWork',
     areSessionLinksEnabled: true
 }, {
-    date: '2018-06-09',
+    date: '2019-06-08',
     time: '5-9pm',
     topicName: 'Programming Concepts 101: Introduction to JavaScript',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-javascript-tickets-44050656700?aff=ccweb',
@@ -275,7 +267,7 @@ export const SESSIONS: Session[] = [{
     areSessionLinksEnabled: true
 
 }, {
-    date: '2018-07-14',
+    date: '2019-07-13',
     time: '5-9pm',
     topicName: 'Programming Concepts 102: A deeper dive into JavaScript',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-a-deeper-dive-into-javascript-tickets-46549034415?aff=ccweb',
@@ -285,7 +277,7 @@ export const SESSIONS: Session[] = [{
     worksheetLink: 'http://bit.ly/CncJulWork',
     areSessionLinksEnabled: true
 }, {
-    date: '2018-08-11',
+    date: '2019-08-10',
     time: '5-9pm',
     topicName: 'Introduction to Package Managers',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-package-managers-tickets-46599331856?aff=ccweb',
@@ -295,7 +287,7 @@ export const SESSIONS: Session[] = [{
     worksheetLink: 'http://bit.ly/CnCAugWork',
     areSessionLinksEnabled: true
 }, {
-    date: '2018-09-08',
+    date: '2019-09-14',
     time: '5-9pm',
     topicName: 'Server-side APIs: Node.js, REST & SOAP',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-server-side-apis-tickets-46600665846?aff=ccweb',
@@ -305,7 +297,7 @@ export const SESSIONS: Session[] = [{
     worksheetLink: 'http://bit.ly/CnCSepWork',
     areSessionLinksEnabled: true
 }, {
-    date: '2018-10-13',
+    date: '2019-10-12',
     time: '5-9pm',
     topicName: 'Introduction to Single Page Applications',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-single-page-applications-tickets-48457253951?aff=ccweb',
@@ -315,7 +307,7 @@ export const SESSIONS: Session[] = [{
     worksheetLink: 'http://bit.ly/CnCOctWork',
     areSessionLinksEnabled: true
 }, {
-    date: '2018-11-10',
+    date: '2019-11-09',
     time: '4-9pm',
     topicName: 'CodeJam',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-codejam-tickets-49412482064?aff=ccweb',

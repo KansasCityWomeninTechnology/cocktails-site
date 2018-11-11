@@ -23,15 +23,13 @@
           </h5>
           <h5>
             As an intro to programming, you'll get an overview of how sites
-            are built for the web, from basic HTML pages to building single page
-            applications. You will learn about version control and how to collaborate with
+            are built for the web, from basic HTML strucuture to handling user interaction with 
+            JavaScript. You will learn about version control and how to collaborate with
             other developers using <a href="http://github.com" target="_blank"><b>GitHub</b></a>.
-            We like to think of the curriculum as the <i>essential web developer tool kit</i>. 
+            We like to think of the curriculum as the <i>essential front-end developer tool kit</i>. 
           </h5>
           <h5>
-            When you've got the basics down, you'll practice creating and
-            deploying your own projects using resources like <a href="http://yeoman.io//" target="_blank"><b>yeoman</b></a> 
-            to show off your epic coding prowess. And once you've hit the
+            Once you've hit the
             <a href="http://xkcd.com/323/" target="_blank"><b>Ballmer Peak</b></a>
             courtsey of custom crafted cocktails, it's to infinity and beyond in
             writing code and learning to mentor others.
@@ -128,7 +126,7 @@
               <h4>Sign Up!</h4>
           </div>
       </div>
-      <div class="row">
+      <!-- <div class="row">
           <div class="col-sm-5 map">
               <h5 id="hosting-venue">Proudly hosted by {{venue.name}}</h5>
               <a href="{{venue.url}}" target="_blank" class="host">
@@ -145,15 +143,19 @@
               <p>Note: wifi-enabled laptops are required to attend!</p>
               <div style="width:100%; text-align:left;"><iframe [attr.src]="upcomingSessionTicketLink" frameborder="0" height="325" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true"></iframe></div>
           </div>
-      </div>
-      <div class="row mt-5">
+      </div> -->
+      <div class="row">
           <div class="col-sm-12">
              <h5>{{topics[0].date | date: 'y'}} Sessions</h5>
-             <p>Click on the event topic to sign up.</p>
-             <p>If the event is not yet available for sign ups, you will be directed to the Coding &amp; Cocktails Eventbrite page.</p>
+             <p>Check back soon for 2019 signups!</p>
+             <p>2019 Dates include:</p>
+             <ul class="list-unstyled" *ngFor="let topic of topics">
+              <li><b>{{topic.date | date:'MMMM d'}}th</b></li>
+            </ul>
+             <!-- <p>If the event is not yet available for sign ups, you will be directed to the Coding &amp; Cocktails Eventbrite page.</p>
              <ul class="list-unstyled" *ngFor="let topic of topics">
                   <li><b>{{topic.date | date:'MMMM d'}}th</b> - <a href="{{topic.eventbriteLink}}" target="_blank">{{topic.topicName}}</a></li>
-              </ul>
+              </ul> -->
           </div>
       </div>
   </div>

@@ -58,8 +58,10 @@ section {
         }
     }
 
-    .leader:last-child {
-        margin: 0 auto;
+    @media only screen and (min-width : 575px) {
+        .leader:nth-last-child(2) {
+            margin-left: 18%;
+        }
     }
 
     h6 {

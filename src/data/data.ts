@@ -212,7 +212,7 @@ export const SESSIONS: Session[] = [{
     sessionName: 'HTML',
     slidesLink: 'http://bit.ly/CnCJanSlides',
     worksheetLink: 'http://bit.ly/CnCJanWork',
-    areSessionLinksEnabled: true
+    areSessionLinksEnabled: false
 
 }, {
     date: '2019-02-09',
@@ -223,7 +223,7 @@ export const SESSIONS: Session[] = [{
     sessionName: 'CSS',
     slidesLink: 'http://bit.ly/CnCFebSlides',
     worksheetLink: 'http://bit.ly/CnCFebWork',
-    areSessionLinksEnabled: true
+    areSessionLinksEnabled: false
 }, {
     date: '2019-03-09',
     time: '5-9pm',
@@ -233,7 +233,7 @@ export const SESSIONS: Session[] = [{
     sessionName: 'Command Line',
     slidesLink: 'http://bit.ly/CnCMarSlides',
     worksheetLink: 'http://bit.ly/CnCMarWork',
-    areSessionLinksEnabled: true
+    areSessionLinksEnabled: false
 }, {
     date: '2019-04-13',
     time: '5-9pm',
@@ -243,7 +243,7 @@ export const SESSIONS: Session[] = [{
     sessionName: 'Version Control',
     slidesLink: 'http://bit.ly/CnCAprSlides',
     worksheetLink: 'http://bit.ly/CnCAprWork',
-    areSessionLinksEnabled: true,
+    areSessionLinksEnabled: false,
 }, {
     date: '2019-05-11',
     time: '5-9pm',
@@ -254,7 +254,7 @@ export const SESSIONS: Session[] = [{
     sessionName: 'Front-end Architecture',
     slidesLink: 'http://bit.ly/CnCMaySlides',
     worksheetLink: 'http://bit.ly/CnCMayWork',
-    areSessionLinksEnabled: true
+    areSessionLinksEnabled: false
 }, {
     date: '2019-06-08',
     time: '5-9pm',
@@ -264,7 +264,7 @@ export const SESSIONS: Session[] = [{
     sessionName: 'Intro to JavaScript',
     slidesLink: 'http://bit.ly/CnCJunSlides',
     worksheetLink: 'http://bit.ly/CnCJunWork',
-    areSessionLinksEnabled: true
+    areSessionLinksEnabled: false
 
 }, {
     date: '2019-07-13',
@@ -275,7 +275,7 @@ export const SESSIONS: Session[] = [{
     sessionName: 'JavaScript like a boss',
     slidesLink: 'http://bit.ly/CnCJulSlides',
     worksheetLink: 'http://bit.ly/CncJulWork',
-    areSessionLinksEnabled: true
+    areSessionLinksEnabled: false
 }, {
     date: '2019-08-10',
     time: '5-9pm',
@@ -285,7 +285,7 @@ export const SESSIONS: Session[] = [{
     sessionName: 'Intro to Package Managers',
     slidesLink: 'http://bit.ly/CnCAugSlides',
     worksheetLink: 'http://bit.ly/CnCAugWork',
-    areSessionLinksEnabled: true
+    areSessionLinksEnabled: false
 }, {
     date: '2019-09-14',
     time: '5-9pm',
@@ -295,7 +295,7 @@ export const SESSIONS: Session[] = [{
     sessionName: 'NodeJS & APIs',
     slidesLink: 'http://bit.ly/CnCSepSlides',
     worksheetLink: 'http://bit.ly/CnCSepWork',
-    areSessionLinksEnabled: true
+    areSessionLinksEnabled: false
 }, {
     date: '2019-10-12',
     time: '5-9pm',
@@ -305,7 +305,7 @@ export const SESSIONS: Session[] = [{
     sessionName: 'Single Page Applications',
     slidesLink: 'http://bit.ly/CnCOctSlides',
     worksheetLink: 'http://bit.ly/CnCOctWork',
-    areSessionLinksEnabled: true
+    areSessionLinksEnabled: false
 }, {
     date: '2019-11-09',
     time: '4-9pm',
@@ -315,7 +315,7 @@ export const SESSIONS: Session[] = [{
     sessionName: 'CodeJam',
     slidesLink: 'http://bit.ly/CnCNovSlides',
     worksheetLink: 'http://bit.ly/CnCNovWork',
-    areSessionLinksEnabled: true
+    areSessionLinksEnabled: false
 }];
 
 export const UPCOMING_SESSION_MONTH = 11; // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc

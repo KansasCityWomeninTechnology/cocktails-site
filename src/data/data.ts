@@ -206,116 +206,116 @@ export const MENTORS: Hero[] = [{
 export const SESSIONS: Session[] = [{
     date: '2019-01-12',
     time: '5-9pm',
-    topicName: 'Introduction to HTML',
+    topicName: 'Front-end Architecture And Introduction to HTML (The Glass)',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-html-tickets-39425679268?aff=ccweb',
     eventbriteIFrameLink: '',
-    sessionName: 'HTML',
+    sessionName: 'HTML (The Glass)',
     slidesLink: 'http://bit.ly/CnCJanSlides',
-    worksheetLink: 'http://bit.ly/CnCJanWork',
+    worksheetLink: 'http://bit.ly/cnchtmlwork',
     areSessionLinksEnabled: false
 
 }, {
     date: '2019-02-09',
     time: '5-9pm',
-    topicName: 'Introduction to CSS',
+    topicName: 'Introduction to CSS (The Garnish)',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-css-tickets-39470123201?aff=ccweb',
     eventbriteIFrameLink: '',
-    sessionName: 'CSS',
+    sessionName: 'CSS (The Garnish)',
     slidesLink: 'http://bit.ly/CnCFebSlides',
-    worksheetLink: 'http://bit.ly/CnCFebWork',
+    worksheetLink: 'http://bit.ly/cnccsswork',
     areSessionLinksEnabled: false
 }, {
     date: '2019-03-09',
     time: '5-9pm',
-    topicName: 'Introduction to Command Line',
+    topicName: 'Introduction to Command Line And Version Control (The Rocks)',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-command-line-tickets-39470265627?aff=ccweb',
     eventbriteIFrameLink: '',
-    sessionName: 'Command Line',
+    sessionName: 'Git (The Rocks)',
     slidesLink: 'http://bit.ly/CnCMarSlides',
-    worksheetLink: 'http://bit.ly/CnCMarWork',
+    worksheetLink: 'http://bit.ly/cncgitwork',
     areSessionLinksEnabled: false
 }, {
     date: '2019-04-13',
     time: '5-9pm',
-    topicName: 'Introduction to Version Control',
+    topicName: 'Introduction to JavaScript (The Liquor)',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-version-control-tickets-42787776391?aff=ccweb',
     eventbriteIFrameLink: '',
-    sessionName: 'Version Control',
+    sessionName: 'JavaScript (The Liquor)',
     slidesLink: 'http://bit.ly/CnCAprSlides',
-    worksheetLink: 'http://bit.ly/CnCAprWork',
+    worksheetLink: 'http://bit.ly/cncjavascriptwork',
     areSessionLinksEnabled: false,
 }, {
     date: '2019-05-11',
     time: '5-9pm',
-    topicName: 'Introduction to Front End Architecture',
+    topicName: 'Interactive JavaScript (The Mixer)',
     eventbriteLink:
         'https://www.eventbrite.com/e/coding-cocktails-introduction-to-front-end-architecture-tickets-44043474217?aff=ccweb',
     eventbriteIFrameLink: '',
-    sessionName: 'Front-end Architecture',
+    sessionName: 'Interactive (The Mixer)',
     slidesLink: 'http://bit.ly/CnCMaySlides',
-    worksheetLink: 'http://bit.ly/CnCMayWork',
+    worksheetLink: 'http://bit.ly/cncinteractivework',
     areSessionLinksEnabled: false
 }, {
     date: '2019-06-08',
     time: '5-9pm',
-    topicName: 'Programming Concepts 101: Introduction to JavaScript',
+    topicName: 'Front-end Architecture And Introduction to HTML (The Glass)',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-javascript-tickets-44050656700?aff=ccweb',
     eventbriteIFrameLink: '',
-    sessionName: 'Intro to JavaScript',
+    sessionName: 'HTML (The Glass)',
     slidesLink: 'http://bit.ly/CnCJunSlides',
-    worksheetLink: 'http://bit.ly/CnCJunWork',
+    worksheetLink: 'http://bit.ly/cnchtmlwork',
     areSessionLinksEnabled: false
 
 }, {
     date: '2019-07-13',
     time: '5-9pm',
-    topicName: 'Programming Concepts 102: A deeper dive into JavaScript',
+    topicName: 'Introduction to CSS (The Garnish)',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-a-deeper-dive-into-javascript-tickets-46549034415?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=46549034415&ref=ccweb',
-    sessionName: 'JavaScript like a boss',
+    sessionName: 'CSS (The Garnish)',
     slidesLink: 'http://bit.ly/CnCJulSlides',
-    worksheetLink: 'http://bit.ly/CncJulWork',
+    worksheetLink: 'http://bit.ly/cnccsswork',
     areSessionLinksEnabled: false
 }, {
     date: '2019-08-10',
     time: '5-9pm',
-    topicName: 'Introduction to Package Managers',
+    topicName: 'Introduction to Command Line And Version Control (The Rocks)',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-package-managers-tickets-46599331856?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=46599331856&ref=ccweb',
-    sessionName: 'Intro to Package Managers',
+    sessionName: 'Git (The Rocks)',
     slidesLink: 'http://bit.ly/CnCAugSlides',
-    worksheetLink: 'http://bit.ly/CnCAugWork',
+    worksheetLink: 'http://bit.ly/cncgitwork',
     areSessionLinksEnabled: false
 }, {
     date: '2019-09-14',
     time: '5-9pm',
-    topicName: 'Server-side APIs: Node.js, REST & SOAP',
+    topicName: 'Introduction to JavaScript (The Liquor)',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-server-side-apis-tickets-46600665846?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=46600665846&ref=ccweb',
-    sessionName: 'NodeJS & APIs',
+    sessionName: 'JavaScript (The Liquor)',
     slidesLink: 'http://bit.ly/CnCSepSlides',
-    worksheetLink: 'http://bit.ly/CnCSepWork',
+    worksheetLink: 'http://bit.ly/cncjavascriptwork',
     areSessionLinksEnabled: false
 }, {
     date: '2019-10-12',
     time: '5-9pm',
-    topicName: 'Introduction to Single Page Applications',
+    topicName: 'Interactive JavaScript (The Mixer)',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-single-page-applications-tickets-48457253951?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=48457253951&ref=ccweb',
-    sessionName: 'Single Page Applications',
+    sessionName: 'Interactive (The Mixer)',
     slidesLink: 'http://bit.ly/CnCOctSlides',
-    worksheetLink: 'http://bit.ly/CnCOctWork',
+    worksheetLink: 'http://bit.ly/cncinteractivework',
     areSessionLinksEnabled: false
 }, {
     date: '2019-11-09',
     time: '4-9pm',
-    topicName: 'CodeJam',
+    topicName: 'CodeJam (Enjoy)',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-codejam-tickets-49412482064?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=49412482064&ref=ccweb',
-    sessionName: 'CodeJam',
+    sessionName: 'CodeJam (Enjoy)',
     slidesLink: 'http://bit.ly/CnCNovSlides',
-    worksheetLink: 'http://bit.ly/CnCNovWork',
+    worksheetLink: 'http://bit.ly/cncenjoywork', // not created yet. need to figure out name
     areSessionLinksEnabled: false
 }];
 
-export const UPCOMING_SESSION_MONTH = 11; // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
+export const UPCOMING_SESSION_MONTH = 1; // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc

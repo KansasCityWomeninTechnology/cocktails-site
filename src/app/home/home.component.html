@@ -23,7 +23,7 @@
           </h5>
           <h5>
             As an intro to programming, you'll get an overview of how sites
-            are built for the web, from basic HTML strucuture to handling user interaction with 
+            are built for the web, from basic HTML structure to handling user interaction with 
             JavaScript. You will learn about version control and how to collaborate with
             other developers using <a href="http://github.com" target="_blank"><b>GitHub</b></a>.
             We like to think of the curriculum as the <i>essential front-end developer tool kit</i>. 
@@ -31,7 +31,7 @@
           <h5>
             Once you've hit the
             <a href="http://xkcd.com/323/" target="_blank"><b>Ballmer Peak</b></a>
-            courtsey of custom crafted cocktails, it's to infinity and beyond in
+            courtesy of custom crafted cocktails, it's to infinity and beyond in
             writing code and learning to mentor others.
           </h5>
         </div>
@@ -139,22 +139,22 @@
           </div>
           <div class="col-sm-7 align-self-center">
               <h5>Upcoming Session: <br>{{upcomingSession.date | date:'fullDate'}}, {{upcomingSession.time}}
-              <br />Session Topic: {{upcomingSession.topicName}}</h5>
+              <br />{{upcomingSession.name}}</h5>
               <p>Note: wifi-enabled laptops are required to attend!</p>
               <div style="width:100%; text-align:left;"><iframe [attr.src]="upcomingSessionTicketLink" frameborder="0" height="325" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true"></iframe></div>
           </div>
       </div> -->
       <div class="row">
           <div class="col-sm-12">
-             <h5>{{topics[0].date | date: 'y'}} Sessions</h5>
+             <h5>{{sessions[0].date | date: 'y'}} Sessions</h5>
              <p>Check back soon for 2019 signups!</p>
              <p>2019 Dates include:</p>
-             <ul class="list-unstyled" *ngFor="let topic of topics">
-              <li><b>{{topic.date | date:'MMMM d'}}th</b></li>
+             <ul class="list-unstyled" *ngFor="let session of sessions">
+              <li><b>{{session.date | date:'MMMM d'}}th</b></li>
             </ul>
-             <!-- <p>If the event is not yet available for sign ups, you will be directed to the Coding &amp; Cocktails Eventbrite page.</p>
-             <ul class="list-unstyled" *ngFor="let topic of topics">
-                  <li><b>{{topic.date | date:'MMMM d'}}th</b> - <a href="{{topic.eventbriteLink}}" target="_blank">{{topic.topicName}}</a></li>
+              <!-- <p>If the event is not yet available for sign ups, you will be directed to the Coding &amp; Cocktails Eventbrite page.</p>
+             <ul class="list-unstyled" *ngFor="let session of sessions">
+                  <li><b>{{session.date | date:'MMMM d'}}th</b> - <a href="{{session.eventbriteLink}}" target="_blank">{{session.name}}</a></li>
               </ul> -->
           </div>
       </div>

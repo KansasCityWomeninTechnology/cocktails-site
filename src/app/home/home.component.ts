@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
-import { Tool, TOOLS, Hero, LEADERS, MENTORS, Venue, VENUE, Session, SESSIONS, UPCOMING_SESSION_MONTH } from '@data/data';
+import { Tool, TOOLS, Hero, LEADERS, MENTORS, Venue, VENUE, Session, SESSIONS, UPCOMING_SESSION_MONTH } from '@data/index';
 
 @Component({
   selector: 'app-home',
@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
   public venue: Venue;
   public map;
   public zm = 15;
-  public topics: Session[];
+  public sessions: Session[];
   public leaders: Hero[];
   public mentors: Hero[];
   public upcomingSession: Session;
@@ -23,9 +23,9 @@ export class HomeComponent implements OnInit {
     this.venue = VENUE;
     this.leaders = LEADERS;
     this.mentors = MENTORS;
-    this.topics = SESSIONS;
+    this.sessions = SESSIONS;
 
-    this.upcomingSession = this.topics[UPCOMING_SESSION_MONTH - 1];
+    this.upcomingSession = this.sessions[UPCOMING_SESSION_MONTH - 1];
     // bypass sanitization of the url so that we can display the iframe
     this.upcomingSessionTicketLink = sanitizer.bypassSecurityTrustResourceUrl(this.upcomingSession.eventbriteIFrameLink);
   }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Session, SESSIONS } from '@data/data';
+import { Topic, TOPICS } from '@data/sessions';
 
 @Component({
   selector: 'app-resources',
@@ -7,10 +7,10 @@ import { Session, SESSIONS } from '@data/data';
   styleUrls: ['./resources.component.scss']
 })
 export class ResourcesComponent implements OnInit {
-  public sessions: Session[];
+  public topics: Topic[];
 
   constructor() {
-    this.sessions = SESSIONS;
+    this.topics = TOPICS;
   }
 
   ngOnInit() {

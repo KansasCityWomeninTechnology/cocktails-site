@@ -33,12 +33,12 @@ export interface Venue {
 }
 
 export const VENUE: Venue = {
-    name: 'Service Management Group',
-    img: 'assets/images/logos/smg.png',
-    url: 'https://www.smg.com/',
-    address: '1737 McGee St, Kansas City, MO 64108',
-    lat: 39.091890,
-    lng: -94.579773
+    name: 'VeriShip',
+    img: '',
+    url: 'https://veriship.com/',
+    address: '8880 Ward Parkway #300 KCMO 64114',
+    lat: 38.968150,
+    lng: -94.605590
 };
 
 // If we keep encountering multiple venues, this can be streamlined a bit more
@@ -51,4 +51,3 @@ export const VENUE: Venue = {
 //   lat: 39.105692,
 //   lng: -94.581287
 // };
-

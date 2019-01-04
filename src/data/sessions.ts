@@ -81,38 +81,38 @@ export const SESSIONS: Session[] = [{
     date: '2019-06-08',
     time: '5-9pm',
     name: 'The Glass: Front-end Architecture And Introduction to HTML',
-    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
+    eventbriteLink: 'http://codingandcocktailskc.eventbrite.com',
     eventbriteIFrameLink: ''
 
 }, {
     date: '2019-07-13',
     time: '5-9pm',
     name: 'The Garnish: Introduction to CSS',
-    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
+    eventbriteLink: 'http://codingandcocktailskc.eventbrite.com',
     eventbriteIFrameLink: ''
 }, {
     date: '2019-08-10',
     time: '5-9pm',
     name: 'The Rocks: Introduction to Command Line And Version Control',
-    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
+    eventbriteLink: 'http://codingandcocktailskc.eventbrite.com',
     eventbriteIFrameLink: ''
 }, {
     date: '2019-09-14',
     time: '5-9pm',
     name: 'The Liquor: Introduction to JavaScript',
-    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
+    eventbriteLink: 'http://codingandcocktailskc.eventbrite.com',
     eventbriteIFrameLink: ''
 }, {
     date: '2019-10-12',
     time: '5-9pm',
     name: 'The Mixer: Interactive JavaScript',
-    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
+    eventbriteLink: 'http://codingandcocktailskc.eventbrite.com',
     eventbriteIFrameLink: ''
 }, {
     date: '2019-11-09',
     time: '4-9pm',
     name: 'Enjoy! CodeJam Micro-Hackathon',
-    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
+    eventbriteLink: 'http://codingandcocktailskc.eventbrite.com',
     eventbriteIFrameLink: ''
 }];
 

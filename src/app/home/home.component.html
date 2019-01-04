@@ -19,14 +19,14 @@
           <h5>
             The first thing to know is <em>no prior programming experience is
             required!</em> We can say that because we have plenty of mentors on hand to
-            help you through the tough parts, no matter what session you sign up for. 
+            help you through the tough parts, no matter what session you sign up for.
           </h5>
           <h5>
             As an intro to programming, you'll get an overview of how sites
-            are built for the web, from basic HTML structure to handling user interaction with 
+            are built for the web, from basic HTML structure to handling user interaction with
             JavaScript. You will learn about version control and how to collaborate with
             other developers using <a href="http://github.com" target="_blank"><b>GitHub</b></a>.
-            We like to think of the curriculum as the <i>essential front-end developer tool kit</i>. 
+            We like to think of the curriculum as the <i>essential front-end developer tool kit</i>.
           </h5>
           <h5>
             Once you've hit the
@@ -126,12 +126,13 @@
               <h4>Sign Up!</h4>
           </div>
       </div>
-      <!-- <div class="row">
+      <div class="row">
           <div class="col-sm-5 map">
               <h5 id="hosting-venue">Proudly hosted by {{venue.name}}</h5>
-              <a href="{{venue.url}}" target="_blank" class="host">
+              <!-- todo: add all-white VeriShip logo -->
+              <!--<a href="{{venue.url}}" target="_blank" class="host">
                   <img src="{{venue.img}}" alt="{{venue.name}}">
-              </a>
+              </a>-->
               <p>{{venue.address}}</p>
               <agm-map [latitude]="venue.lat" [longitude]="venue.lng" [zoom]="zm">
                 <agm-marker [latitude]="venue.lat" [longitude]="venue.lng"></agm-marker>
@@ -143,19 +144,15 @@
               <p>Note: wifi-enabled laptops are required to attend!</p>
               <div style="width:100%; text-align:left;"><iframe [attr.src]="upcomingSessionTicketLink" frameborder="0" height="325" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true"></iframe></div>
           </div>
-      </div> -->
+      </div>
       <div class="row">
           <div class="col-sm-12">
              <h5>{{sessions[0].date | date: 'y'}} Sessions</h5>
-             <p>Check back soon for 2019 signups!</p>
-             <p>2019 Dates include:</p>
-             <ul class="list-unstyled" *ngFor="let session of sessions">
-              <li><b>{{session.date | date:'MMMM d'}}th</b></li>
-            </ul>
-              <!-- <p>If the event is not yet available for sign ups, you will be directed to the Coding &amp; Cocktails Eventbrite page.</p>
+
+             <p>If the event is not yet available for sign ups, you will be directed to the Coding &amp; Cocktails Eventbrite page.</p>
              <ul class="list-unstyled" *ngFor="let session of sessions">
                   <li><b>{{session.date | date:'MMMM d'}}th</b> - <a href="{{session.eventbriteLink}}" target="_blank">{{session.name}}</a></li>
-              </ul> -->
+             </ul>
           </div>
       </div>
   </div>

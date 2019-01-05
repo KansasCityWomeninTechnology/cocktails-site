@@ -34,7 +34,7 @@ export interface Venue {
 
 export const VENUE: Venue = {
     name: 'VeriShip',
-    img: '',
+    img: 'assets/images/logos/veriship_hz.png',
     url: 'https://veriship.com/',
     address: '8880 Ward Parkway #300, Kansas City, Missouri, 64114',
     lat: 38.968150,

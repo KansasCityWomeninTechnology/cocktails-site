@@ -129,10 +129,9 @@
       <div class="row">
           <div class="col-sm-5 map">
               <h5 id="hosting-venue">Proudly hosted by {{venue.name}}</h5>
-              <!-- todo: add all-white VeriShip logo -->
-              <!--<a href="{{venue.url}}" target="_blank" class="host">
+              <a href="{{venue.url}}" target="_blank" class="host">
                   <img src="{{venue.img}}" alt="{{venue.name}}">
-              </a>-->
+              </a>
               <p>{{venue.address}}</p>
               <agm-map [latitude]="venue.lat" [longitude]="venue.lng" [zoom]="zm">
                 <agm-marker [latitude]="venue.lat" [longitude]="venue.lng"></agm-marker>

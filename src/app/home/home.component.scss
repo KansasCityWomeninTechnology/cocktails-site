@@ -18,6 +18,9 @@ section {
     img {
         margin-top: 20px;
     }
+    a {
+        color: #484e78;
+    }
 }
 
 #cocktails {
@@ -28,6 +31,9 @@ section {
     border-bottom: solid 10px $light-plum;
     img {
         width: auto;
+    }
+    a {
+        color: #484e78;
     }
     .cocktails {
         display: block;

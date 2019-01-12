@@ -46,74 +46,70 @@ export interface Session {
 }
 
 export const SESSIONS: Session[] = [{
-    date: '2019-01-12',
+    date: '2019-02-09',
     time: '5-9pm',
     name: 'The Glass: Front-end Architecture And Introduction to HTML',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-glass-front-end-architecture-html-tickets-50015334211?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=50015334211&ref=ccweb'
 
 }, {
-    date: '2019-02-09',
+    date: '2019-03-09',
     time: '5-9pm',
     name: 'The Garnish: Introduction to CSS',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-garnish-intro-to-css-tickets-52996000464?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=52996000464&ref=ccweb'
 }, {
-    date: '2019-03-09',
+    date: '2019-04-13',
     time: '5-9pm',
     name: 'The Rocks: Introduction to Command Line And Version Control',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-rocks-command-line-version-control-tickets-52996467862?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=52996467862&ref=ccweb'
 }, {
-    date: '2019-04-13',
+    date: '2019-05-11',
     time: '5-9pm',
     name: 'The Liquor: Introduction to JavaScript',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-liquor-intro-to-javascript-tickets-52996432757?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=52996432757&ref=ccweb'
 }, {
-    date: '2019-05-11',
+    date: '2019-06-08',
     time: '5-9pm',
     name: 'The Mixer: Interactive JavaScript',
     eventbriteLink:
         'https://www.eventbrite.com/e/coding-cocktails-the-mixer-interactive-javascript-tickets-52996721621?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=52996721621&ref=ccweb'
 }, {
-    date: '2019-06-08',
+    date: '2019-07-13',
     time: '5-9pm',
     name: 'The Glass: Front-end Architecture And Introduction to HTML',
     eventbriteLink: 'http://codingandcocktailskc.eventbrite.com',
     eventbriteIFrameLink: ''
 
 }, {
-    date: '2019-07-13',
+    date: '2019-08-10',
     time: '5-9pm',
     name: 'The Garnish: Introduction to CSS',
     eventbriteLink: 'http://codingandcocktailskc.eventbrite.com',
     eventbriteIFrameLink: ''
 }, {
-    date: '2019-08-10',
+    date: '2019-09-14',
     time: '5-9pm',
     name: 'The Rocks: Introduction to Command Line And Version Control',
     eventbriteLink: 'http://codingandcocktailskc.eventbrite.com',
     eventbriteIFrameLink: ''
 }, {
-    date: '2019-09-14',
+    date: '2019-10-12',
     time: '5-9pm',
     name: 'The Liquor: Introduction to JavaScript',
     eventbriteLink: 'http://codingandcocktailskc.eventbrite.com',
     eventbriteIFrameLink: ''
 }, {
-    date: '2019-10-12',
+    date: '2019-11-09',
     time: '5-9pm',
     name: 'The Mixer: Interactive JavaScript',
     eventbriteLink: 'http://codingandcocktailskc.eventbrite.com',
     eventbriteIFrameLink: ''
-}, {
-    date: '2019-11-09',
-    time: '4-9pm',
-    name: 'Enjoy! CodeJam Micro-Hackathon',
-    eventbriteLink: 'http://codingandcocktailskc.eventbrite.com',
-    eventbriteIFrameLink: ''
 }];
 
-export const UPCOMING_SESSION_MONTH = 1; // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
+// Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
+// N.B. The -1 is due to the schedule shift in 2019 and needs to be removed in 2020.
+export const UPCOMING_SESSION_MONTH = 2 - 1;

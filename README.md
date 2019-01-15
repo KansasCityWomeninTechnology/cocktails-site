@@ -1,6 +1,6 @@
 # Coding & Cocktails Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
 
 To get going
 ```bash
@@ -12,9 +12,9 @@ npm start
 To serve app and auto open browser use `ng serve --open` or `npm start -- --open`
 
 # How to activate links, update mentors, etc
-All data used to populate app is found in _src/data/data.ts_. There are separate arrays for sessions, mentors, leaders, etc.
+All data used to populate app is found in "src/data" folder. Update toolset and venue in _about.ts_, update leadershipe & mentor in _heroes.ts_, and update session info in _sessions.ts_.
 
-* To activate links for a session, enable the `areSessionLinksEnabled` flag for the session.
+* To activate links for a session, enable the `areLinksEnabled` flag for the session.
 * To display next session's ticket purchasing view:
     1. Make sure the session's `eventbriteIFrameLink` is populated
     1. Set the `UPCOMING_SESSION_MONTH` for the session to display using the integer representation for the month (ie 7 for July)

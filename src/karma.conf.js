@@ -17,7 +17,7 @@ module.exports = function (config) {
     },
     coverageIstanbulReporter: {
       dir: require('path').join(__dirname, 'coverage'),
-      reports: [ 'html', 'lcovonly' ],
+      reports: [ 'html', 'lcovonly', 'text-summary' ],
       fixWebpackSourcePaths: true
     },
     reporters: ['progress', 'kjhtml'],
@@ -25,19 +25,7 @@ module.exports = function (config) {
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
-    // headless chrome for CI pipeline
-    customLaunchers: {
-      ChromeHeadless: {
-        base: 'Chrome',
-        flags: [
-          '--headless',
-          '--disable-gpu',
-          '--no-sandbox',
-          '--remote-debugging-port=9222',
-        ]
-      }
-    },
-    browsers: ['ChromeHeadless'],
-    singleRun: true,
+    browsers: ['Chrome'],
+    singleRun: false,
   });
 };

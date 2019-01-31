@@ -1,7 +1,6 @@
 import { ElementRef, Inject, Injectable } from '@angular/core';
 import { GOOGLE_MAP } from './map.providers';
 import { Coordinate, MarkerAnimation } from './map-types';
-import { MapModule } from './map.module';
 import { } from 'googlemaps';
 
 @Injectable()
@@ -42,11 +41,11 @@ export class GoogleMapsService {
     }
 
     if (animation === 'DROP') {
-      return google.maps.Animation.DROP;
+      return this._google.maps.Animation.DROP;
     }
 
     if (animation === 'BOUNCE') {
-      return google.maps.Animation.BOUNCE;
+      return this._google.maps.Animation.BOUNCE;
     }
 
     return null;

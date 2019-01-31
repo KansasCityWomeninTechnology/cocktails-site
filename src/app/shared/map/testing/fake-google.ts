@@ -7,6 +7,9 @@ export const googleMock = {
         setMap: () => {}
       };
     },
-    Animation: {},
-  }
+    Animation: {
+      DROP: 'FAKE-DROP',
+      BOUNCE: 'FAKE-BOUNCE'
+    },
+  },
 };

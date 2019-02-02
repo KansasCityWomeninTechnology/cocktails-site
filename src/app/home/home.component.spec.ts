@@ -1,7 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { HomeComponent } from './home.component';
-import { AgmCoreModule } from '@agm/core';
+import { NO_ERRORS_SCHEMA } from '@angular/core';
 
 describe('HomeComponent', () => {
   let component: HomeComponent;
@@ -10,11 +10,7 @@ describe('HomeComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ HomeComponent ],
-      imports: [
-        AgmCoreModule.forRoot({
-          apiKey: 'AIzaSyASRlFMsqIDTO_2ebxq7gjOzR5nOjzItnE'
-        })
-      ],
+      schemas: [ NO_ERRORS_SCHEMA ]
     })
     .compileComponents();
   }));

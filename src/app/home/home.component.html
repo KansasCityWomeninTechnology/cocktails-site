@@ -134,9 +134,9 @@
                   <img src="{{venue.img}}" alt="{{venue.name}}">
               </a>
               <p>{{venue.address}}</p>
-              <agm-map [latitude]="venue.lat" [longitude]="venue.lng" [zoom]="zm">
-                <agm-marker [latitude]="venue.lat" [longitude]="venue.lng"></agm-marker>
-              </agm-map>
+              <app-map [defaultPosition]="{lat: venue.lat, lng: venue.lng}" [defaultZoom]="zm">
+                <app-marker [position]="{lat: venue.lat, lng: venue.lng}" [animation]="'DROP'"></app-marker>
+              </app-map>
           </div>
           <div class="col-sm-7 align-self-center">
               <h5>Upcoming Session: <br>{{upcomingSession.date | date:'fullDate'}}, {{upcomingSession.time}}

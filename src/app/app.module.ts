@@ -4,18 +4,17 @@ import { NgModule } from '@angular/core';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
-import { AgmCoreModule } from '@agm/core';
+import { MapModule } from './shared/map/map.module';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
-import { AppRoutingModule } from './/app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 import { FinancialAidComponent } from './financial-aid/financial-aid.component';
 import { ResourcesComponent } from './resources/resources.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeroComponent } from './hero/hero.component';
-
 
 @NgModule({
   declarations: [
@@ -26,7 +25,7 @@ import { HeroComponent } from './hero/hero.component';
     HomeComponent,
     FooterComponent,
     ContactComponent,
-    HeroComponent
+    HeroComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,11 +33,8 @@ import { HeroComponent } from './hero/hero.component';
     CollapseModule.forRoot(),
     AppRoutingModule,
     NgxPageScrollModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyASRlFMsqIDTO_2ebxq7gjOzR5nOjzItnE'
-    })
+    MapModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

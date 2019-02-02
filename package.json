@@ -7,7 +7,8 @@
     "start": "ng serve --aot",
     "build": "ng build --prod",
     "deploy": "ng build --prod && firebase deploy",
-    "test": "ng test --watch false --browsers ChromeHeadless --sourceMap false --progress false",
+    "test": "ng test --watch false --browsers ChromeHeadless --sourceMap false --codeCoverage --reporters spec",
+    "test:ci": "ng test --watch false --browsers ChromeHeadless --sourceMap false --progress false --codeCoverage",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
@@ -49,6 +50,7 @@
     "karma-coverage-istanbul-reporter": "~2.0.1",
     "karma-jasmine": "~1.1.2",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-spec-reporter": "0.0.32",
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",

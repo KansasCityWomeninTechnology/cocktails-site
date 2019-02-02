@@ -10,6 +10,10 @@ export class GoogleMapsService {
   constructor(@Inject(GOOGLE_MAP) private _google: any) {}
 
   public createMap(elRef: ElementRef, center: Coordinate, zoom: number): void {
+    if (!elRef || !center || zoom === null || zoom === undefined) {
+      throw new Error('Cannot create map with missing parameters');
+    }
+
     this._map = new this._google.maps.Map(elRef.nativeElement, {
       zoom: zoom,
       center: {
@@ -24,6 +28,10 @@ export class GoogleMapsService {
   }
 
   public addMarker(position: Coordinate, animation: MarkerAnimation): void {
+    if (!position) {
+      throw new Error('Cannot create map marker with missing parameters');
+    }
+
     const mapMarker: google.maps.Marker = new this._google.maps.Marker({
       position: {
         lat: position.lat,

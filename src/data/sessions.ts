@@ -7,9 +7,9 @@ export interface Topic {
 
 export const TOPICS: Topic[] = [{
     name: 'The Glass: HTML',
-    slidesLink: 'http://bit.ly/CnCJunSlides',
+    slidesLink: 'http://bit.ly/cnchtmlslide',
     worksheetLink: 'http://bit.ly/cnchtmlwork',
-    areLinksEnabled: false
+    areLinksEnabled: true
 }, {
     name: 'The Garnish: CSS',
     slidesLink: 'http://bit.ly/CnCJulSlides',

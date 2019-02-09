@@ -64,11 +64,13 @@ section {
         }
     }
 
-    @media only screen and (min-width : 575px) {
-        .leader:nth-last-child(2) {
-            margin-left: 18%;
-        }
-    }
+    // This helps make the last two people center better when the full team
+    // is present on the site
+    // @media only screen and (min-width : 575px) {
+    //     .leader:nth-last-child(2) {
+    //         margin-left: 18%;
+    //     }
+    // }
 
     h6 {
         margin-top: 20px;

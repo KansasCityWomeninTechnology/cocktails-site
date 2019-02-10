@@ -112,4 +112,4 @@ export const SESSIONS: Session[] = [{
 
 // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
 // N.B. The -1 is due to the schedule shift in 2019 and needs to be removed in 2020.
-export const UPCOMING_SESSION_MONTH = 2 - 1;
+export const UPCOMING_SESSION_MONTH = 3 - 1;

@@ -14,7 +14,7 @@ export const LEADERS: Hero[] = [{
     name: 'Rachel Hagan',
     title: 'Program Director',
     img: 'assets/images/mentors/rachelh.jpg',
-    twitter: 'rhagan21'
+    twitter: 'codecocktailskc'
 }, {
     name: 'Kayla Hennegin',
     title: 'Curriculum Director',
@@ -134,4 +134,3 @@ export const MENTORS: Hero[] = [{
     img: 'assets/images/mentors/sarah.png',
     twitter: 'skduits'
 }];
-

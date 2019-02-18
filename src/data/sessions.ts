@@ -75,8 +75,8 @@ export const SESSIONS: Session[] = [{
     time: '5-9pm',
     name: 'The Mixer: Interactive JavaScript',
     eventbriteLink:
-        'https://www.eventbrite.com/e/coding-cocktails-the-mixer-interactive-javascript-tickets-52996721621?aff=ccweb',
-    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=52996721621&ref=ccweb'
+        'http://codingandcocktailskc.eventbrite.com',
+    eventbriteIFrameLink: ''
 }, {
     date: '2019-07-13',
     time: '5-9pm',

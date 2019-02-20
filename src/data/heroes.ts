@@ -11,15 +11,10 @@ export const LEADERS: Hero[] = [{
     img: 'assets/images/mentors/jennifer.png',
     twitter: 'likeOMGitsFEDAY'
 }, {
-    name: 'Sarah Duitsman',
-    title: 'Program Director',
-    img: 'assets/images/mentors/sarah.png',
-    twitter: 'skduits'
-}, {
     name: 'Rachel Hagan',
-    title: 'Co Director',
+    title: 'Program Director',
     img: 'assets/images/mentors/rachelh.jpg',
-    twitter: 'rhagan21'
+    twitter: 'codecocktailskc'
 }, {
     name: 'Kayla Hennegin',
     title: 'Curriculum Director',
@@ -113,5 +108,9 @@ export const MENTORS: Hero[] = [{
     title: 'Mentor',
     img: 'assets/images/mentors/gloria.jpg',
     twitter: 'gloriahigley'
+}, {
+    name: 'Sarah Duitsman',
+    title: 'Mentor',
+    img: 'assets/images/mentors/sarah.png',
+    twitter: 'skduits'
 }];
-

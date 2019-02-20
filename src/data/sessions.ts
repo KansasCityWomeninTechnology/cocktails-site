@@ -7,9 +7,9 @@ export interface Topic {
 
 export const TOPICS: Topic[] = [{
     name: 'The Glass: HTML',
-    slidesLink: 'http://bit.ly/CnCJunSlides',
+    slidesLink: 'http://bit.ly/cnchtmlslide',
     worksheetLink: 'http://bit.ly/cnchtmlwork',
-    areLinksEnabled: false
+    areLinksEnabled: true
 }, {
     name: 'The Garnish: CSS',
     slidesLink: 'http://bit.ly/CnCJulSlides',
@@ -75,8 +75,8 @@ export const SESSIONS: Session[] = [{
     time: '5-9pm',
     name: 'The Mixer: Interactive JavaScript',
     eventbriteLink:
-        'https://www.eventbrite.com/e/coding-cocktails-the-mixer-interactive-javascript-tickets-52996721621?aff=ccweb',
-    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=52996721621&ref=ccweb'
+        'http://codingandcocktailskc.eventbrite.com',
+    eventbriteIFrameLink: ''
 }, {
     date: '2019-07-13',
     time: '5-9pm',
@@ -112,4 +112,4 @@ export const SESSIONS: Session[] = [{
 
 // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
 // N.B. The -1 is due to the schedule shift in 2019 and needs to be removed in 2020.
-export const UPCOMING_SESSION_MONTH = 2 - 1;
+export const UPCOMING_SESSION_MONTH = 3 - 1;

@@ -59,21 +59,6 @@ export const MENTORS: Hero[] = [{
     img: 'assets/images/mentors/amy.jpg',
     twitter: 'amynorris'
 }, {
-    name: 'Rachel Hathaway',
-    title: 'Mentor',
-    img: 'assets/images/mentors/rachel.jpg',
-    twitter: 'codecocktailskc'
-}, {
-    name: 'Muriel Green',
-    title: 'Mentor',
-    img: 'assets/images/mentors/muriel.jpg',
-    twitter: 'murlgreen1'
-}, {
-    name: 'Annie Chan',
-    title: 'Mentor',
-    img: 'assets/images/mentors/annie.jpg',
-    twitter: 'codecocktailskc'
-}, {
     name: 'Heather Pekrul',
     title: 'Mentor',
     img: 'assets/images/mentors/heatherp.jpg',
@@ -93,11 +78,6 @@ export const MENTORS: Hero[] = [{
     title: 'Mentor',
     img: 'assets/images/mentors/rhia.jpg',
     twitter: 'TheFakeRiRi'
-}, {
-    name: 'Stacey Adams',
-    title: 'Mentor',
-    img: 'assets/images/mentors/stacey.jpg',
-    twitter: 'codecocktailskc'
 }, {
     name: 'Melanie Garvey',
     title: 'Mentor',
@@ -129,7 +109,7 @@ export const MENTORS: Hero[] = [{
     img: 'assets/images/mentors/jessica.jpg',
     twitter: 'jessica_k1ncaid'
 }, {
-    name: 'Gloria Highley',
+    name: 'Gloria Higley',
     title: 'Mentor',
     img: 'assets/images/mentors/gloria.jpg',
     twitter: 'gloriahigley'

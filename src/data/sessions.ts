@@ -14,7 +14,7 @@ export const TOPICS: Topic[] = [{
     name: 'The Garnish: CSS',
     slidesLink: 'http://bit.ly/CnCJulSlides',
     worksheetLink: 'http://bit.ly/cnccsswork',
-    areLinksEnabled: false
+    areLinksEnabled: true
 }, {
     name: 'The Rocks: Git',
     slidesLink: 'http://bit.ly/CnCAugSlides',

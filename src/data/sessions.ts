@@ -12,7 +12,7 @@ export const TOPICS: Topic[] = [{
     areLinksEnabled: true
 }, {
     name: 'The Garnish: CSS',
-    slidesLink: 'http://bit.ly/CnCJulSlides',
+    slidesLink: 'http://bit.ly/cnccssslides',
     worksheetLink: 'http://bit.ly/cnccsswork',
     areLinksEnabled: true
 }, {

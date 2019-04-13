@@ -19,7 +19,7 @@ export const TOPICS: Topic[] = [{
     name: 'The Rocks: Git',
     slidesLink: 'http://bit.ly/CnCAugSlides',
     worksheetLink: 'http://bit.ly/cncgitwork',
-    areLinksEnabled: false
+    areLinksEnabled: true
 }, {
     name: 'The Liquor: JavaScript',
     slidesLink: 'http://bit.ly/CnCSepSlides',

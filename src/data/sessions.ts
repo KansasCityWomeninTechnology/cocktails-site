@@ -17,7 +17,7 @@ export const TOPICS: Topic[] = [{
     areLinksEnabled: true
 }, {
     name: 'The Rocks: Git',
-    slidesLink: 'http://bit.ly/CnCAugSlides',
+    slidesLink: 'http://bit.ly/cncgitslides',
     worksheetLink: 'http://bit.ly/cncgitwork',
     areLinksEnabled: true
 }, {

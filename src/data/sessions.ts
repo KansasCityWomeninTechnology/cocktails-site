@@ -29,7 +29,7 @@ export const TOPICS: Topic[] = [{
     name: 'The Mixer: Interactive',
     slidesLink: 'http://bit.ly/cncinteractiveslides',
     worksheetLink: 'http://bit.ly/cncinteractivework',
-    areLinksEnabled: false
+    areLinksEnabled: true
 }, {
     name: 'Enjoy! CodeJam',
     slidesLink: 'http://bit.ly/CnCNovSlides',

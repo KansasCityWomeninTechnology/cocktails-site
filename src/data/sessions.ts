@@ -80,20 +80,20 @@ export const SESSIONS: Session[] = [{
     date: '2019-07-13',
     time: '5-9pm',
     name: 'The Glass: Front-end Architecture And Introduction to HTML',
-    eventbriteLink: 'http://codingandcocktailskc.eventbrite.com',
+    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-glass-front-end-architecture-html-tickets-60372915014',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=60372915014&ref=ccweb'
 
 }, {
     date: '2019-08-10',
     time: '5-9pm',
     name: 'The Garnish: Introduction to CSS',
-    eventbriteLink: 'http://codingandcocktailskc.eventbrite.com',
+    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-garnish-intro-to-css-tickets-61929350354',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=61929350354&ref=ccweb'
 }, {
     date: '2019-09-14',
     time: '5-9pm',
     name: 'The Rocks: Introduction to Command Line And Version Control',
-    eventbriteLink: 'http://codingandcocktailskc.eventbrite.com',
+    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-rocks-command-line-version-control-tickets-63515374194',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=63515374194&ref=ccweb'
 }, {
     date: '2019-10-12',

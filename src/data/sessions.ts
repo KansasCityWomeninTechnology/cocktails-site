@@ -14,22 +14,22 @@ export const TOPICS: Topic[] = [{
     name: 'The Garnish: CSS',
     slidesLink: 'http://bit.ly/cnccssslides',
     worksheetLink: 'http://bit.ly/cnccsswork',
-    areLinksEnabled: true
+    areLinksEnabled: false
 }, {
     name: 'The Rocks: Git',
     slidesLink: 'http://bit.ly/cncgitslides',
     worksheetLink: 'http://bit.ly/cncgitwork',
-    areLinksEnabled: true
+    areLinksEnabled: false
 }, {
     name: 'The Liquor: JavaScript',
     slidesLink: 'http://bit.ly/cncjavascriptslides',
     worksheetLink: 'http://bit.ly/cncjavascriptwork',
-    areLinksEnabled: true
+    areLinksEnabled: false
 }, {
     name: 'The Mixer: Interactive',
     slidesLink: 'http://bit.ly/cncinteractiveslides',
     worksheetLink: 'http://bit.ly/cncinteractivework',
-    areLinksEnabled: true
+    areLinksEnabled: false
 }, {
     name: 'Enjoy! CodeJam',
     slidesLink: 'http://bit.ly/CnCNovSlides',
@@ -46,7 +46,7 @@ export interface Session {
 }
 
 export const SESSIONS: Session[] = [{
-    date: '2019-02-09',
+    date: '2019-07-13',
     time: '5-9pm',
     name: 'The Glass: Front-end Architecture And Introduction to HTML',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-glass-front-end-architecture-html-tickets-50015334211?aff=ccweb',

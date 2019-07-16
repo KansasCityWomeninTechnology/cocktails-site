@@ -14,22 +14,22 @@ export const TOPICS: Topic[] = [{
     name: 'The Garnish: CSS',
     slidesLink: 'http://bit.ly/cnccssslides',
     worksheetLink: 'http://bit.ly/cnccsswork',
-    areLinksEnabled: false
+    areLinksEnabled: true
 }, {
     name: 'The Rocks: Git',
     slidesLink: 'http://bit.ly/cncgitslides',
     worksheetLink: 'http://bit.ly/cncgitwork',
-    areLinksEnabled: false
+    areLinksEnabled: true
 }, {
     name: 'The Liquor: JavaScript',
     slidesLink: 'http://bit.ly/cncjavascriptslides',
     worksheetLink: 'http://bit.ly/cncjavascriptwork',
-    areLinksEnabled: false
+    areLinksEnabled: true
 }, {
     name: 'The Mixer: Interactive',
     slidesLink: 'http://bit.ly/cncinteractiveslides',
     worksheetLink: 'http://bit.ly/cncinteractivework',
-    areLinksEnabled: false
+    areLinksEnabled: true
 }, {
     name: 'Enjoy! CodeJam',
     slidesLink: 'http://bit.ly/CnCNovSlides',

@@ -100,7 +100,7 @@ export const SESSIONS: Session[] = [{
     time: '5-9pm',
     name: 'The Liquor: Introduction to JavaScript',
     eventbriteLink: 'http://codingandcocktailskc.eventbrite.com',
-    eventbriteIFrameLink: ''
+    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=66069376283&ref=ccweb'
 }, {
     date: '2019-11-09',
     time: '5-9pm',
@@ -111,4 +111,4 @@ export const SESSIONS: Session[] = [{
 
 // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
 // N.B. The -1 is due to the schedule shift in 2019 and needs to be removed in 2020.
-export const UPCOMING_SESSION_MONTH = 7 - 1;
+export const UPCOMING_SESSION_MONTH = 8 - 1;

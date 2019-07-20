@@ -99,7 +99,7 @@ export const SESSIONS: Session[] = [{
     date: '2019-10-12',
     time: '5-9pm',
     name: 'The Liquor: Introduction to JavaScript',
-    eventbriteLink: 'http://codingandcocktailskc.eventbrite.com',
+    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-liquor-intro-to-javascript-tickets-66069376283',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=66069376283&ref=ccweb'
 }, {
     date: '2019-11-09',

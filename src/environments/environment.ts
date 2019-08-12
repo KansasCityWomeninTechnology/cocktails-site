@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  mentorSignup: {
+    url: 'https://twitter.us20.list-manage.com/subscribe/post-json?u=7bb7daa0b2bb5e470c82ef188&id=87ed8dc042&',
+    bot: 'b_7bb7daa0b2bb5e470c82ef188_87ed8dc042'
+  }
 };
 
 /*

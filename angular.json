@@ -27,7 +27,6 @@
               "src/favicon.ico"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles/styles.scss"
             ],
             "stylePreprocessorOptions": {
@@ -91,7 +90,6 @@
             "tsConfig": "src/tsconfig.spec.json",
             "scripts": [],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles/styles.scss"
             ],
             "stylePreprocessorOptions": {

@@ -23,7 +23,7 @@ import { GoogleMapsService } from './google-maps.service';
   ]
 })
 export class MapModule {
-  constructor (@Optional() @SkipSelf() parentModule: MapModule) {
+  constructor(@Optional() @SkipSelf() parentModule: MapModule) {
     if (parentModule) {
       throw new Error('MapModule is already loaded. Import once in AppModule.');
     }

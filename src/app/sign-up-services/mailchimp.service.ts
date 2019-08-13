@@ -14,17 +14,17 @@ interface MailChimpResponse {
 })
 export class MailchimpService {
 
-  constructor(private _jsonp: HttpClient) { }
+  constructor(private jsonp: HttpClient) { }
 
   public submitForm(url: string, formData: FormData[]): Observable<SubscribeResponse> {
     let params = new HttpParams();
     formData.forEach(d => params = params.set(d.fieldName, d.fieldValue));
     url += params.toString();
 
-    return this._jsonp.jsonp<MailChimpResponse>(url, 'c').pipe(
+    return this.jsonp.jsonp<MailChimpResponse>(url, 'c').pipe(
       filter(mcRes => mcRes && !!mcRes.result),
       map( mcRes => {
-        const response = <SubscribeResponse>{
+        const response: SubscribeResponse = {
           result: mcRes.result === 'success' ? 'SUCCESS' : 'ERROR',
           message: mcRes.msg
         };

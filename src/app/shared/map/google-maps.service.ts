@@ -5,17 +5,17 @@ import { } from 'googlemaps';
 
 @Injectable()
 export class GoogleMapsService {
-  private _map: google.maps.Map = null;
+  private map: google.maps.Map = null;
 
-  constructor(@Inject(GOOGLE_MAP) private _google: any) {}
+  constructor(@Inject(GOOGLE_MAP) private google: any) {}
 
   public createMap(elRef: ElementRef, center: Coordinate, zoom: number): void {
     if (!elRef || !center || zoom === null || zoom === undefined) {
       throw new Error('Cannot create map with missing parameters');
     }
 
-    this._map = new this._google.maps.Map(elRef.nativeElement, {
-      zoom: zoom,
+    this.map = new this.google.maps.Map(elRef.nativeElement, {
+      zoom,
       center: {
         lat: center.lat,
         lng: center.lng
@@ -32,15 +32,15 @@ export class GoogleMapsService {
       throw new Error('Cannot create map marker with missing parameters');
     }
 
-    const mapMarker: google.maps.Marker = new this._google.maps.Marker({
+    const mapMarker: google.maps.Marker = new this.google.maps.Marker({
       position: {
         lat: position.lat,
         lng: position.lng
       },
       animation: this.animationType(animation),
-      map: this._map
+      map: this.map
     });
-    mapMarker.setMap(this._map);
+    mapMarker.setMap(this.map);
   }
 
   private animationType(animation: MarkerAnimation): google.maps.Animation {
@@ -49,11 +49,11 @@ export class GoogleMapsService {
     }
 
     if (animation === 'DROP') {
-      return this._google.maps.Animation.DROP;
+      return this.google.maps.Animation.DROP;
     }
 
     if (animation === 'BOUNCE') {
-      return this._google.maps.Animation.BOUNCE;
+      return this.google.maps.Animation.BOUNCE;
     }
 
     return null;

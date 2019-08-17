@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { HeroComponent } from './hero.component';
+import { By } from '@angular/platform-browser';
 
 describe('HeroComponent', () => {
   let component: HeroComponent;
@@ -24,7 +25,6 @@ describe('HeroComponent', () => {
   });
 
   it('should render title in a h1 tag', async(() => {
-    const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Kansas City Women in Technology');
+    expect(fixture.debugElement.query(By.css('h1')).nativeElement.textContent).toContain('Kansas City Women in Technology');
   }));
 });

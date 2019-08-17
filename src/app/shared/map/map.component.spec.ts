@@ -4,7 +4,6 @@ import { MapComponent } from './map.component';
 import { GoogleMapsService } from './google-maps.service';
 import { FakeMapService } from './testing/fake-maps.service';
 import { Coordinate } from './map-types';
-import { MarkerComponent } from './marker/marker.component';
 
 describe('MapComponent', () => {
   let component: MapComponent;

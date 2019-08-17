@@ -50,9 +50,7 @@ export class GoogleMapsService {
 
     if (animation === 'DROP') {
       return this.google.maps.Animation.DROP;
-    }
-
-    if (animation === 'BOUNCE') {
+    } else if (animation === 'BOUNCE') {
       return this.google.maps.Animation.BOUNCE;
     }
 

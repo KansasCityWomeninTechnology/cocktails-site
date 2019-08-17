@@ -18,7 +18,7 @@ describe('MentorFormComponent', () => {
 
   const mailchimpServiceFake = {
     submitForm: (url, formData) => {
-      return of(<SubscribeResponse>{result: 'SUCCESS', message: 'Hi!'});
+      return of({result: 'SUCCESS', message: 'Hi!'} as SubscribeResponse);
     }
   };
   let serviceSpy: jasmine.Spy;

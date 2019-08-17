@@ -33,7 +33,7 @@ describe('MarkerComponent', () => {
 
   describe('when creating the component with input parameters', () => {
     let fakeMapServiceSpy: any;
-    const position = <Coordinate>{lat: 42, lng: 24};
+    const position: Coordinate = {lat: 42, lng: 24};
     const animation = 'DROP';
 
     beforeEach(inject([GoogleMapsService], (fakeMapService) => {

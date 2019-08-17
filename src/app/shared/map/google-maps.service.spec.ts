@@ -28,15 +28,15 @@ describe('GoogleMapsService', () => {
     });
 
     it('should create the map with controls disabled', inject([GoogleMapsService], (service: GoogleMapsService) => {
-      const center: Coordinate = <Coordinate>{lat: 0, lng: 0};
-        const zoom = 0;
+      const center: Coordinate = {lat: 0, lng: 0};
+      const zoom = 0;
 
-        service.createMap(<ElementRef>{}, center, zoom);
-        expect(googleMockSpy).toHaveBeenCalledWith(undefined, jasmine.objectContaining({
-          mapTypeControl: false,
-          streetViewControl: false,
-          fullscreenControl: false
-        }));
+      service.createMap({} as ElementRef, center, zoom);
+      expect(googleMockSpy).toHaveBeenCalledWith(undefined, jasmine.objectContaining({
+        mapTypeControl: false,
+        streetViewControl: false,
+        fullscreenControl: false
+      }));
     }));
 
     it('should create the map using cooperative gesturehandling', inject([GoogleMapsService], (service: GoogleMapsService) => {
@@ -47,10 +47,10 @@ describe('GoogleMapsService', () => {
     }));
 
     it('should create the map with specified center coordinates', inject([GoogleMapsService], (service: GoogleMapsService) => {
-      const center: Coordinate = <Coordinate>{lat: 42, lng: 24};
+      const center: Coordinate = {lat: 42, lng: 24};
       const zoom = 0;
 
-      service.createMap(<ElementRef>{}, center, zoom);
+      service.createMap({} as ElementRef, center, zoom);
       expect(googleMockSpy).toHaveBeenCalledWith(undefined, jasmine.objectContaining({
         center: {
           lat: center.lat,
@@ -60,15 +60,15 @@ describe('GoogleMapsService', () => {
     }));
 
     it('should create the map with specified zoom', inject([GoogleMapsService], (service: GoogleMapsService) => {
-      const center: Coordinate = <Coordinate>{lat: 0, lng: 0};
+      const center: Coordinate = {lat: 0, lng: 0};
       const zoom = 10000;
 
-      service.createMap(<ElementRef>{}, center, zoom);
-      expect(googleMockSpy).toHaveBeenCalledWith(undefined, jasmine.objectContaining({zoom: zoom}));
+      service.createMap({} as ElementRef, center, zoom);
+      expect(googleMockSpy).toHaveBeenCalledWith(undefined, jasmine.objectContaining({zoom}));
     }));
 
     it('should throw if the ElementRef is null', inject([GoogleMapsService], (service: GoogleMapsService) => {
-      const center: Coordinate = <Coordinate>{lat: 0, lng: 0};
+      const center: Coordinate = {lat: 0, lng: 0};
       const zoom = 0;
 
       expect(() => service.createMap(null, center, zoom)).toThrowError('Cannot create map with missing parameters');
@@ -103,7 +103,7 @@ describe('GoogleMapsService', () => {
       const fakeGoogle = TestBed.get(GOOGLE_MAP);
       googleMockSpy = spyOn(fakeGoogle.maps, 'Marker').and.callThrough();
 
-      const position: Coordinate = <Coordinate>{lat: 42, lng: 24};
+      const position: Coordinate = {lat: 42, lng: 24};
       const animation: MarkerAnimation = 'DROP';
 
       service.addMarker(position, animation);
@@ -123,7 +123,7 @@ describe('GoogleMapsService', () => {
       const fakeGoogle = TestBed.get(GOOGLE_MAP);
       googleMockSpy = spyOn(fakeGoogle.maps, 'Marker').and.callThrough();
 
-      const position: Coordinate = <Coordinate>{lat: 0, lng: 0};
+      const position: Coordinate = {lat: 0, lng: 0};
       const animation: MarkerAnimation = 'BOUNCE';
 
       service.addMarker(position, animation);
@@ -141,7 +141,7 @@ describe('GoogleMapsService', () => {
       const fakeGoogle = TestBed.get(GOOGLE_MAP);
       googleMockSpy = spyOn(fakeGoogle.maps, 'Marker').and.callThrough();
 
-      const position: Coordinate = <Coordinate>{lat: 0, lng: 0};
+      const position: Coordinate = {lat: 0, lng: 0};
 
       service.addMarker(position, null);
       expect(googleMockSpy).toHaveBeenCalledWith(jasmine.objectContaining({animation: null}));
@@ -153,10 +153,10 @@ describe('GoogleMapsService', () => {
       const markerSpy = spyOn(fakeGoogle.maps, 'Marker').and.returnValue(fakeMarker);
       spyOn(fakeGoogle.maps, 'Map').and.returnValue({});
 
-      const position: Coordinate = <Coordinate>{lat: 0, lng: 0};
+      const position: Coordinate = {lat: 0, lng: 0};
       const animation: MarkerAnimation = 'DROP';
 
-      service.createMap(<ElementRef>{}, {lat: 0, lng: 0}, 0);
+      service.createMap({} as ElementRef, {lat: 0, lng: 0}, 0);
       service.addMarker(position, animation);
       expect(markerSpy).toHaveBeenCalledWith(jasmine.objectContaining({map: {}}));
       expect(fakeMarker.setMap).toHaveBeenCalled();

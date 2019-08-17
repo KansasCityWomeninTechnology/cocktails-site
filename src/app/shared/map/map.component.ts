@@ -17,14 +17,14 @@ import { GoogleMapsService } from './google-maps.service';
   styleUrls: ['./map.component.scss']
 })
 export class MapComponent implements OnInit {
-  @ViewChild('map') public mapEl: ElementRef;
+  @ViewChild('map', { static: true }) public mapEl: ElementRef;
   @Input() public defaultZoom: number;
   @Input() public defaultPosition: Coordinate;
-  @ContentChildren(MarkerComponent) private _markers: QueryList<MarkerComponent>;
+  @ContentChildren(MarkerComponent) private markers: QueryList<MarkerComponent>;
 
-  constructor(private _mapService: GoogleMapsService) { }
+  constructor(private mapService: GoogleMapsService) { }
 
   public ngOnInit(): void {
-    this._mapService.createMap(this.mapEl, this.defaultPosition, this.defaultZoom);
+    this.mapService.createMap(this.mapEl, this.defaultPosition, this.defaultZoom);
   }
 }

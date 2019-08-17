@@ -24,8 +24,8 @@ export class MentorSubmitResponseComponent {
 
   constructor(@Inject(MAT_SNACK_BAR_DATA) public response: SubscribeResponse,
               public snackBarRef: MatSnackBarRef<MentorSubmitResponseComponent>,
-              private _sanitizer: DomSanitizer) {
+              private sanitizer: DomSanitizer) {
     this.showAction = response.result === 'ERROR';
-    this.message = _sanitizer.bypassSecurityTrustHtml(response.message);
+    this.message = sanitizer.bypassSecurityTrustHtml(response.message);
   }
 }

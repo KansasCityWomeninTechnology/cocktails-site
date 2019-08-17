@@ -21,7 +21,7 @@ export class MentorFormComponent implements OnInit {
     botField: new FormControl('')
   });
 
-  constructor(private _service: MailchimpService, private _snackBar: MatSnackBar) {
+  constructor(private service: MailchimpService, private snackBar: MatSnackBar) {
   }
 
   public ngOnInit(): void {
@@ -32,7 +32,7 @@ export class MentorFormComponent implements OnInit {
       return;
     }
 
-    this._service.submitForm(environment.mentorSignup.url, [
+    this.service.submitForm(environment.mentorSignup.url, [
       { fieldName: 'EMAIL', fieldValue: this.signUpForm.get('email').value },
       { fieldName: 'FNAME', fieldValue: this.signUpForm.get('firstName').value },
       { fieldName: 'LNAME', fieldValue: this.signUpForm.get('lastName').value },
@@ -40,7 +40,7 @@ export class MentorFormComponent implements OnInit {
     ]).subscribe(
       (r: SubscribeResponse) => {
         const duration = r.result === 'SUCCESS' ? 3000 : 5000;
-        this._snackBar.openFromComponent(MentorSubmitResponseComponent, { duration: duration, data: r });
+        this.snackBar.openFromComponent(MentorSubmitResponseComponent, { duration, data: r });
       }
     );
   }

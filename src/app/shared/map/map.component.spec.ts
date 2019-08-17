@@ -35,7 +35,7 @@ describe('MapComponent', () => {
   describe('when creating the component with input parameters', () => {
     let fakeMapServiceSpy: any;
     const zoom = 15;
-    const position = <Coordinate>{lat: 42, lng: 24};
+    const position: Coordinate = {lat: 42, lng: 24};
 
     beforeEach(inject([GoogleMapsService], (fakeMapService) => {
       fakeMapServiceSpy = spyOn(fakeMapService, 'createMap');

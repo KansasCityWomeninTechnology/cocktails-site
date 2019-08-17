@@ -1,6 +1,6 @@
 # Coding & Cocktails Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 
 To get going
 ```bash
@@ -9,7 +9,7 @@ npm install
 npm start
 ```
 
-To serve app and auto open browser use `ng serve --open` or `npm start -- --open`
+To serve app and auto open browser use `ng serve` or `npm start`
 
 # How to activate links, update mentors, etc
 All data used to populate app is found in "src/data" folder. Update toolset and venue in _about.ts_, update leadershipe & mentor in _heroes.ts_, and update session info in _sessions.ts_.

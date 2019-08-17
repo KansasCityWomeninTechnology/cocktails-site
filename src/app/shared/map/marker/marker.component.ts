@@ -10,9 +10,9 @@ import { GoogleMapsService } from '../google-maps.service';
 export class MarkerComponent implements OnInit {
   @Input() public position: Coordinate;
   @Input() public animation: MarkerAnimation;
-  constructor(private _mapService: GoogleMapsService) { }
+  constructor(private mapService: GoogleMapsService) { }
 
   public ngOnInit(): void {
-    this._mapService.addMarker(this.position, this.animation);
+    this.mapService.addMarker(this.position, this.animation);
   }
 }

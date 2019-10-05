@@ -1,0 +1,16 @@
+@import '~@angular/material/theming';
+
+@mixin mentor-form-theme($theme) {
+  $foreground: map-get($theme, foreground);
+  $background: map-get($theme, background);
+
+  form {
+    .mat-form-field-appearance-outline {
+      .mat-form-field-outline {
+        background-color: mat-color($background, background);
+        border-radius: 5px;
+      }
+      color: mat-color($foreground, text);
+    }
+  }
+}

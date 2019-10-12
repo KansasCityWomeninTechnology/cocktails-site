@@ -1,23 +1,26 @@
-<div id="mc_embed_signup">
-  <form [formGroup]="signUpForm" (ngSubmit)="onSubmit()" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" >
-    <div id="mc_embed_signup_scroll">
-      <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-      <div class="mc-field-group">
-        <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
-        <input type="email" value="" class="required email" id="mce-EMAIL" formControlName="email" required>
-      </div>
-      <div class="mc-field-group">
-        <label for="mce-FNAME">First Name  <span class="asterisk">*</span></label>
-        <input type="text" value="" class="required" id="mce-FNAME" formControlName="firstName" required>
-      </div>
-      <div class="mc-field-group">
-        <label for="mce-LNAME">Last Name  <span class="asterisk">*</span></label>
-        <input type="text" value="" class="required" id="mce-LNAME" formControlName="lastName" required>
-      </div>
-      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" tabindex="-1" value="" formControlName="botField"></div>
-      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" [disabled]="!signUpForm.valid"></div>
-    </div>
-  </form>
-</div>
+<form [formGroup]="signUpForm" (ngSubmit)="onSubmit()">
+  <mat-label>Email Address</mat-label>
+  <mat-form-field appearance="outline">
+    <input matInput placeholder="Email Address" required type="email" formControlName="email">
+    <mat-error *ngIf="signUpForm.get('email').hasError('required')">Email is required</mat-error>
+    <mat-error *ngIf="signUpForm.get('email').hasError('email')">Not a valid email</mat-error>
+  </mat-form-field>
 
+  <mat-label>First Name</mat-label>
+  <mat-form-field appearance="outline">
+    <input matInput placeholder="First Name" required type="text" formControlName="firstName">
+    <mat-error *ngIf="signUpForm.get('firstName').hasError('required')">First name is required</mat-error>
+  </mat-form-field>
 
+  <mat-label>Last Name</mat-label>
+  <mat-form-field appearance="outline">
+    <input matInput placeholder="Last Name" required type="text" formControlName="lastName">
+    <mat-error *ngIf="signUpForm.get('lastName').hasError('required')">Last name is required</mat-error>
+  </mat-form-field>
+
+  <div style="position: absolute; left: -5000px;" aria-hidden="true">
+    <input type="text" tabindex="-1" value="" formControlName="botField">
+  </div>
+
+  <button class="btn btn-light button-overlay" type="submit" [disabled]="!signUpForm.valid">Subscribe</button>
+</form>

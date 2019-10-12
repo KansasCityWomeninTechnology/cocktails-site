@@ -19,7 +19,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HeroComponent } from './hero/hero.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MentorFormComponent } from './mentor-form/mentor-form.component';
-import { MatButtonModule, MatSnackBarModule } from '@angular/material';
+import { MatButtonModule, MatInputModule, MatSnackBarModule } from '@angular/material';
 import { MentorSubmitResponseComponent } from './mentor-form/mentor-submit-response.component';
 
 
@@ -48,7 +48,8 @@ import { MentorSubmitResponseComponent } from './mentor-form/mentor-submit-respo
     NgxPageScrollModule,
     BrowserAnimationsModule,
     MatSnackBarModule,
-    MatButtonModule
+    MatButtonModule,
+    MatInputModule
   ],
   entryComponents: [
     MentorSubmitResponseComponent

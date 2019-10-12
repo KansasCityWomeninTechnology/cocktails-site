@@ -1,5 +1,11 @@
-#mc_embed_signup {
-  background: #666b8f;
-  //clear: left;
-  //font:14px Helvetica,Arial,sans-serif;
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  & > mat-form-field {
+    align-self: stretch;
+  }
 }
+
+

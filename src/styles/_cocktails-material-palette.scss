@@ -1,0 +1,69 @@
+@import "variables";
+@import '~@angular/material/theming';
+
+$cocktails-primary: (
+  50 : #e9eaef,
+  100 : #c8cad7,
+  200 : #a4a7bc,
+  300 : #7f83a1,
+  400 : #63698c,
+  500 : $dark-purple,
+  600 : #414770,
+  700 : #383d65,
+  800 : #30355b,
+  900 : #212548,
+  A100 : #8d97ff,
+  A200 : #5a68ff,
+  A400 : #2739ff,
+  A700 : #0e22ff,
+  contrast: (
+    50: $dark-primary-text,
+    100: $dark-primary-text,
+    200: $dark-primary-text,
+    300: $dark-primary-text,
+    400: $light-primary-text,
+    500: $light-primary-text,
+    600: $light-primary-text,
+    700: $light-primary-text,
+    800: $light-primary-text,
+    900: $light-primary-text,
+    A100: $dark-primary-text,
+    A200: $light-primary-text,
+    A400: $light-primary-text,
+    A700: $light-primary-text,
+  )
+);
+
+$cocktails-accent: (
+  50 : #f7f3f7,
+  100 : #eae0ec,
+  200 : #ddcce0,
+  300 : #cfb8d3,
+  400 : #c4a8c9,
+  500 : $light-plum,
+  600 : #b391ba,
+  700 : #ab86b2,
+  800 : #a37caa,
+  900 : #946b9c,
+  A100 : #ffffff,
+  A200 : #fae1ff,
+  A400 : #f1aeff,
+  A700 : #ed95ff,
+  contrast: (
+    50 : $dark-primary-text,
+    100 : $dark-primary-text,
+    200 : $dark-primary-text,
+    300 : $dark-primary-text,
+    400 : $dark-primary-text,
+    500 : $light-primary-text,
+    600 : $light-primary-text,
+    700 : $light-primary-text,
+    800 : $light-primary-text,
+    900 : $light-primary-text,
+    A100 : $dark-primary-text,
+    A200 : $dark-primary-text,
+    A400 : $dark-primary-text,
+    A700 : $dark-primary-text,
+  )
+)
+

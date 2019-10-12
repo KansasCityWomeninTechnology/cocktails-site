@@ -112,7 +112,7 @@ describe('MentorFormComponent', () => {
 
     it('submit button is disabled when form not valid', () => {
       expect(component.signUpForm.valid).toBeFalsy();
-      const button = fixture.debugElement.query(By.css('#mc-embedded-subscribe'));
+      const button = fixture.debugElement.query(By.css('button'));
       expect(button).toBeTruthy();
       expect(button.nativeElement.disabled).toBeTruthy();
     });

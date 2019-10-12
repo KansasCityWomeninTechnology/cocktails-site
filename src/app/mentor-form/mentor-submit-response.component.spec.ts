@@ -14,7 +14,6 @@ describe('MentorSubmitResponseComponent when response is successful', () => {
     TestBed.configureTestingModule({
       imports: [
         MatSnackBarModule,
-        MatButtonModule
       ],
       declarations: [ MentorSubmitResponseComponent ],
       providers: [

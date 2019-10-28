@@ -64,11 +64,6 @@ export const MENTORS: Hero[] = [{
     img: 'assets/images/mentors/maroua.jpg',
     twitter: 'codecocktailskc'
 }, {
-    name: 'Stephanie Sammons',
-    title: 'Mentor',
-    img: 'assets/images/mentors/stephanie.jpg',
-    twitter: 'codecocktailskc'
-}, {
     name: 'Rhia Dixon',
     title: 'Mentor',
     img: 'assets/images/mentors/rhia.jpg',
@@ -93,12 +88,14 @@ export const MENTORS: Hero[] = [{
     title: 'Mentor',
     img: 'assets/images/mentors/erin.jpg',
     twitter: 'erin_wilson92'
-}, {
-    name: 'Gabby Ortman',
-    title: 'Mentor',
-    img: 'assets/images/mentors/gabby.jpg',
-    twitter: 'gabbyortman'
-}, {
+},
+// {
+//     name: 'Gabby Ortman',
+//     title: 'Mentor',
+//     img: 'assets/images/mentors/gabby.jpg',
+//     twitter: 'gabbyortman'
+// },
+{
     name: 'Jessica Kincaid',
     title: 'Mentor',
     img: 'assets/images/mentors/jessica.jpg',
@@ -123,4 +120,24 @@ export const MENTORS: Hero[] = [{
     title: 'Mentor',
     img: 'assets/images/mentors/melissa.jpg',
     twitter: 'codecocktailskc'
-}];
+}, {
+  name: 'Melissa Waltner',
+  title: 'Mentor',
+  img: 'assets/images/mentors/melissaw.jpg',
+  twitter: 'suitemel'
+}, {
+    name: 'Jacqueline Kolze',
+    title: 'Mentor',
+    img: 'assets/images/mentors/jacqueline.jpg',
+    twitter: 'just_jacquelin'
+  }, {
+    name: 'Liz Wait',
+    title: 'Mentor',
+    img: 'assets/images/mentors/liz.jpg',
+    twitter: 'auraswap'
+  }, {
+    name: 'Keen Wilson',
+    title: 'Mentor',
+    img: 'assets/images/mentors/keen.jpg',
+    twitter: 'youaresokeen'
+  }];

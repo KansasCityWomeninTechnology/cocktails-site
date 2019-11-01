@@ -4,42 +4,40 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div 
-    class="collapse navbar-collapse justify-content-around" 
-    id="navbarSupportedContent" 
-    (collapsed)="collapsed($event)"
-    (expanded)="expanded($event)"
+  <div
+    class="collapse navbar-collapse justify-content-around"
+    id="navbarSupportedContent"
     [collapse]="isCollapsed">
     <ul class="navbar-nav">
       <li class="nav-item mx-4">
-        <a pageScroll class="nav-link" routerLink="/" href="#hero">Home</a>
+        <a class="nav-link" routerLink="/" fragment="home">Home</a>
       </li>
       <li class="nav-item dropdown mx-4" dropdown>
         <a class="nav-link dropdown-toggle" dropdownToggle role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           About
         </a>
         <ul *dropdownMenu class="dropdown-menu nav-background">
-            <li><a pageScroll class="dropdown-item" routerLink="/" href="#code">The Code</a></li>
-            <li><a pageScroll class="dropdown-item" routerLink="/" href="#cocktails">The Cocktails</a></li>
-            <li><a pageScroll class="dropdown-item" routerLink="/" href="#mentors">Mentors</a></li>
-            <li><a pageScroll class="dropdown-item" routerLink="/" href="#contact">Contact</a></li>
+            <li><a class="dropdown-item" routerLink="/" fragment="code">The Code</a></li>
+            <li><a class="dropdown-item" routerLink="/" fragment="cocktails">The Cocktails</a></li>
+            <li><a class="dropdown-item" routerLink="/" fragment="mentors">Mentors</a></li>
+            <li><a class="dropdown-item" routerLink="/" fragment="contact">Contact</a></li>
         </ul>
       </li>
       <li class="nav-item mx-4">
-        <a pageScroll class="nav-link" routerLink="/" href="#signup">Sign Up</a>
+        <a class="nav-link" routerLink="/" fragment="signup">Sign Up</a>
       </li>
       <li class="nav-item dropdown mx-4" dropdown>
         <a class="nav-link dropdown-toggle" dropdownToggle role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Resources
         </a>
         <ul *dropdownMenu class="dropdown-menu nav-background navbar-dark">
-            <li><a pageScroll class="dropdown-item" routerLink="/resources" href="#tools">The Tools</a></li>
-            <li><a pageScroll class="dropdown-item" routerLink="/resources" href="#list">Slides &amp; Worksheets</a></li>
-            <li><a pageScroll class="dropdown-item" routerLink="/resources" href="#resources">Learning Resources</a></li>
+            <li><a class="dropdown-item" routerLink="/resources" fragment="tools">The Tools</a></li>
+            <li><a class="dropdown-item" routerLink="/resources" fragment="list">Slides &amp; Worksheets</a></li>
+            <li><a class="dropdown-item" routerLink="/resources" fragment="resources">Learning Resources</a></li>
         </ul>
       </li>
       <li class="nav-item mx-4">
-        <a pageScroll class="nav-link" routerLink="/financialaid" href="#scholarship">Financial Aid</a>
+        <a class="nav-link" routerLink="/financialaid" fragment="scholarship">Financial Aid</a>
       </li>
     </ul>
   </div>

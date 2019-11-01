@@ -30,7 +30,6 @@ export class HomeComponent implements OnInit {
     this.upcomingSessionTicketLink = sanitizer.bypassSecurityTrustResourceUrl(this.upcomingSession.eventbriteIFrameLink);
   }
 
-  ngOnInit() {
-
+  ngOnInit(): void {
   }
 }

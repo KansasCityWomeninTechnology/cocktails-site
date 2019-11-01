@@ -5,7 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
-import { NgxPageScrollModule } from 'ngx-page-scroll';
+import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 import { MapModule } from './shared/map/map.module';
 
 import { AppComponent } from './app.component';
@@ -21,6 +21,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MentorFormComponent } from './mentor-form/mentor-form.component';
 import { MatButtonModule, MatInputModule, MatSnackBarModule } from '@angular/material';
 import { MentorSubmitResponseComponent } from './mentor-form/mentor-submit-response.component';
+import { ScrollToFragmentDirective } from './shared/scroll-to-fragment.directive';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { MentorSubmitResponseComponent } from './mentor-form/mentor-submit-respo
     ContactComponent,
     HeroComponent,
     MentorFormComponent,
-    MentorSubmitResponseComponent
+    MentorSubmitResponseComponent,
+    ScrollToFragmentDirective,
   ],
   imports: [
     BrowserModule,
@@ -45,7 +47,7 @@ import { MentorSubmitResponseComponent } from './mentor-form/mentor-submit-respo
     MapModule,
     BsDropdownModule.forRoot(),
     CollapseModule.forRoot(),
-    NgxPageScrollModule,
+    NgxPageScrollCoreModule,
     BrowserAnimationsModule,
     MatSnackBarModule,
     MatButtonModule,

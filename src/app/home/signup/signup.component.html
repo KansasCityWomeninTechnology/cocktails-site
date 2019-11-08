@@ -1,0 +1,37 @@
+<section id="signup">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h4>Sign Up!</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-5 map">
+        <h5 id="hosting-venue">Proudly hosted by {{venue.name}}</h5>
+        <a href="{{venue.url}}" target="_blank" class="host">
+          <img src="{{venue.img}}" alt="{{venue.name}}">
+        </a>
+        <p>{{venue.address}}</p>
+        <app-map [defaultPosition]="{lat: venue.lat, lng: venue.lng}" [defaultZoom]="zm">
+          <app-marker [position]="{lat: venue.lat, lng: venue.lng}" [animation]="'DROP'"></app-marker>
+        </app-map>
+      </div>
+      <div class="col-sm-7 align-self-center">
+        <h5>Upcoming Session: <br>{{upcomingSession.date | date:'fullDate'}}, {{upcomingSession.time}}
+          <br />{{upcomingSession.name}}</h5>
+        <p>Note: wifi-enabled laptops are required to attend!</p>
+        <div style="width:100%; text-align:left;"><iframe [attr.src]="upcomingSessionTicketLink" frameborder="0" height="325" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true" title="Sign Up Form"></iframe></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h5>{{sessions[0].date | date: 'y'}} Sessions</h5>
+
+        <p>If the event is not yet available for sign ups, you will be directed to the Coding &amp; Cocktails Eventbrite page.</p>
+        <ul class="list-unstyled" *ngFor="let session of sessions">
+          <li><b>{{session.date | date:'MMMM d'}}th</b> - <a href="{{session.eventbriteLink}}" target="_blank">{{session.name}}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

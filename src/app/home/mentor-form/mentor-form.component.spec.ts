@@ -7,9 +7,9 @@ import { async, ComponentFixture, inject, TestBed } from '@angular/core/testing'
 import { of } from 'rxjs';
 
 import { MentorFormComponent } from './mentor-form.component';
-import { MailchimpService } from '../sign-up-services/mailchimp.service';
+import { MailchimpService } from '../../sign-up-services/mailchimp.service';
 import { MentorSubmitResponseComponent } from './mentor-submit-response.component';
-import { SubscribeResponse } from '../sign-up-services/subscribe';
+import { SubscribeResponse } from '../../sign-up-services/subscribe';
 import { environment } from '@env/environment';
 
 describe('MentorFormComponent', () => {

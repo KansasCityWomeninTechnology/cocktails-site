@@ -15,9 +15,12 @@ class TestComponent {
 
 describe('ScrollToFragmentDirective', () => {
 
+  const scrollerServiceFake = {
+    scroll: () => {}
+  };
+
   describe('when scroll event', () => {
     let fixture: ComponentFixture<TestComponent>;
-    const scrollerServiceFake = jasmine.createSpyObj('PageScrollService', ['scroll']);
     let scrollerServiceSpy: jasmine.Spy;
     const routerEventSub$ = new Subject<Scroll>();
     const routerMock = {
@@ -42,7 +45,7 @@ describe('ScrollToFragmentDirective', () => {
       fixture = TestBed.createComponent(TestComponent);
       fixture.detectChanges();
 
-      scrollerServiceSpy = service.scroll as jasmine.Spy;
+      scrollerServiceSpy = spyOn(service, 'scroll');
     }));
 
     it('should scroll when fragment exists', fakeAsync(() => {
@@ -64,7 +67,6 @@ describe('ScrollToFragmentDirective', () => {
 
   describe('when other router event', () => {
     let fixture: ComponentFixture<TestComponent>;
-    const scrollerServiceFake = jasmine.createSpyObj('PageScrollService', ['scroll']);
     let scrollerServiceSpy: jasmine.Spy;
     const routerEventSub$ = new Subject<RouterEvent>();
     const routerMock = {
@@ -89,7 +91,7 @@ describe('ScrollToFragmentDirective', () => {
       fixture = TestBed.createComponent(TestComponent);
       fixture.detectChanges();
 
-      scrollerServiceSpy = service.scroll as jasmine.Spy;
+      scrollerServiceSpy = spyOn(service, 'scroll');
     }));
 
     it('should not scroll when anchor exists', fakeAsync(() => {

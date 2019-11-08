@@ -1,0 +1,35 @@
+<section id="mentors">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <h4>The Mentors</h4>
+        <h5>As a woman, learning to program can be intimidating! We've recruited fantastic female mentors to create a welcoming learning environment and answer those questions you may be too scared to ask! </h5>
+        <h5>These ladies write code for their day job and can't wait to help you get started. They're kind of like super heroes, with great taste!</h5>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="row margin-bottom" >
+      <div class="col-sm-4 mentor leader" *ngFor="let leader of leaders">
+        <a href="http://www.twitter.com/{{leader.twitter}}" target="_blank">
+          <img class="rounded-circle" src="{{leader.img}}" alt="{{leader.name}}"/>
+          <h6>{{leader.name}}</h6>
+          <p>{{leader.title}}</p>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 mentor" *ngFor="let mentor of mentors">
+        <a href="http://www.twitter.com/{{mentor.twitter}}" target="_blank">
+          <img class="rounded-circle" src="{{mentor.img}}" alt="{{mentor.name}}"/>
+          <h6>{{mentor.name}}</h6>
+          <p>{{mentor.title}}</p>
+        </a>
+      </div>
+    </div>
+    <div>
+      <h1>Interested in Mentoring? Sign up here.</h1>
+      <app-mentor-form></app-mentor-form>
+    </div>
+  </div>
+</section>

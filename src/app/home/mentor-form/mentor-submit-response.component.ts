@@ -1,7 +1,7 @@
 import { Component, Inject } from '@angular/core';
 import { MAT_SNACK_BAR_DATA, MatSnackBarRef } from '@angular/material';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
-import { SubscribeResponse } from '../sign-up-services/subscribe';
+import { SubscribeResponse } from '../../sign-up-services/subscribe';
 
 @Component({
   selector: 'app-mentor-submit-response',

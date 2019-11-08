@@ -1,0 +1,15 @@
+@import 'variables';
+
+section {
+  background: $dark-olive;
+  padding: 150px 0px 100px 0px;
+  border-top: solid 10px $light-olive;
+  border-bottom: solid 10px $light-olive;
+  img {
+    margin-top: 20px;
+    width: 100%;
+  }
+  a {
+    color: #484e78;
+  }
+}

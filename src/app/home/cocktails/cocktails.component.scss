@@ -1,0 +1,24 @@
+@import 'variables';
+
+section {
+  background: $plum;
+  text-align: center;
+  padding: 150px 0px 100px 0px;
+  border-top: solid 10px $light-plum;
+  border-bottom: solid 10px $light-plum;
+  img {
+    width: auto;
+  }
+  a {
+    color: #484e78;
+  }
+  .cocktails {
+    display: block;
+    height: 210px;
+    width: 310px;
+    border: solid 5px #fff;
+    margin: 20px auto;
+    background: url(/assets/images/libations.jpg) no-repeat 0px 0px;
+    background-size: contain;
+  }
+}

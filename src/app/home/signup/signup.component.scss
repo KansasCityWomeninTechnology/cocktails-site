@@ -1,0 +1,33 @@
+@import 'variables';
+section {
+  background: $dark-olive;
+  padding: 150px 0px 100px 0px;
+  border-top: solid 10px $light-olive;
+  border-bottom: solid 10px $light-olive;
+  text-align: center;
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .host {
+    display: inline-block;
+    margin: 10px auto;
+  }
+
+  a {
+    color: $dark-purple;
+  }
+
+  #hosting-venue {
+    margin-bottom: 0;
+  }
+
+  iframe {
+    margin-top: 1.1em;
+  }
+
+  app-map {
+    height: 300px;
+  }
+}

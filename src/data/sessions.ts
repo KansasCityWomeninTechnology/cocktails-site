@@ -46,12 +46,11 @@ export interface Session {
 }
 
 export const SESSIONS: Session[] = [{
-    date: '2019-07-13',
+    date: '2019-02-09',
     time: '5-9pm',
     name: 'The Glass: Front-end Architecture And Introduction to HTML',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-glass-front-end-architecture-html-tickets-50015334211?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=50015334211&ref=ccweb'
-
 }, {
     date: '2019-03-09',
     time: '5-9pm',

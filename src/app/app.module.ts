@@ -18,10 +18,17 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeroComponent } from './hero/hero.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { MentorFormComponent } from './mentor-form/mentor-form.component';
+import { MentorFormComponent } from './home/mentor-form/mentor-form.component';
 import { MatButtonModule, MatInputModule, MatSnackBarModule } from '@angular/material';
-import { MentorSubmitResponseComponent } from './mentor-form/mentor-submit-response.component';
+import { MentorSubmitResponseComponent } from './home/mentor-form/mentor-submit-response.component';
 import { ScrollToFragmentDirective } from './shared/scroll-to-fragment.directive';
+import { CodeComponent } from './home/code/code.component';
+import { CocktailsComponent } from './home/cocktails/cocktails.component';
+import { MentorsComponent } from './home/mentors/mentors.component';
+import { SignupComponent } from './home/signup/signup.component';
+import { ToolsComponent } from './resources/tools/tools.component';
+import { CurriculumComponent } from './resources/curriculum/curriculum.component';
+import { LearningResourcesComponent } from './resources/learning-resources/learning-resources.component';
 
 
 @NgModule({
@@ -37,6 +44,13 @@ import { ScrollToFragmentDirective } from './shared/scroll-to-fragment.directive
     MentorFormComponent,
     MentorSubmitResponseComponent,
     ScrollToFragmentDirective,
+    CodeComponent,
+    CocktailsComponent,
+    MentorsComponent,
+    SignupComponent,
+    ToolsComponent,
+    CurriculumComponent,
+    LearningResourcesComponent,
   ],
   imports: [
     BrowserModule,

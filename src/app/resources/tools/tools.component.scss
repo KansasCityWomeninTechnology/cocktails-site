@@ -1,0 +1,13 @@
+@import 'variables';
+
+section {
+  background: $dark-olive;
+  padding: 150px 0px 100px 0px;
+  border-top: solid 10px $light-olive;
+  text-align: center;
+  border-bottom: solid 10px $light-olive;
+
+  a {
+    color: $dark-purple;
+  }
+}

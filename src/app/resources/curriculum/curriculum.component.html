@@ -1,0 +1,19 @@
+<section id="curriculum">
+  <div class="list">
+    <h3>Slides &amp; Worksheets</h3>
+    <table class="tocTable">
+      <tr *ngFor="let topic of topics">
+        <td style="text-align: left;">{{topic.name}}</td>
+        <ng-template [ngIf]="!topic.areLinksEnabled" [ngIfElse]="available">
+          <td><font style="color: #999">slides</font></td>
+          <td><font style="color: #999">worksheet</font></td>
+        </ng-template>
+
+        <ng-template #available>
+          <td><a href="{{topic.slidesLink}}" class="listlink" target="_blank">slides</a></td>
+          <td><a href="{{topic.worksheetLink}}" class="listlink" target="_blank">worksheet</a></td>
+        </ng-template>
+      </tr>
+    </table>
+  </div>
+</section>

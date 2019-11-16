@@ -1,0 +1,31 @@
+@import 'variables';
+section {
+  background: $light-purple;
+  text-align: center;
+  padding: 150px 0px 100px 0px;
+  border-top: solid 10px $dark-purple;
+  border-bottom: solid 10px $dark-purple;
+  .mentor {
+    a {
+      text-decoration: none;
+      color:$white;
+      display: block;
+      overflow: hidden;
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+  // This helps make the last two people center better when the full team
+  // is present on the site
+  // @media only screen and (min-width : 575px) {
+  //     .leader:nth-last-child(2) {
+  //         margin-left: 18%;
+  //     }
+  // }
+
+  h6 {
+    margin-top: 20px;
+  }
+}

@@ -3,9 +3,9 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { MatSnackBar } from '@angular/material';
 
 import { environment } from '@env/environment';
-import { MailchimpService } from '../sign-up-services/mailchimp.service';
+import { MailchimpService } from '../../sign-up-services/mailchimp.service';
 import { MentorSubmitResponseComponent } from './mentor-submit-response.component';
-import { SubscribeResponse } from '../sign-up-services/subscribe';
+import { SubscribeResponse } from '../../sign-up-services/subscribe';
 
 @Component({
   selector: 'app-mentor-form',

@@ -46,68 +46,66 @@ export interface Session {
 }
 
 export const SESSIONS: Session[] = [{
-    date: '2019-02-09',
+    date: '2020-01-11',
     time: '5-9pm',
     name: 'The Glass: Front-end Architecture And Introduction to HTML',
-    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-glass-front-end-architecture-html-tickets-50015334211?aff=ccweb',
-    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=50015334211&ref=ccweb'
+    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-glass-front-end-architecture-html-tickets-85367579729?aff=ccweb',
+    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=85367579729&ref=ccweb'
 }, {
-    date: '2019-03-09',
+    date: '2020-02-08',
     time: '5-9pm',
     name: 'The Garnish: Introduction to CSS',
-    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-garnish-intro-to-css-tickets-52996000464?aff=ccweb',
-    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=52996000464&ref=ccweb'
+    eventbriteLink: '',
+    eventbriteIFrameLink: ''
 }, {
-    date: '2019-04-13',
-    time: '5-9pm',
-    name: 'The Rocks: Introduction to Command Line And Version Control',
-    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-rocks-command-line-version-control-tickets-52996467862?aff=ccweb',
-    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=52996467862&ref=ccweb'
-}, {
-    date: '2019-05-11',
+    date: '2020-03-14',
     time: '5-9pm',
     name: 'The Liquor: Introduction to JavaScript',
-    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-liquor-intro-to-javascript-tickets-52996432757?aff=ccweb',
-    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=52996432757&ref=ccweb'
+    eventbriteLink: '',
+    eventbriteIFrameLink: ''
 }, {
-    date: '2019-06-08',
+    date: '2020-04-11',
     time: '5-9pm',
-    name: 'The Mixer: Interactive JavaScript',
-    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-mixer-interactive-javascript-tickets-52996721621?aff=ccweb',
-    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=52996721621&ref=ccweb'
+    name: 'Enjoy: CodeJam',
+    eventbriteLink: '',
+    eventbriteIFrameLink: ''
 }, {
-    date: '2019-07-13',
+    date: '2020-05-09',
+    time: '5-9pm',
+    name: 'The Bartender: APIs',
+    eventbriteLink: '',
+    eventbriteIFrameLink: ''
+}, {
+    date: '2020-07-11',
     time: '5-9pm',
     name: 'The Glass: Front-end Architecture And Introduction to HTML',
-    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-glass-front-end-architecture-html-tickets-60372915014',
-    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=60372915014&ref=ccweb'
-
+    eventbriteLink: '',
+    eventbriteIFrameLink: ''
 }, {
-    date: '2019-08-10',
+    date: '2020-08-08',
     time: '5-9pm',
     name: 'The Garnish: Introduction to CSS',
-    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-garnish-intro-to-css-tickets-61929350354',
-    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=61929350354&ref=ccweb'
+    eventbriteLink: '',
+    eventbriteIFrameLink: ''
 }, {
-    date: '2019-09-14',
-    time: '5-9pm',
-    name: 'The Rocks: Introduction to Command Line And Version Control',
-    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-rocks-command-line-version-control-tickets-63515374194',
-    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=63515374194&ref=ccweb'
-}, {
-    date: '2019-10-12',
+    date: '2020-09-12',
     time: '5-9pm',
     name: 'The Liquor: Introduction to JavaScript',
-    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-liquor-intro-to-javascript-tickets-66069376283',
-    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=66069376283&ref=ccweb'
+    eventbriteLink: '',
+    eventbriteIFrameLink: ''
 }, {
-    date: '2019-11-09',
+    date: '2020-10-10',
     time: '5-9pm',
-    name: 'The Mixer: Interactive JavaScript',
-    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-mixer-interactive-javascript-tickets-68729954143',
-    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=68729954143&ref=ccweb'
+    name: 'The Bartender: APIs',
+    eventbriteLink: '',
+    eventbriteIFrameLink: ''
+}, {
+    date: '2020-11-14',
+    time: '5-9pm',
+    name: 'Enjoy: CodeJam',
+    eventbriteLink: '',
+    eventbriteIFrameLink: ''
 }];
 
 // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
-// N.B. The -1 is due to the schedule shift in 2019 and needs to be removed in 2020.
-export const UPCOMING_SESSION_MONTH = 11 - 1;
+export const UPCOMING_SESSION_MONTH = 1;

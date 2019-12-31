@@ -55,55 +55,55 @@ export const SESSIONS: Session[] = [{
     date: '2020-02-08',
     time: '5-9pm',
     name: 'The Garnish: Introduction to CSS',
-    eventbriteLink: '',
+    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
     eventbriteIFrameLink: ''
 }, {
     date: '2020-03-14',
     time: '5-9pm',
     name: 'The Liquor: Introduction to JavaScript',
-    eventbriteLink: '',
+    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
     eventbriteIFrameLink: ''
 }, {
     date: '2020-04-11',
     time: '5-9pm',
     name: 'Enjoy: CodeJam',
-    eventbriteLink: '',
+    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
     eventbriteIFrameLink: ''
 }, {
     date: '2020-05-09',
     time: '5-9pm',
     name: 'The Bartender: APIs',
-    eventbriteLink: '',
+    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
     eventbriteIFrameLink: ''
 }, {
     date: '2020-07-11',
     time: '5-9pm',
     name: 'The Glass: Front-end Architecture And Introduction to HTML',
-    eventbriteLink: '',
+    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
     eventbriteIFrameLink: ''
 }, {
     date: '2020-08-08',
     time: '5-9pm',
     name: 'The Garnish: Introduction to CSS',
-    eventbriteLink: '',
+    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
     eventbriteIFrameLink: ''
 }, {
     date: '2020-09-12',
     time: '5-9pm',
     name: 'The Liquor: Introduction to JavaScript',
-    eventbriteLink: '',
+    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
     eventbriteIFrameLink: ''
 }, {
     date: '2020-10-10',
     time: '5-9pm',
     name: 'The Bartender: APIs',
-    eventbriteLink: '',
+    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
     eventbriteIFrameLink: ''
 }, {
     date: '2020-11-14',
     time: '5-9pm',
     name: 'Enjoy: CodeJam',
-    eventbriteLink: '',
+    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
     eventbriteIFrameLink: ''
 }];
 

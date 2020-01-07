@@ -33,12 +33,12 @@ export interface Venue {
 }
 
 export const VENUE: Venue = {
-    name: 'VeriShip',
-    img: 'assets/images/logos/veriship_hz.png',
-    url: 'https://veriship.com/',
-    address: '8880 Ward Parkway #300, Kansas City, Missouri, 64114',
-    lat: 38.968150,
-    lng: -94.605590
+    name: 'AutoAlert',
+    img: 'assets/images/logos/autoalert.png',
+    url: 'https://www.autoalert.com/',
+    address: '114 W 11th St, Kansas City, MO 64105',
+    lat: 39.1011,
+    lng: -94.5852
 };
 
 // If we keep encountering multiple venues, this can be streamlined a bit more

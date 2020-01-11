@@ -42,31 +42,31 @@ export interface Session {
 }
 
 export const SESSIONS: Session[] = [{
-    date: '2020-01-11',
+    date: '2020-02-08',
     time: '5-9pm',
     name: 'The Glass: Front-end Architecture And Introduction to HTML',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-glass-front-end-architecture-html-tickets-85367579729?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=85367579729&ref=ccweb'
 }, {
-    date: '2020-02-08',
+    date: '2020-03-14',
     time: '5-9pm',
     name: 'The Garnish: Introduction to CSS',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-garnish-introduction-to-css-tickets-88430065707?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=88430065707&ref=ccweb'
 }, {
-    date: '2020-03-14',
+    date: '2020-04-11',
     time: '5-9pm',
     name: 'The Liquor: Introduction to JavaScript',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-liquor-introduction-to-javascript-tickets-88430220169?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=88430220169&ref=ccweb'
 }, {
-    date: '2020-04-11',
+    date: '2020-05-09',
     time: '5-9pm',
     name: 'Enjoy: CodeJam',
     eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
     eventbriteIFrameLink: ''
 }, {
-    date: '2020-05-09',
+    date: '2020-06-13',
     time: '5-9pm',
     name: 'The Bartender: APIs',
     eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',

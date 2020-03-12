@@ -48,27 +48,21 @@ export const SESSIONS: Session[] = [{
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-glass-front-end-architecture-html-tickets-85367579729?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=85367579729&ref=ccweb'
 }, {
-    date: '2020-03-14',
+    date: '2020-04-11',
     time: '5-9pm',
     name: 'The Garnish: Introduction to CSS',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-garnish-introduction-to-css-tickets-88430065707?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=88430065707&ref=ccweb'
 }, {
-    date: '2020-04-11',
+    date: '2020-05-09',
     time: '5-9pm',
     name: 'The Liquor: Introduction to JavaScript',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-liquor-introduction-to-javascript-tickets-88430220169?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=88430220169&ref=ccweb'
 }, {
-    date: '2020-05-09',
-    time: '5-9pm',
-    name: 'Enjoy: CodeJam',
-    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
-    eventbriteIFrameLink: ''
-}, {
     date: '2020-06-13',
     time: '5-9pm',
-    name: 'The Bartender: APIs',
+    name: 'Enjoy: CodeJam',
     eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
     eventbriteIFrameLink: ''
 }, {
@@ -104,5 +98,5 @@ export const SESSIONS: Session[] = [{
 }];
 
 // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
-//-1 is to account for having canceled January
+//-2 is to account for having canceled January/March
 export const UPCOMING_SESSION_MONTH = 3 - 1;

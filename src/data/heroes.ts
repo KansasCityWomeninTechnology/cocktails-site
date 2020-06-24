@@ -43,12 +43,6 @@ export const LEADERS: Hero[] = [
     twitter: "AlisaDuncan"
   },
   {
-    name: "Andie Johnson",
-    title: "Marketing Director",
-    img: "assets/images/mentors/andie.jpg",
-    twitter: "codecocktailskc"
-  },
-  {
     name: "Kallie Riff",
     title: "Presentation Director",
     img: "assets/images/mentors/kallie.jpg",

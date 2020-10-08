@@ -4,8 +4,8 @@
   "license": "MIT",
   "engineStrict": true,
   "engines": {
-    "node": ">=10.9",
-    "npm": ">=6.4.1"
+    "node": ">=10.13",
+    "npm": ">=6.12.1"
   },
   "scripts": {
     "ng": "ng",

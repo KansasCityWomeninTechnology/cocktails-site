@@ -5,6 +5,8 @@ import { googleMock } from './testing/fake-google';
 import { Coordinate, MarkerAnimation } from './map-types';
 import { ElementRef } from '@angular/core';
 
+// There are deprecated called to TestBed.get. Instead of fixing these, I am planning on removing the Google Maps component
+// and using the one now available from Google Components lib
 describe('GoogleMapsService', () => {
   let googleMockSpy: jasmine.Spy;
   let service: GoogleMapsService;

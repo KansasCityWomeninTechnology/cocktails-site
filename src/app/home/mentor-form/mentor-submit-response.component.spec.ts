@@ -2,7 +2,8 @@ import { async, ComponentFixture, inject, TestBed } from '@angular/core/testing'
 import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { By } from '@angular/platform-browser';
 
-import { MAT_SNACK_BAR_DATA, MatButtonModule, MatSnackBarModule, MatSnackBarRef } from '@angular/material';
+import { MatButtonModule } from '@angular/material/button';
+import { MAT_SNACK_BAR_DATA, MatSnackBarModule, MatSnackBarRef } from '@angular/material/snack-bar';
 
 import { MentorSubmitResponseComponent } from './mentor-submit-response.component';
 

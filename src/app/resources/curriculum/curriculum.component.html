@@ -5,8 +5,8 @@
       <tr *ngFor="let topic of topics">
         <td style="text-align: left;">{{topic.name}}</td>
         <ng-template [ngIf]="!topic.areLinksEnabled" [ngIfElse]="available">
-          <td><font style="color: #999">slides</font></td>
-          <td><font style="color: #999">worksheet</font></td>
+          <td><span class='slidesAndWorksheets'>slides</span></td>
+          <td><span class='slidesAndWorksheets'>worksheet</span></td>
         </ng-template>
 
         <ng-template #available>

@@ -1,11 +1,14 @@
+import { AnyRecord } from 'dns';
 import { browser, by, element } from 'protractor';
 
+
+
 export class AppPage {
-  navigateTo() {
+  navigateTo(): any {
     return browser.get('/');
   }
 
-  getParagraphText() {
+  getParagraphText(): any {
     return element(by.css('app-root h1')).getText();
   }
 }

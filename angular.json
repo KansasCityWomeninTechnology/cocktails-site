@@ -137,5 +137,8 @@
       }
     }
   },
-  "defaultProject": "cocktails-site"
+  "defaultProject": "cocktails-site",
+  "cli": {
+    "analytics": "79908b3f-2032-45b5-a1aa-501e7cb88fa8"
+  }
 }

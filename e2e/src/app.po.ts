@@ -1,4 +1,3 @@
-import { AnyRecord } from 'dns';
 import { browser, by, element } from 'protractor';
 
 

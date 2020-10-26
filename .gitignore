@@ -46,4 +46,6 @@ testem.log
 Thumbs.db
 
 #last commit changes
-/src/app/financial-aid
+./src/app/financial-aid
+.package.json
+.package-lock.json

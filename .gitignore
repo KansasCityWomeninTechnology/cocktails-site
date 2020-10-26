@@ -45,7 +45,5 @@ testem.log
 .DS_Store
 Thumbs.db
 
-#last commit changes
-./src/app/financial-aid
-.package.json
-.package-lock.json
+
+

@@ -9,7 +9,7 @@ export class FinancialAidComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }

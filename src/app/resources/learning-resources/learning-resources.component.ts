@@ -9,7 +9,7 @@ export class LearningResourcesComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() : void {
+  ngOnInit(): void {
   }
 
 }

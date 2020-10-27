@@ -13,7 +13,7 @@ export class ResourcesComponent implements OnInit {
     this.topics = TOPICS;
   }
 
-  ngOnInit() {
+  public ngOnInit(): void {
     // console.log(this.route);
   }
 

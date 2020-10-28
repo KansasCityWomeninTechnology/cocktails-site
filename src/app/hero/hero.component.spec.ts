@@ -24,7 +24,7 @@ describe('HeroComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should render title in a h1 tag', async(() => {
+  it('should render title in a h1 tag', waitForAsync(() => {
     expect(fixture.debugElement.query(By.css('h1')).nativeElement.textContent).toContain('Kansas City Women in Technology');
   }));
 });

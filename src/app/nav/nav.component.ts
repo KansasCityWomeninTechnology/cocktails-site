@@ -10,6 +10,10 @@ export class NavComponent implements OnInit {
 
   constructor() { }
 
+<<<<<<< HEAD
   ngOnInit() : void {
+=======
+  ngOnInit(): void {
+>>>>>>> 9aa05a67362282c99aa7e8523273e24613049903
   }
 }

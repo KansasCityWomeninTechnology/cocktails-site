@@ -77,8 +77,14 @@ export const SESSIONS: Session[] = [{
     name: 'Coding & Cocktails: Hacktoberfest - ONLINE EVENT',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-hacktoberfest-2020-tickets-122505905461?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=122505905461&ref=ccweb'
+}, {
+    date: '2020-11-14',
+    time: '6:00-7:00pm',
+    name: 'Coding & Cocktails: Debugging & Troubleshooting - ONLINE EVENT',
+    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-debugging-troubleshooting-tickets-126355154669?aff=ccweb',
+    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=126355154669&ref=ccweb'
 }];
 
 // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
 // for 2020 just put the index of the item in the session array + 1. 2020 is special.
-export const UPCOMING_SESSION_MONTH = 6;
+export const UPCOMING_SESSION_MONTH = 7;

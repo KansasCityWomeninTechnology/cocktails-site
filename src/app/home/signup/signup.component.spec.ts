@@ -4,6 +4,7 @@ import { SignupComponent } from './signup.component';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { Session } from '@data/sessions';
 import { Venue } from '@data/about';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 describe('SignupComponent', () => {
   let component: SignupComponent;
@@ -30,6 +31,9 @@ describe('SignupComponent', () => {
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [SignupComponent],
+      imports: [
+        GoogleMapsModule
+      ],
       schemas: [CUSTOM_ELEMENTS_SCHEMA]
     })
       .compileComponents();

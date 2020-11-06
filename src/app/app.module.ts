@@ -6,7 +6,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
-import { MapModule } from './shared/map/map.module';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -31,6 +30,7 @@ import { SignupComponent } from './home/signup/signup.component';
 import { ToolsComponent } from './resources/tools/tools.component';
 import { CurriculumComponent } from './resources/curriculum/curriculum.component';
 import { LearningResourcesComponent } from './resources/learning-resources/learning-resources.component';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 
 @NgModule({
@@ -60,14 +60,14 @@ import { LearningResourcesComponent } from './resources/learning-resources/learn
     HttpClientModule,
     HttpClientJsonpModule,
     AppRoutingModule,
-    MapModule,
     BsDropdownModule.forRoot(),
     CollapseModule.forRoot(),
     NgxPageScrollCoreModule,
     BrowserAnimationsModule,
     MatSnackBarModule,
     MatButtonModule,
-    MatInputModule
+    MatInputModule,
+    GoogleMapsModule
   ],
   entryComponents: [
     MentorSubmitResponseComponent

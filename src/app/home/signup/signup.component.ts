@@ -14,7 +14,18 @@ export class SignupComponent implements OnInit {
   @Input() public sessions: Session[];
   @Input() public upcomingSessionMonth: number;
 
-  public zm = 15;
+  public zoom = 15;
+
+  public mapOptions: google.maps.MapOptions = {
+    mapTypeControl: false,
+    streetViewControl: false,
+    fullscreenControl: false
+  };
+
+  public mapMarkerOptions: google.maps.MarkerOptions = {
+    animation: google.maps.Animation.DROP
+  };
+
   public upcomingSessionTicketLink: SafeResourceUrl;
   public upcomingSession: Session;
 

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { async, ComponentFixture, fakeAsync, inject, TestBed, tick } from '@angular/core/testing';
+import { ComponentFixture, fakeAsync, inject, TestBed, tick, waitForAsync } from '@angular/core/testing';
 import { NavigationEnd, NavigationStart, Router, RouterEvent, Scroll } from '@angular/router';
 import { Subject } from 'rxjs';
 
@@ -27,7 +27,7 @@ describe('ScrollToFragmentDirective', () => {
       events: routerEventSub$.asObservable(),
     };
 
-    beforeEach(async(() => {
+    beforeEach(waitForAsync(() => {
       TestBed.configureTestingModule({
         imports: [
           NgxPageScrollCoreModule,
@@ -73,7 +73,7 @@ describe('ScrollToFragmentDirective', () => {
       events: routerEventSub$.asObservable(),
     };
 
-    beforeEach(async(() => {
+    beforeEach(waitForAsync(() => {
       TestBed.configureTestingModule({
         imports: [
           NgxPageScrollCoreModule,

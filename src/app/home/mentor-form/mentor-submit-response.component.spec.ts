@@ -1,4 +1,4 @@
-import { async, ComponentFixture, inject, TestBed } from '@angular/core/testing';
+import { ComponentFixture, inject, TestBed, waitForAsync } from '@angular/core/testing';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { By } from '@angular/platform-browser';
 
@@ -11,7 +11,7 @@ describe('MentorSubmitResponseComponent when response is successful', () => {
   let component: MentorSubmitResponseComponent;
   let fixture: ComponentFixture<MentorSubmitResponseComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       imports: [
         MatSnackBarModule,
@@ -56,7 +56,7 @@ describe('MentorSubmitResponseComponent when response is unsuccessful', () => {
   };
   let snackBarSpy: jasmine.Spy;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       imports: [
         MatSnackBarModule,

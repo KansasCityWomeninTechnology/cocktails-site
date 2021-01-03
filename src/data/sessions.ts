@@ -42,49 +42,72 @@ export interface Session {
 }
 
 export const SESSIONS: Session[] = [{
-    date: '2020-02-08',
-    time: '5-9pm',
-    name: 'The Glass: Front-end Architecture And Introduction to HTML',
-    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-the-glass-front-end-architecture-html-tickets-85367579729?aff=ccweb',
-    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=85367579729&ref=ccweb'
+    date: '2021-01-09',
+    time: '6-7:30pm',
+    name: 'Coding & Cocktails: Ask a Developer Anything - ONLINE EVENT',
+    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-ask-a-developer-anything-tickets-134052932931?aff=ccweb',
+    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=134052932931&ref=ccweb'
 }, {
-    date: '2020-06-27',
-    time: '6-6:40pm',
-    name: 'Coding & Cocktails: Hangout - ONLINE EVENT',
-    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-hangout-sesh-tickets-110403716488?aff=ccweb',
-    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=110403716488&ref=ccweb'
+    date: '2021-02-13',
+    time: '6-7:30pm',
+    name: 'Coding & Cocktails: Scrum Methodologies - ONLINE EVENT',
+    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
+    eventbriteIFrameLink: ''
 }, {
-    date: '2020-07-18',
-    time: '6-7pm',
-    name: 'Coding & Cocktails: Mixer - ONLINE EVENT',
-    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-mixer-tickets-113578530442?aff=ccweb',
-    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=113578530442&ref=ccweb'
+    date: '2021-03-13',
+    time: '6-7:30pm',
+    name: 'Coding & Cocktails: TBD - ONLINE EVENT',
+    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
+    eventbriteIFrameLink: ''
 }, {
-    date: '2020-08-08',
-    time: '6-7pm',
-    name: 'Coding & Cocktails: Brag Book Workshop - ONLINE EVENT',
-    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-brag-book-workshop-tickets-114620093786?aff=ccweb',
-    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=114620093786&ref=ccweb'
+    date: '2021-04-10',
+    time: '6-7:30pm',
+    name: 'Coding & Cocktails: TBD - ONLINE EVENT',
+    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
+    eventbriteIFrameLink: ''
 }, {
-    date: '2020-09-12',
-    time: '6-7pm',
-    name: 'Coding & Cocktails: Preptember - ONLINE EVENT',
-    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-preptember-tickets-119563340169?aff=ccweb',
-    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=119563340169&ref=ccweb'
+    date: '2021-05-08',
+    time: '6-7:30pm',
+    name: 'Coding & Cocktails: TBD - ONLINE EVENT',
+    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
+    eventbriteIFrameLink: ''
 }, {
-    date: '2020-10-10',
-    time: '5:30-8:30pm',
-    name: 'Coding & Cocktails: Hacktoberfest - ONLINE EVENT',
-    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-hacktoberfest-2020-tickets-122505905461?aff=ccweb',
-    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=122505905461&ref=ccweb'
+    date: '2021-06-12',
+    time: '6-7:30pm',
+    name: 'Coding & Cocktails: TBD - ONLINE EVENT',
+    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
+    eventbriteIFrameLink: ''
 }, {
-    date: '2020-11-14',
-    time: '6:00-7:00pm',
-    name: 'Coding & Cocktails: Debugging & Troubleshooting - ONLINE EVENT',
+    date: '2021-07-10',
+    time: '6:00-7:30:pm',
+    name: 'Coding & Cocktails: TBD',
+    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
+    eventbriteIFrameLink: ''
+}, {
+    date: '2021-08-14',
+    time: '6:00-7:30pm',
+    name: 'Coding & Cocktails: TBD',
+    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
+    eventbriteIFrameLink: ''
+}, {
+    date: '2020-09-11',
+    time: '6:00-7:30pm',
+    name: 'Coding & Cocktails: TBD',
+    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
+    eventbriteIFrameLink: ''
+}, {
+    date: '2021-10-09',
+    time: '6:00-7:30pm',
+    name: 'Coding & Cocktails: TBD',
     eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-debugging-troubleshooting-tickets-126355154669?aff=ccweb',
-    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=126355154669&ref=ccweb'
+    eventbriteIFrameLink: ''
+}, {
+    date: '2021-11-13',
+    time: '6:00-7:30pm',
+    name: 'Coding & Cocktails: TBD',
+    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-debugging-troubleshooting-tickets-126355154669?aff=ccweb',
+    eventbriteIFrameLink: ''
 }];
 
 // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
-// for 2020 just put the index of the item in the session array + 1. 2020 is special.
-export const UPCOMING_SESSION_MONTH = 7;
+export const UPCOMING_SESSION_MONTH = 1;

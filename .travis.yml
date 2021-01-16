@@ -1,14 +1,17 @@
 language: node_js
 node_js:
-  - '12'
+- '12'
 branches:
   only:
   - master
 install:
-  - npm install -g firebase-tools
-  - npm install -g @angular/cli@10.1.6
+- npm install -g firebase-tools
+- npm install -g @angular/cli@10.1.6
 script:
-  - npm ci
-  - npm run build
+- npm ci
+- npm run build
 after_success:
-  - firebase deploy
+- firebase deploy
+env:
+  global:
+    secure: QxcFg2C9Omh0BPUhfMxeAXVOD8UpCchdFbPPPHOq7NkTtoNJ+kj4rf5J/5M5pDR1DBCsgZvoDY5Xns9LB9vJETNPlvlfVwWx9fxrvT/fEWUVNzMk4anm+F80kMZzK5Y5AARNZrfMGo8DDJogfZCYLXZxcQWBYF45Iq4vN7GipUdVKE8/S4WHqD7wN9lSRWKInzjxl9baZ6bSePCIODAi9zz+nvgK0vbfCppw8+XCCbs15Ckg34ZWbSUlHmS8TgHJ2OQhg4kXRsE9rqIxhPZCEBs0q6O5hr2LxXo7Ax+WZTxs6T/f1cIfoMurKir0eyRRlpzbLlLFqjb6ZoTnSBm0Ah14MUKeWKo3SxS+/g9Ft1bdjM3R2gGH4otit7PueISAwieejGy2xkSJcqeaUvho2Jkp3NGoE1jbrLJDhuNBiuqpzdmiL1VXEiavDQheUmZ0moYij+Hss4plZrTts8VYLxtrkk3GTCogk5zfSX9EWsNDCqD9cTkUc0JxRuT3NdYtitAni7icvZQrzsLNb9lsi2WcmQZAeFPohVciDICNyw7ZbhVu1J06dkQWVeykFqyQDmUeDeDhA2iWE0v1OETiyBOFJtRqWhjA8LaaW0qxQOLqPm8OG6g2plRdAdZjFQ7YFFeB2b80azwJkwkuAgyC/gxv3qycvo3t3FV8Tf0grd0=

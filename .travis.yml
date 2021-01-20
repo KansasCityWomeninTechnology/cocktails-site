@@ -1,24 +1,21 @@
 language: node_js
-
 node_js:
 - '12'
+env:
+  global:
+    - GOOGLE_APPLICATION_CREDENTIALS="${PWD}/client_secrets.json"
 
 branches:
   only:
   - master
-
 before_install:
-  - openssl aes-256-cbc -K $encrypted_25b200caff90_key -iv $encrypted_25b200caff90_iv
-    -in client_secrets.json.enc -out client_secrets.json -d
-
+- openssl aes-256-cbc -K $encrypted_25b200caff90_key -iv $encrypted_25b200caff90_iv
+  -in client_secrets.json.enc -out client_secrets.json -d
 install:
 - npm install -g firebase-tools
 - npm install -g @angular/cli@10.1.6
-
 script:
 - npm ci
 - npm run build
-
 after_success:
 - firebase deploy
-

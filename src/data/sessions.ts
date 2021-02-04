@@ -51,8 +51,8 @@ export const SESSIONS: Session[] = [{
     date: '2021-02-13',
     time: '6-7:30pm',
     name: 'Coding & Cocktails: Scrum Methodologies - ONLINE EVENT',
-    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
-    eventbriteIFrameLink: ''
+    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-agile-methodologies-tickets-138146787761?aff=ccweb',
+    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=138146787761&ref=ccweb'
 }, {
     date: '2021-03-13',
     time: '6-7:30pm',
@@ -110,4 +110,4 @@ export const SESSIONS: Session[] = [{
 }];
 
 // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
-export const UPCOMING_SESSION_MONTH = 1;
+export const UPCOMING_SESSION_MONTH = 2;

@@ -25,22 +25,16 @@ export const LEADERS: Hero[] = [
     twitter: 'amynorris'
   },
   {
-    name: 'Kayla Hennegin',
+    name: 'Alisa Duncan',
     title: 'Curriculum Director',
-    img: 'assets/images/mentors/kayla.png',
-    twitter: 'codecocktailskc'
+    img: 'assets/images/mentors/alisa.jpg',
+    twitter: 'AlisaDuncan'
   },
   {
     name: 'Gabi Dombrowski',
     title: 'Mentor Director',
     img: 'assets/images/mentors/gabi.jpg',
     twitter: 'gabdom'
-  },
-  {
-    name: 'Alisa Duncan',
-    title: 'Technical Materials Director',
-    img: 'assets/images/mentors/alisa.jpg',
-    twitter: 'AlisaDuncan'
   },
   {
     name: 'Kallie Riff',
@@ -104,6 +98,12 @@ export const MENTORS: Hero[] = [
     title: 'Mentor',
     img: 'assets/images/mentors/erin.jpg',
     twitter: 'erin_wilson92'
+  },
+  {
+    name: 'Kayla Hennegin',
+    title: 'Mentor',
+    img: 'assets/images/mentors/kayla.png',
+    twitter: 'codecocktailskc'
   },
   {
     name: 'Gabby Ortman',

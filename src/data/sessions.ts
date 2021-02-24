@@ -55,26 +55,26 @@ export const SESSIONS: Session[] = [{
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=138146787761&ref=ccweb'
 }, {
     date: '2021-03-13',
-    time: '6-7:30pm',
-    name: 'Coding & Cocktails: TBD - ONLINE EVENT',
-    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
-    eventbriteIFrameLink: ''
+    time: '7-9pm',
+    name: 'Coding & Cocktails: Angular Pt. 1: SPA Day (Intro to Single Page Applications)',
+    eventbriteLink: 'https://www.eventbrite.com/e/angular-pt-1-spa-day-intro-to-single-page-applications-tickets-142440253633',
+    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=142440253633&ref=ccweb'
 }, {
     date: '2021-04-10',
-    time: '6-7:30pm',
-    name: 'Coding & Cocktails: TBD - ONLINE EVENT',
+    time: '7-9pm',
+    name: 'Coding & Cocktails: Angular Pt. 2: Playing with Blocks (Angular Components)',
     eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
     eventbriteIFrameLink: ''
 }, {
     date: '2021-05-08',
-    time: '6-7:30pm',
-    name: 'Coding & Cocktails: TBD - ONLINE EVENT',
+    time: '7-9pm',
+    name: 'Coding & Cocktails: Angular Pt. 3: Fake It ’Til You Make It (Data Binding & DOM Manipulation)',
     eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
     eventbriteIFrameLink: ''
 }, {
     date: '2021-06-12',
-    time: '6-7:30pm',
-    name: 'Coding & Cocktails: TBD - ONLINE EVENT',
+    time: '7-9pm',
+    name: 'Coding & Cocktails: Angular Pt. 4: Go Fetch (APIs)',
     eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
     eventbriteIFrameLink: ''
 }, {
@@ -110,4 +110,4 @@ export const SESSIONS: Session[] = [{
 }];
 
 // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
-export const UPCOMING_SESSION_MONTH = 2;
+export const UPCOMING_SESSION_MONTH = 3;

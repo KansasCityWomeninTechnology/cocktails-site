@@ -7,9 +7,9 @@ export interface Topic {
 
 export const TOPICS: Topic[] = [{
     name: 'Angular Pt. 1: SPA Day (Intro to Single Page Applications)',
-    slidesLink: 'http://bit.ly/cnchtmlslide',
+    slidesLink: 'http://codingandcocktails.herokuapp.com/angular-series/01/single-page-apps.html#/',
     worksheetLink: 'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/spa/1scaffold/',
-    areLinksEnabled: false
+    areLinksEnabled: true
 }, {
     name: 'Angular Pt. 2: Playing with Blocks (Angular Components)',
     slidesLink: 'http://bit.ly/cnccssslides',

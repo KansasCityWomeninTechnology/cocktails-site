@@ -6,32 +6,26 @@ export interface Topic {
 }
 
 export const TOPICS: Topic[] = [{
-    name: 'The Glass: HTML',
+    name: 'Angular Pt. 1: SPA Day (Intro to Single Page Applications)',
     slidesLink: 'http://bit.ly/cnchtmlslide',
-    worksheetLink: 'http://bit.ly/cnchtmlwork',
+    worksheetLink: 'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/spa/1scaffold/',
     areLinksEnabled: false
 }, {
-    name: 'The Garnish: CSS',
+    name: 'Angular Pt. 2: Playing with Blocks (Angular Components)',
     slidesLink: 'http://bit.ly/cnccssslides',
-    worksheetLink: 'http://bit.ly/cnccsswork',
+    worksheetLink: 'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/spa/2component/',
     areLinksEnabled: false
 }, {
-    name: 'The Liquor: JavaScript',
-    slidesLink: 'http://bit.ly/cncjavascriptslides',
+    name: 'Angular Pt. 3: Fake It ’Til You Make It (Data Binding & DOM Manipulation)',
+    slidesLink: 'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/spa/3data-structure/',
     worksheetLink: 'http://bit.ly/cncjavascriptwork',
     areLinksEnabled: false
 }, {
-    name: 'Enjoy! CodeJam',
-    slidesLink: 'http://bit.ly/CnCNovSlides',
+    name: 'Angular Pt. 4: Go Fetch (APIs)',
+    slidesLink: 'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/spa/4services-api/',
     worksheetLink: 'http://bit.ly/cncenjoywork', // not created yet. jam work?? need to figure out name
     areLinksEnabled: false
-}, {
-  name: 'The Bartender: APIs',
-  slidesLink: 'http://bit.ly/CnCSepSlides',
-  worksheetLink: 'http://bit.ly/cncapiwork', // not created yet
-  areLinksEnabled: false
-}
-];
+}];
 
 export interface Session {
     date: string;

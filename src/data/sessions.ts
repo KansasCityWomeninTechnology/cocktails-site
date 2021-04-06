@@ -17,13 +17,13 @@ export const TOPICS: Topic[] = [{
     areLinksEnabled: false
 }, {
     name: 'Angular Pt. 3: Fake It ’Til You Make It (Data Binding & DOM Manipulation)',
-    slidesLink: 'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/spa/3data-structure/',
-    worksheetLink: 'http://bit.ly/cncjavascriptwork',
+    slidesLink: 'http://bit.ly/cnccssslides',
+    worksheetLink: 'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/spa/3data/',
     areLinksEnabled: false
 }, {
     name: 'Angular Pt. 4: Go Fetch (APIs)',
-    slidesLink: 'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/spa/4services-api/',
-    worksheetLink: 'http://bit.ly/cncenjoywork', // not created yet. jam work?? need to figure out name
+    slidesLink: 'http://bit.ly/cnccssslides',
+    worksheetLink: 'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/spa/4service/',
     areLinksEnabled: false
 }];
 

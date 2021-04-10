@@ -12,9 +12,9 @@ export const TOPICS: Topic[] = [{
     areLinksEnabled: true
 }, {
     name: 'Angular Pt. 2: Playing with Blocks (Angular Components)',
-    slidesLink: 'http://bit.ly/cnccssslides',
+    slidesLink: 'http://codingandcocktails.herokuapp.com/angular-series/02/building-blocks.html#/',
     worksheetLink: 'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/spa/2component/',
-    areLinksEnabled: false
+    areLinksEnabled: true
 }, {
     name: 'Angular Pt. 3: Fake It ’Til You Make It (Data Binding & DOM Manipulation)',
     slidesLink: 'http://bit.ly/cnccssslides',

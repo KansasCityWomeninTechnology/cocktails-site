@@ -104,4 +104,4 @@ export const SESSIONS: Session[] = [{
 }];
 
 // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
-export const UPCOMING_SESSION_MONTH = 4;
+export const UPCOMING_SESSION_MONTH = 5;

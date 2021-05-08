@@ -17,9 +17,9 @@ export const TOPICS: Topic[] = [{
     areLinksEnabled: true
 }, {
     name: 'Angular Pt. 3: Fake It ’Til You Make It (Data Binding & DOM Manipulation)',
-    slidesLink: 'http://bit.ly/cnccssslides',
+    slidesLink: 'http://codingandcocktails.herokuapp.com/angular-series/03/fake-it.html#/',
     worksheetLink: 'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/spa/3data/',
-    areLinksEnabled: false
+    areLinksEnabled: true
 }, {
     name: 'Angular Pt. 4: Go Fetch (APIs)',
     slidesLink: 'http://bit.ly/cnccssslides',

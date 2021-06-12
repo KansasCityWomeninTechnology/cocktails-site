@@ -22,9 +22,9 @@ export const TOPICS: Topic[] = [{
     areLinksEnabled: true
 }, {
     name: 'Angular Pt. 4: Go Fetch (APIs)',
-    slidesLink: 'http://bit.ly/cnccssslides',
+    slidesLink: 'http://codingandcocktails.herokuapp.com/angular-series/04/go-fetch.html#/',
     worksheetLink: 'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/spa/4service/',
-    areLinksEnabled: false
+    areLinksEnabled: true
 }];
 
 export interface Session {

@@ -72,17 +72,11 @@ export const SESSIONS: Session[] = [{
     eventbriteLink: 'https://www.eventbrite.com/e/angular-pt-4-go-fetch-apis-tickets-142441537473?aff=ccweb',
     eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=142441537473&ref=ccweb'
 }, {
-    date: '2021-07-10',
-    time: '6:00-7:30:pm',
-    name: 'Coding & Cocktails: TBD',
-    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
-    eventbriteIFrameLink: ''
-}, {
     date: '2021-08-14',
-    time: '6:00-7:30pm',
-    name: 'Coding & Cocktails: TBD',
-    eventbriteLink: 'https://www.eventbrite.com/o/coding-amp-cocktails-kansas-city-8343130945',
-    eventbriteIFrameLink: ''
+    time: '6:00-9pm',
+    name: 'Coding & Cocktails: Game Night',
+    eventbriteLink: 'https://www.eventbrite.com/e/coding-cocktails-virtual-game-night-tickets-164226617233?aff=ccweb',
+    eventbriteIFrameLink: '//eventbrite.com/tickets-external?eid=164226617233&ref=ccweb'
 }, {
     date: '2020-09-11',
     time: '6:00-7:30pm',
@@ -104,4 +98,5 @@ export const SESSIONS: Session[] = [{
 }];
 
 // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
-export const UPCOMING_SESSION_MONTH = 6;
+// the minus one is because we skipped July
+export const UPCOMING_SESSION_MONTH = 8 - 1;

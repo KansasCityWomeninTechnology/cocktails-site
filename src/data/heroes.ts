@@ -178,7 +178,7 @@ export const MENTORS: Hero[] = [
     twitter: 'codecocktailskc'
   },
   {
-    name: 'Amy Norris',
+    name: 'Rachel Hagan',
     title: 'Mentor',
     img: 'assets/images/mentors/rachelh.jpg',
     twitter: 'codecocktailskc'

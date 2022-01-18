@@ -13,14 +13,8 @@ export const LEADERS: Hero[] = [
     twitter: 'likeOMGitsFEDAY'
   },
   {
-    name: 'Rachel Hagan',
-    title: 'Program Director',
-    img: 'assets/images/mentors/rachelh.jpg',
-    twitter: 'codecocktailskc'
-  },
-  {
     name: 'Amy Norris',
-    title: 'Co Director',
+    title: 'Director',
     img: 'assets/images/mentors/amy.jpg',
     twitter: 'amynorris'
   },
@@ -182,5 +176,11 @@ export const MENTORS: Hero[] = [
     title: 'Mentor',
     img: 'assets/images/mentors/malerie.jpg',
     twitter: 'codecocktailskc'
-  }
+  },
+  {
+    name: 'Amy Norris',
+    title: 'Mentor',
+    img: 'assets/images/mentors/rachelh.jpg',
+    twitter: 'codecocktailskc'
+  },
 ];

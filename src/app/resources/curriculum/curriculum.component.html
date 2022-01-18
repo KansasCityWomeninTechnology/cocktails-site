@@ -1,19 +1,22 @@
 <section id="curriculum">
   <div class="list">
     <h3>Slides &amp; Worksheets</h3>
-    <table class="tocTable">
-      <tr *ngFor="let topic of topics">
-        <td style="text-align: left;">{{topic.name}}</td>
-        <ng-template [ngIf]="!topic.areLinksEnabled" [ngIfElse]="available">
-          <td><span class="slidesAndWorksheets">slides</span></td>
-          <td><span class="slidesAndWorksheets">worksheet</span></td>
-        </ng-template>
+      <table class="tocTable" *ngIf="topics.length > 0; else nocontent">
+        <tr *ngFor="let topic of topics">
+          <td style="text-align: left;">{{topic.name}}</td>
+          <ng-template [ngIf]="!topic.areLinksEnabled" [ngIfElse]="available">
+            <td><span class="slidesAndWorksheets">slides</span></td>
+            <td><span class="slidesAndWorksheets">worksheet</span></td>
+          </ng-template>
 
-        <ng-template #available>
-          <td><a href="{{topic.slidesLink}}" class="listlink" target="_blank">slides</a></td>
-          <td><a href="{{topic.worksheetLink}}" class="listlink" target="_blank">worksheet</a></td>
-        </ng-template>
-      </tr>
-    </table>
-  </div>
+          <ng-template #available>
+            <td><a href="{{topic.slidesLink}}" class="listlink" target="_blank">slides</a></td>
+            <td><a href="{{topic.worksheetLink}}" class="listlink" target="_blank">worksheet</a></td>
+          </ng-template>
+        </tr>
+      </table>
+    <ng-template #nocontent>
+      <h5>Slides and worksheets aren't available yet, but check back again soon.</h5>
+    </ng-template>
+      </div>
 </section>

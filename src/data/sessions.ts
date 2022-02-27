@@ -10,7 +10,7 @@ export const TOPICS: Topic[] = [
     name: 'Intro to HTML',
     slidesLink: '',
     worksheetLink:
-      'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/',
+      'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
     areLinksEnabled: false,
   },
 ];

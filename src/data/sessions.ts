@@ -11,7 +11,7 @@ export const TOPICS: Topic[] = [
     slidesLink: '',
     worksheetLink:
       'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/',
-    areLinksEnabled: true,
+    areLinksEnabled: false,
   },
 ];
 

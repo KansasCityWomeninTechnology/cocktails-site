@@ -25,13 +25,13 @@ export interface Session {
 
 export const SESSIONS: Session[] = [
   {
-    date: '2022-02-12',
+    date: '2022-03-12',
     time: '7-9pm',
-    name: 'Coding & Cocktails: Next Level GitHub Profiles - ONLINE EVENT',
+    name: 'Coding & Cocktails: The Glass | Front-end Architecture & HTML - ONLINE EVENT',
     eventbriteLink:
-      'https://www.eventbrite.com/e/coding-cocktails-next-level-github-profiles-tickets-236232948107?aff=ccweb',
+      'https://www.eventbrite.com/e/coding-cocktails-the-glass-front-end-architecture-html-tickets-278402879507?aff=ccweb',
     eventbriteIFrameLink:
-      '//eventbrite.com/tickets-external?eid=236232948107&ref=ccweb',
+      '//eventbrite.com/tickets-external?eid=278402879507&ref=ccweb',
   },
 ];
 

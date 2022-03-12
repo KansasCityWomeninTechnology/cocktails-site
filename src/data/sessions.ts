@@ -8,10 +8,10 @@ export interface Topic {
 export const TOPICS: Topic[] = [
   {
     name: 'Intro to HTML',
-    slidesLink: '',
+    slidesLink: 'https://codingandcocktails.herokuapp.com/01-glasswork/front-end-html.html#/',
     worksheetLink:
       'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
-    areLinksEnabled: false,
+    areLinksEnabled: true,
   },
 ];
 

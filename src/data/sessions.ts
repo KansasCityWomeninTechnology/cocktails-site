@@ -42,7 +42,7 @@ export const SESSIONS: Session[] = [
     eventbriteIFrameLink:
       '//eventbrite.com/tickets-external?eid=278402879507&ref=ccweb',
   },
-        {
+  {
     date: '2022-04-09',
     time: '7-9pm',
     name: 'Coding & Cocktails: The Bar | Open Source - ONLINE EVENT',

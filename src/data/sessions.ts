@@ -51,10 +51,10 @@ export const SESSIONS: Session[] = [
     eventbriteIFrameLink:
       '//eventbrite.com/tickets-external?eid=307775664297&ref=ccweb',
   },
-    {
+  {
     date: '2022-05-14',
     time: '7-9pm',
-    name: 'Coding & Cocktails: The Garnish | Introduction to CS - ONLINE EVENT',
+    name: 'Coding & Cocktails: The Garnish | Introduction to CSS - ONLINE EVENT',
     eventbriteLink:
       'https://www.eventbrite.com/e/coding-cocktails-the-garnish-introduction-to-css-tickets-331557636817?aff=ccweb',
     eventbriteIFrameLink:

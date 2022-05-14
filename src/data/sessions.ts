@@ -12,7 +12,7 @@ export const TOPICS: Topic[] = [
       'http://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/css-series/css-series-01.html#/',
     worksheetLink:
       'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
-    areLinksEnabled: false,
+    areLinksEnabled: true,
   },
 ];
 

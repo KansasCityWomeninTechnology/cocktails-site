@@ -7,11 +7,12 @@ export interface Topic {
 
 export const TOPICS: Topic[] = [
   {
-    name: 'Intro to HTML',
-    slidesLink: 'https://codingandcocktails.herokuapp.com/01-glasswork/front-end-html.html#/',
+    name: 'The Garnish | Introduction to CSS',
+    slidesLink:
+      'http://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/css-series/css-series-01.html#/',
     worksheetLink:
       'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
-    areLinksEnabled: true,
+    areLinksEnabled: false,
   },
 ];
 
@@ -24,7 +25,7 @@ export interface Session {
 }
 
 export const SESSIONS: Session[] = [
-    {
+  {
     date: '2022-02-12',
     time: '7-9pm',
     name: 'Coding & Cocktails: Next Level GitHub Profiles - ONLINE EVENT',

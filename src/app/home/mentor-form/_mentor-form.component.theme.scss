@@ -1,3 +1,4 @@
+@use '~@angular/material' as mat;
 @import '~@angular/material/theming';
 
 @mixin mentor-form-theme($theme) {
@@ -7,10 +8,10 @@
   form {
     .mat-form-field-appearance-outline {
       .mat-form-field-outline {
-        background-color: mat-color($background, background);
+        background-color: mat.get-color-from-palette($background, background);
         border-radius: 5px;
       }
-      color: mat-color($foreground, text);
+      color: mat.get-color-from-palette($foreground, text);
     }
   }
 }

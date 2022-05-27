@@ -72,7 +72,7 @@ describe('MentorSubmitResponseComponent when response is unsuccessful', () => {
       .compileComponents();
   }));
 
-  beforeEach(inject([MatSnackBarRef], (snackBarRefFake) => {
+  beforeEach(inject([MatSnackBarRef], (snackBarRefFake:any) => {
     snackBarSpy = spyOn(snackBarRefFake, 'dismiss');
     fixture = TestBed.createComponent(MentorSubmitResponseComponent);
     component = fixture.componentInstance;

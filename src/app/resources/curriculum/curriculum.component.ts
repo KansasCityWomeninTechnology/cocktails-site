@@ -7,7 +7,7 @@ import { Topic } from '@data/sessions';
   styleUrls: ['./curriculum.component.scss']
 })
 export class CurriculumComponent implements OnInit {
-  @Input() public topics: Topic[];
+  @Input() public topics: Topic[] = [];
 
   constructor() { }
 

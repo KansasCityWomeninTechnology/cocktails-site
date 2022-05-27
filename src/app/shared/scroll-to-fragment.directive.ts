@@ -1,6 +1,6 @@
 import { Directive, Inject, OnInit } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
-import { NavigationEnd, Router, Scroll } from '@angular/router';
+import { Router, Scroll } from '@angular/router';
 import { Observable } from 'rxjs';
 import { filter } from 'rxjs/operators';
 import { PageScrollService } from 'ngx-page-scroll-core';
@@ -12,11 +12,10 @@ export class ScrollToFragmentDirective implements OnInit {
 
   private navScroll$: Observable<Scroll>;
 
-  constructor(router: Router, private scroller: PageScrollService, @Inject(DOCUMENT) private document) {
+  constructor(router: Router, private scroller: PageScrollService, @Inject(DOCUMENT) private document:Document) {
     this.navScroll$ = router.events
       .pipe(
-        filter(event => event instanceof Scroll),
-        filter((scroll: Scroll) => !!scroll.anchor)
+        filter(evt => evt instanceof Scroll && !!evt.anchor),
       ) as Observable<Scroll>;
   }
 

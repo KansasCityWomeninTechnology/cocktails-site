@@ -8,7 +8,7 @@ import { Tool } from '@data/about';
 })
 export class CodeComponent implements OnInit {
 
-  @Input() public tools: Tool[];
+  @Input() public tools: Tool[] = [];
 
   constructor() { }
 

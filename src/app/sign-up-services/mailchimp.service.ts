@@ -18,7 +18,7 @@ export class MailchimpService {
 
   public submitForm(url: string, formData: FormData[]): Observable<SubscribeResponse> {
     let params = new HttpParams();
-    formData.forEach(d => params = params.set(d.fieldName, d.fieldValue));
+    formData.forEach(d => params = params.set(d.fieldName, d.fieldValue ?? ''));
     url += params.toString();
 
     return this.jsonp.jsonp<MailChimpResponse>(url, 'c').pipe(

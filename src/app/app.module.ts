@@ -34,44 +34,41 @@ import { GoogleMapsModule } from '@angular/google-maps';
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavComponent,
-    FinancialAidComponent,
-    ResourcesComponent,
-    HomeComponent,
-    FooterComponent,
-    ContactComponent,
-    HeroComponent,
-    MentorFormComponent,
-    MentorSubmitResponseComponent,
-    ScrollToFragmentDirective,
-    CodeComponent,
-    CocktailsComponent,
-    MentorsComponent,
-    SignupComponent,
-    ToolsComponent,
-    CurriculumComponent,
-    LearningResourcesComponent,
-  ],
-  imports: [
-    BrowserModule,
-    ReactiveFormsModule,
-    HttpClientModule,
-    HttpClientJsonpModule,
-    AppRoutingModule,
-    BsDropdownModule.forRoot(),
-    CollapseModule.forRoot(),
-    NgxPageScrollCoreModule,
-    BrowserAnimationsModule,
-    MatSnackBarModule,
-    MatButtonModule,
-    MatInputModule,
-    GoogleMapsModule
-  ],
-  entryComponents: [
-    MentorSubmitResponseComponent
-  ],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        NavComponent,
+        FinancialAidComponent,
+        ResourcesComponent,
+        HomeComponent,
+        FooterComponent,
+        ContactComponent,
+        HeroComponent,
+        MentorFormComponent,
+        MentorSubmitResponseComponent,
+        ScrollToFragmentDirective,
+        CodeComponent,
+        CocktailsComponent,
+        MentorsComponent,
+        SignupComponent,
+        ToolsComponent,
+        CurriculumComponent,
+        LearningResourcesComponent,
+    ],
+    imports: [
+        BrowserModule,
+        ReactiveFormsModule,
+        HttpClientModule,
+        HttpClientJsonpModule,
+        AppRoutingModule,
+        BsDropdownModule.forRoot(),
+        CollapseModule.forRoot(),
+        NgxPageScrollCoreModule,
+        BrowserAnimationsModule,
+        MatSnackBarModule,
+        MatButtonModule,
+        MatInputModule,
+        GoogleMapsModule
+    ],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }

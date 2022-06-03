@@ -33,10 +33,10 @@ export class MentorFormComponent implements OnInit {
     }
 
     this.service.submitForm(environment.mentorSignup.url, [
-      { fieldName: 'EMAIL', fieldValue: this.signUpForm.get('email').value },
-      { fieldName: 'FNAME', fieldValue: this.signUpForm.get('firstName').value },
-      { fieldName: 'LNAME', fieldValue: this.signUpForm.get('lastName').value },
-      { fieldName: environment.mentorSignup.bot, fieldValue: this.signUpForm.get('botField').value },
+      { fieldName: 'EMAIL', fieldValue: this.signUpForm.get('email')?.value },
+      { fieldName: 'FNAME', fieldValue: this.signUpForm.get('firstName')?.value },
+      { fieldName: 'LNAME', fieldValue: this.signUpForm.get('lastName')?.value },
+      { fieldName: environment.mentorSignup.bot, fieldValue: this.signUpForm.get('botField')?.value },
     ]).subscribe(
       (r: SubscribeResponse) => {
         const duration = r.result === 'SUCCESS' ? 3000 : 5000;

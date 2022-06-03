@@ -10,9 +10,9 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 })
 export class SignupComponent implements OnInit {
 
-  @Input() public venue: Venue;
-  @Input() public sessions: Session[];
-  @Input() public upcomingSessionMonth: number;
+  @Input() public venue: Venue|undefined = undefined;
+  @Input() public sessions: Session[] = [];
+  @Input() public upcomingSessionMonth: number = 1;
 
   public zoom = 15;
 
@@ -26,8 +26,8 @@ export class SignupComponent implements OnInit {
     animation: google.maps.Animation.DROP
   };
 
-  public upcomingSessionTicketLink: SafeResourceUrl;
-  public upcomingSession: Session;
+  public upcomingSessionTicketLink!: SafeResourceUrl;
+  public upcomingSession!: Session;
 
   constructor(private sanitizer: DomSanitizer) {
   }

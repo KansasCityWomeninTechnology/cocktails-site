@@ -7,8 +7,8 @@ import { Hero } from '@data/heroes';
   styleUrls: ['./mentors.component.scss']
 })
 export class MentorsComponent implements OnInit {
-  @Input() public leaders: Hero[];
-  @Input() public mentors: Hero[];
+  @Input() public leaders: Hero[] = [];
+  @Input() public mentors: Hero[] = [];
 
   constructor() { }
 

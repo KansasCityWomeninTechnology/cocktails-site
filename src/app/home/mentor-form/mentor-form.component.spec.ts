@@ -17,14 +17,14 @@ describe('MentorFormComponent', () => {
   let fixture: ComponentFixture<MentorFormComponent>;
 
   const mailchimpServiceFake = {
-    submitForm: (url, formData) => {
+    submitForm: (url: string, formData: FormData) => {
       return of({result: 'SUCCESS', message: 'Hi!'} as SubscribeResponse);
     }
   };
   let serviceSpy: jasmine.Spy;
 
   const snackBarFake = {
-    openFromComponent: (comp, config) => { }
+    openFromComponent: (comp: any, config: object) => { }
   };
   let snackBarSpy: jasmine.Spy;
 
@@ -69,44 +69,44 @@ describe('MentorFormComponent', () => {
 
     it('should require a valid email address', () => {
       const emailEntry = component.signUpForm.get('email');
-      expect(emailEntry.valid).toBeFalsy();
-      expect(emailEntry.hasError('required')).toBeTruthy();
-      emailEntry.setValue('blah');
-      expect(emailEntry.hasError('required')).toBeFalsy();
-      expect(emailEntry.hasError('email')).toBeTruthy();
-      emailEntry.setValue('email@email.com');
-      expect(emailEntry.hasError('email')).toBeFalsy();
-      expect(emailEntry.valid).toBeTruthy();
+      expect(emailEntry?.valid).toBeFalsy();
+      expect(emailEntry?.hasError('required')).toBeTruthy();
+      emailEntry?.setValue('blah');
+      expect(emailEntry?.hasError('required')).toBeFalsy();
+      expect(emailEntry?.hasError('email')).toBeTruthy();
+      emailEntry?.setValue('email@email.com');
+      expect(emailEntry?.hasError('email')).toBeFalsy();
+      expect(emailEntry?.valid).toBeTruthy();
     });
 
     it('should require a valid first name', () => {
       const firstNameEntry = component.signUpForm.get('firstName');
-      expect(firstNameEntry.valid).toBeFalsy();
-      expect(firstNameEntry.hasError('required')).toBeTruthy();
-      firstNameEntry.setValue('blah');
-      expect(firstNameEntry.hasError('required')).toBeFalsy();
-      expect(firstNameEntry.valid).toBeTruthy();
+      expect(firstNameEntry?.valid).toBeFalsy();
+      expect(firstNameEntry?.hasError('required')).toBeTruthy();
+      firstNameEntry?.setValue('blah');
+      expect(firstNameEntry?.hasError('required')).toBeFalsy();
+      expect(firstNameEntry?.valid).toBeTruthy();
     });
 
     it('should require a valid last name', () => {
       const lastNameEntry = component.signUpForm.get('lastName');
-      expect(lastNameEntry.valid).toBeFalsy();
-      expect(lastNameEntry.hasError('required')).toBeTruthy();
-      lastNameEntry.setValue('blah');
-      expect(lastNameEntry.hasError('required')).toBeFalsy();
-      expect(lastNameEntry.valid).toBeTruthy();
+      expect(lastNameEntry?.valid).toBeFalsy();
+      expect(lastNameEntry?.hasError('required')).toBeTruthy();
+      lastNameEntry?.setValue('blah');
+      expect(lastNameEntry?.hasError('required')).toBeFalsy();
+      expect(lastNameEntry?.valid).toBeTruthy();
     });
 
     it('should not require botField', () => {
       const bot = component.signUpForm.get('botField');
-      expect(bot.valid).toBeTruthy();
+      expect(bot?.valid).toBeTruthy();
     });
 
     it('should require email, first name, and last name', () => {
       expect(component.signUpForm.valid).toBeFalsy();
-      component.signUpForm.get('email').setValue('email@email.com');
-      component.signUpForm.get('firstName').setValue('Lady');
-      component.signUpForm.get('lastName').setValue('Dev');
+      component.signUpForm.get('email')?.setValue('email@email.com');
+      component.signUpForm.get('firstName')?.setValue('Lady');
+      component.signUpForm.get('lastName')?.setValue('Dev');
       expect(component.signUpForm.valid).toBeTruthy();
     });
 
@@ -133,18 +133,18 @@ describe('MentorFormComponent', () => {
         { fieldName: environment.mentorSignup.bot, fieldValue: '' },
       ];
 
-      component.signUpForm.get('email').setValue('email@email.com');
-      component.signUpForm.get('firstName').setValue('Lady');
-      component.signUpForm.get('lastName').setValue('Dev');
+      component.signUpForm.get('email')?.setValue('email@email.com');
+      component.signUpForm.get('firstName')?.setValue('Lady');
+      component.signUpForm.get('lastName')?.setValue('Dev');
 
       component.onSubmit();
       expect(serviceSpy).toHaveBeenCalledWith(environment.mentorSignup.url, expectedFormData);
     });
 
     it('opens snackbar for 3 seconds when successful', () => {
-      component.signUpForm.get('email').setValue('email@email.com');
-      component.signUpForm.get('firstName').setValue('Lady');
-      component.signUpForm.get('lastName').setValue('Dev');
+      component.signUpForm.get('email')?.setValue('email@email.com');
+      component.signUpForm.get('firstName')?.setValue('Lady');
+      component.signUpForm.get('lastName')?.setValue('Dev');
 
       component.onSubmit();
       expect(serviceSpy).toHaveBeenCalled();

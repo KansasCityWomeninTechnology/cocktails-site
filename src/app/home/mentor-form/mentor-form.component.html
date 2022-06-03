@@ -2,20 +2,20 @@
   <mat-label>Email Address</mat-label>
   <mat-form-field appearance="outline">
     <input matInput placeholder="Email Address" required type="email" formControlName="email">
-    <mat-error *ngIf="signUpForm.get('email').hasError('required')">Email is required</mat-error>
-    <mat-error *ngIf="signUpForm.get('email').hasError('email')">Not a valid email</mat-error>
+    <mat-error *ngIf="signUpForm.get('email')?.hasError('required')">Email is required</mat-error>
+    <mat-error *ngIf="signUpForm.get('email')?.hasError('email')">Not a valid email</mat-error>
   </mat-form-field>
 
   <mat-label>First Name</mat-label>
   <mat-form-field appearance="outline">
     <input matInput placeholder="First Name" required type="text" formControlName="firstName">
-    <mat-error *ngIf="signUpForm.get('firstName').hasError('required')">First name is required</mat-error>
+    <mat-error *ngIf="signUpForm.get('firstName')?.hasError('required')">First name is required</mat-error>
   </mat-form-field>
 
   <mat-label>Last Name</mat-label>
   <mat-form-field appearance="outline">
     <input matInput placeholder="Last Name" required type="text" formControlName="lastName">
-    <mat-error *ngIf="signUpForm.get('lastName').hasError('required')">Last name is required</mat-error>
+    <mat-error *ngIf="signUpForm.get('lastName')?.hasError('required')">Last name is required</mat-error>
   </mat-form-field>
 
   <div style="position: absolute; left: -5000px;" aria-hidden="true">

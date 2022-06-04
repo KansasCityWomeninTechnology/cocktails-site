@@ -17,7 +17,7 @@ export const TOPICS: Topic[] = [
   {
     name: 'The Garnish | Introduction to CSS',
     slidesLink:
-      'http://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/css-series/css-series-01.html#/',
+      'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/css-series/css-series-01.html#/',
     worksheetLink:
       'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
     areLinksEnabled: true,

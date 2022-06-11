@@ -22,6 +22,13 @@ export const TOPICS: Topic[] = [
       'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
     areLinksEnabled: true,
   },
+  {
+    name: 'The Garnish | CSS Grid',
+    slidesLink:
+      'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/css-series/css-series-02-grid#/',
+    worksheetLink: 'https://cssgridgarden.com/',
+    areLinksEnabled: true,
+  },
 ];
 
 export interface Session {

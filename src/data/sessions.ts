@@ -9,7 +9,7 @@ export const TOPICS: Topic[] = [
   {
     name: 'Intro to HTML',
     slidesLink:
-      'https://codingandcocktails.herokuapp.com/01-glasswork/front-end-html.html#/',
+      'http://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/01-glasswork/front-end-html.html#/',
     worksheetLink:
       'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
     areLinksEnabled: true,
@@ -85,7 +85,7 @@ export const SESSIONS: Session[] = [
     eventbriteIFrameLink:
       '//eventbrite.com/tickets-external?eid=352130902007&ref=ccweb',
   },
-    {
+  {
     date: '2022-07-09',
     time: '7-9pm',
     name: 'Coding & Cocktails: The Glass | Front-end Architecture & HTML - ONLINE EVENT',

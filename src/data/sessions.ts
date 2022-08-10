@@ -9,7 +9,15 @@ export const TOPICS: Topic[] = [
   {
     name: 'Intro to HTML',
     slidesLink:
-      'http://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/01-glasswork/front-end-html.html#/',
+      'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/01-glasswork/front-end-html.html#/',
+    worksheetLink:
+      'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
+    areLinksEnabled: true,
+  },
+  {
+    name: 'The Garnish | Introduction to CSS',
+    slidesLink:
+      'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/css-series/css-series-01.html#/',
     worksheetLink:
       'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
     areLinksEnabled: true,
@@ -79,7 +87,7 @@ export const SESSIONS: Session[] = [
     eventbriteIFrameLink:
       '//eventbrite.com/tickets-external?eid=373882591897&ref=ccweb',
   },
-    {
+  {
     date: '2022-08-13',
     time: '7-9pm',
     name: 'Coding & Cocktails: The Garnish | Introduction to CSS - ONLINE EVENT',

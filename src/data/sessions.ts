@@ -22,6 +22,14 @@ export const TOPICS: Topic[] = [
       'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
     areLinksEnabled: true,
   },
+  {
+    name: 'The Garnish | Introduction to CSS Grid',
+    slidesLink:
+      'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/css-series/css-series-02-grid.html#/',
+    worksheetLink:
+      'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
+    areLinksEnabled: true,
+  },
 ];
 
 export interface Session {
@@ -96,7 +104,7 @@ export const SESSIONS: Session[] = [
     eventbriteIFrameLink:
       '//eventbrite.com/tickets-external?eid=393800195987&ref=ccweb',
   },
-    {
+  {
     date: '2022-09-10',
     time: '7-9pm',
     name: 'Coding & Cocktails: The Garnish | Introduction to CSS Grid - ONLINE EVENT',

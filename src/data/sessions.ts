@@ -9,26 +9,10 @@ export const TOPICS: Topic[] = [
   {
     name: 'Intro to HTML',
     slidesLink:
-      'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/01-glasswork/front-end-html.html#/',
+      'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/01-glasswork/2023-front-end-html.html#/',
     worksheetLink:
       'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
-    areLinksEnabled: true,
-  },
-  {
-    name: 'The Garnish | Introduction to CSS',
-    slidesLink:
-      'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/css-series/css-series-01.html#/',
-    worksheetLink:
-      'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
-    areLinksEnabled: true,
-  },
-  {
-    name: 'The Garnish | Introduction to CSS Grid',
-    slidesLink:
-      'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/css-series/css-series-02-grid.html#/',
-    worksheetLink:
-      'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
-    areLinksEnabled: true,
+    areLinksEnabled: false,
   },
 ];
 

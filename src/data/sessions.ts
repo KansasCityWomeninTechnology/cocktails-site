@@ -43,7 +43,16 @@ export const SESSIONS: Session[] = [
     eventbriteIFrameLink:
       '//eventbrite.com/tickets-external?eid=515847773577&ref=ccweb',
   },
+  {
+    date: '2023-03-11',
+    time: '4-8pm',
+    name: 'Coding & Cocktails: The Garnish | Introduction to CSS',
+    eventbriteLink:
+      'https://www.eventbrite.com/e/coding-cocktails-the-garnish-introduction-to-css-tickets-546220960597',
+    eventbriteIFrameLink:
+      '//eventbrite.com/tickets-external?eid=546220960597&ref=ccweb',
+  },
 ];
 
 // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
-export const UPCOMING_SESSION_MONTH = 2;
+export const UPCOMING_SESSION_MONTH = 3;

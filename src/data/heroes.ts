@@ -19,12 +19,6 @@ export const LEADERS: Hero[] = [
     twitter: 'amynorris'
   },
   {
-    name: 'Alisa Duncan',
-    title: 'Curriculum Director',
-    img: 'assets/images/mentors/alisa.jpg',
-    twitter: 'AlisaDuncan'
-  },
-  {
     name: 'Gabi Dombrowski',
     title: 'Mentor Director',
     img: 'assets/images/mentors/gabi.jpg',
@@ -182,5 +176,11 @@ export const MENTORS: Hero[] = [
     title: 'Mentor',
     img: 'assets/images/mentors/rachelh.jpg',
     twitter: 'codecocktailskc'
+  },
+  {
+    name: 'Alisa Duncan',
+    title: 'Mentor',
+    img: 'assets/images/mentors/alisa.jpg',
+    twitter: 'AlisaDuncan'
   },
 ];

@@ -41,6 +41,12 @@ export const LEADERS: Hero[] = [
     title: 'Technical Materials Director',
     img: 'assets/images/mentors/hyunsu.jpeg',
     twitter: 'codecocktailskc'
+  },
+  {
+    name: 'Alex Herron',
+    title: 'Co-Director',
+    img: 'assets/images/mentors/alex.jpeg',
+    twitter: 'AlexEHerron'
   }
 ];
 

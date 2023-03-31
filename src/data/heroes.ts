@@ -45,7 +45,7 @@ export const LEADERS: Hero[] = [
   {
     name: 'Alex Herron',
     title: 'Co-Director',
-    img: 'assets/images/mentors/alex.jpeg',
+    img: 'assets/images/mentors/alex.jpg',
     twitter: 'AlexEHerron'
   }
 ];

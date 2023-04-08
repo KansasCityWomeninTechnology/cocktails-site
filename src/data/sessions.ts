@@ -26,9 +26,8 @@ export const TOPICS: Topic[] = [
     name: 'Intro to JavaScript',
     slidesLink:
       'http://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/03-liquor/javascript.html#/',
-    worksheetLink:
-      'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
-    areLinksEnabled: false,
+    worksheetLink: 'https://bit.ly/js-worksheet',
+    areLinksEnabled: true,
   },
 ];
 

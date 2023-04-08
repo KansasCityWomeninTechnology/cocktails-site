@@ -25,10 +25,10 @@ export const LEADERS: Hero[] = [
     twitter: 'gabdom'
   },
   {
-    name: 'Kallie Riff',
+    name: 'Nessa Shultz',
     title: 'Presentation Director',
-    img: 'assets/images/mentors/kallie.jpg',
-    twitter: 'KallieRiff'
+    img: 'assets/images/mentors/nessa.jpg',
+    twitter: 'Nessa314159',
   },
   {
     name: 'Kim Watt',

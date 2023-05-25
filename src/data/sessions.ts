@@ -76,7 +76,16 @@ export const SESSIONS: Session[] = [
     eventbriteIFrameLink:
       '//eventbrite.com/tickets-external?eid=583928865957&ref=ccweb',
   },
+  {
+    date: '2023-06-17',
+    time: '4-8pm',
+    name: 'Coding & Cocktails: The Glass | Front-end Architecture & HTML',
+    eventbriteLink:
+      'https://www.eventbrite.com/e/coding-cocktails-the-glass-html-and-front-end-architecture-tickets-632990831617',
+    eventbriteIFrameLink:
+      '//eventbrite.com/tickets-external?eid=632990831617&ref=ccweb',
+  },
 ];
 
 // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
-export const UPCOMING_SESSION_MONTH = 4;
+export const UPCOMING_SESSION_MONTH = 6;

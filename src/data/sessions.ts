@@ -14,21 +14,21 @@ export const TOPICS: Topic[] = [
 //       'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
 //     areLinksEnabled: true,
 //   },
-  {
-    name: 'CSS Basics',
-    slidesLink:
-      'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/css-series/2023-css.html#/',
-    worksheetLink:
-      'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
-    areLinksEnabled: true,
-  },
   // {
-  //   name: 'Intro to JavaScript',
+  //   name: 'CSS Basics',
   //   slidesLink:
-  //     'http://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/03-liquor/javascript.html#/',
-  //   worksheetLink: 'https://bit.ly/js-worksheet',
+  //     'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/css-series/2023-css.html#/',
+  //   worksheetLink:
+  //     'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
   //   areLinksEnabled: true,
   // },
+  {
+    name: 'Intro to JavaScript',
+    slidesLink:
+      'http://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/03-liquor/javascript.html#/',
+    worksheetLink: 'https://bit.ly/js-worksheet',
+    areLinksEnabled: true,
+  },
 ];
 
 export interface Session {

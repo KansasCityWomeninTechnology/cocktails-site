@@ -6,14 +6,14 @@ export interface Topic {
 }
 
 export const TOPICS: Topic[] = [
-//   {
-//     name: 'Intro to HTML',
-//     slidesLink:
-//       'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/01-glasswork/2023-front-end-html.html#/',
-//     worksheetLink:
-//       'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
-//     areLinksEnabled: true,
-//   },
+  {
+    name: 'Intro to HTML',
+    slidesLink:
+      'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/01-glasswork/2023-front-end-html.html#/',
+    worksheetLink:
+      'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
+    areLinksEnabled: false,
+  },
   // {
   //   name: 'CSS Basics',
   //   slidesLink:
@@ -22,13 +22,13 @@ export const TOPICS: Topic[] = [
   //     'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
   //   areLinksEnabled: true,
   // },
-  {
-    name: 'Intro to JavaScript',
-    slidesLink:
-      'http://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/03-liquor/javascript.html#/',
-    worksheetLink: 'https://bit.ly/js-worksheet',
-    areLinksEnabled: true,
-  },
+  // {
+  //   name: 'Intro to JavaScript',
+  //   slidesLink:
+  //     'http://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/03-liquor/javascript.html#/',
+  //   worksheetLink: 'https://bit.ly/js-worksheet',
+  //   areLinksEnabled: true,
+  // },
 ];
 
 export interface Session {

@@ -37,16 +37,16 @@ export const LEADERS: Hero[] = [
     twitter: 'codecocktailskc'
   },
   {
-    name: 'Lulu Cao',
-    title: 'Curriculum Director',
-    img: 'assets/images/mentors/lulu.png',
-    twitter: 'codecocktailskc'
-  },
-  {
     name: 'Alex Herron',
     title: 'Co-Director',
     img: 'assets/images/mentors/alex.jpg',
     twitter: 'AlexEHerron'
+  },
+  {
+    name: 'Lulu Cao',
+    title: 'Curriculum Director',
+    img: 'assets/images/mentors/lulu.png',
+    twitter: 'codecocktailskc'
   }
 ];
 

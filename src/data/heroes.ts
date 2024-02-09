@@ -28,7 +28,7 @@ export const LEADERS: Hero[] = [
     name: 'Nessa Shultz',
     title: 'Presentation Director',
     img: 'assets/images/mentors/nessa.jpg',
-    twitter: 'Nessa314159',
+    twitter: 'codecocktailskc',
   },
   {
     name: 'Kim Watt',
@@ -37,9 +37,9 @@ export const LEADERS: Hero[] = [
     twitter: 'codecocktailskc'
   },
   {
-    name: 'Hyunsu Kim',
-    title: 'Technical Materials Director',
-    img: 'assets/images/mentors/hyunsu.jpeg',
+    name: 'Lulu Cao',
+    title: 'Curriculum Director',
+    img: 'assets/images/mentors/lulu.png',
     twitter: 'codecocktailskc'
   },
   {
@@ -188,5 +188,11 @@ export const MENTORS: Hero[] = [
     title: 'Mentor',
     img: 'assets/images/mentors/alisa.jpg',
     twitter: 'AlisaDuncan'
+  },
+  {
+    name: 'Hyunsu Kim',
+    title: 'Technical Materials Director',
+    img: 'assets/images/mentors/hyunsu.jpeg',
+    twitter: 'codecocktailskc'
   },
 ];

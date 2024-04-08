@@ -12,7 +12,7 @@ export const TOPICS: Topic[] = [
       'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/01-glasswork/2023-front-end-html.html#/',
     worksheetLink:
       'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
-    areLinksEnabled: true,
+    areLinksEnabled: false,
   },
   {
     name: 'CSS Basics',
@@ -20,15 +20,16 @@ export const TOPICS: Topic[] = [
       'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/css-series/2023-css.html#/',
     worksheetLink:
       'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
-    areLinksEnabled: true,
+    areLinksEnabled: false,
   },
-  // {
-  //   name: 'Intro to JavaScript',
-  //   slidesLink:
-  //     'http://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/03-liquor/javascript.html#/',
-  //   worksheetLink: 'https://bit.ly/js-worksheet',
-  //   areLinksEnabled: true,
-  // },
+  {
+    name: 'Intro to JavaScript',
+    slidesLink:
+      'http://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/03-liquor/javascript.html#/',
+    worksheetLink:
+      'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
+    areLinksEnabled: false,
+  },
 ];
 
 export interface Session {
@@ -58,16 +59,7 @@ export const SESSIONS: Session[] = [
     eventbriteIFrameLink:
       '//eventbrite.com/tickets-external?eid=828781697367&ref=ccweb',
   },
-  {
-    date: '2024-04-13',
-    time: '4-8pm',
-    name: 'Coding & Cocktails: The Liquor | Intro to Javascript',
-    eventbriteLink:
-      'https://www.eventbrite.com/e/coding-cocktails-the-liquor-intro-to-javascript-tickets-862499748967',
-    eventbriteIFrameLink:
-      '//eventbrite.com/tickets-external?eid=862499748967&ref=ccweb',
-  },
 ];
 
 // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
-export const UPCOMING_SESSION_MONTH = 2 + 1;
+export const UPCOMING_SESSION_MONTH = 1 + 1;

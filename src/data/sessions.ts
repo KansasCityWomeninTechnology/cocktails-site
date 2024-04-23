@@ -76,6 +76,15 @@ export const SESSIONS: Session[] = [
     eventbriteIFrameLink:
       '//eventbrite.com/tickets-external?eid=887879931777&ref=ccweb',
   },
+  {
+    date: '2024-06-08',
+    time: '4-8pm',
+    name: 'Coding & Cocktails: The Toast | APIs',
+    eventbriteLink:
+      'https://www.eventbrite.com/e/coding-cocktails-the-toast-apis-tickets-888472393847',
+    eventbriteIFrameLink:
+      '//eventbrite.com/tickets-external?eid=888472393847&ref=ccweb',
+  },
 ];
 
 // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc

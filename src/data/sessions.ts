@@ -27,7 +27,7 @@ export const TOPICS: Topic[] = [
     slidesLink:
       'http://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/03-liquor/javascript.html#/',
     worksheetLink: 'https://bit.ly/js-worksheet',
-    areLinksEnabled: false,
+    areLinksEnabled: true,
   },
 ];
 

@@ -12,7 +12,7 @@ export const TOPICS: Topic[] = [
       'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/01-glasswork/2023-front-end-html.html#/',
     worksheetLink:
       'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
-    areLinksEnabled: false,
+    areLinksEnabled: true,
   },
   {
     name: 'CSS Basics',
@@ -20,7 +20,7 @@ export const TOPICS: Topic[] = [
       'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/css-series/2023-css.html#/',
     worksheetLink:
       'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
-    areLinksEnabled: false,
+    areLinksEnabled: true,
   },
   {
     name: 'Intro to JavaScript',

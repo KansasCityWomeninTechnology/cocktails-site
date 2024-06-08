@@ -29,6 +29,13 @@ export const TOPICS: Topic[] = [
     worksheetLink: 'https://bit.ly/js-worksheet',
     areLinksEnabled: true,
   },
+  {
+    name: 'JavaScript: ES6',
+    slidesLink:
+      'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/ES6/es6.html#/',
+    worksheetLink: 'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
+    areLinksEnabled: true,
+  },
 ];
 
 export interface Session {

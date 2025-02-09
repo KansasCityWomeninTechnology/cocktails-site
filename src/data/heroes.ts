@@ -25,12 +25,6 @@ export const LEADERS: Hero[] = [
     twitter: 'gabdom'
   },
   {
-    name: 'Nessa Shultz',
-    title: 'Presentation Director',
-    img: 'assets/images/mentors/nessa.jpg',
-    twitter: 'codecocktailskc',
-  },
-  {
     name: 'Kim Watt',
     title: 'Marketing Director',
     img: 'assets/images/mentors/kim.jpg',
@@ -43,9 +37,27 @@ export const LEADERS: Hero[] = [
     twitter: 'AlexEHerron'
   },
   {
-    name: 'Lulu Cao',
+    name: 'Nessa Shultz',
+    title: 'Co-Presentation Director',
+    img: 'assets/images/mentors/nessa.jpg',
+    twitter: 'codecocktailskc',
+  },
+  {
+    name: 'Alicia Villegas',
+    title: 'Co-Presentation Director',
+    img: 'assets/images/mentors/alicia.jpg',
+    twitter: 'codecocktailskc'
+  },
+  {
+    name: 'Tracy H.',
+    title: 'Technical Materials Director',
+    img: 'assets/images/mentors/tracy.jpg',
+    twitter: 'codecocktailskc'
+  },
+  {
+    name: 'Julie Batson',
     title: 'Curriculum Director',
-    img: 'assets/images/mentors/lulu.png',
+    img: 'assets/images/mentors/julie.jpg',
     twitter: 'codecocktailskc'
   }
 ];

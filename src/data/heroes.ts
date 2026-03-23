@@ -19,22 +19,10 @@ export const LEADERS: Hero[] = [
     twitter: 'amynorris'
   },
   {
-    name: 'Alisa Duncan',
-    title: 'Curriculum Director',
-    img: 'assets/images/mentors/alisa.jpg',
-    twitter: 'AlisaDuncan'
-  },
-  {
     name: 'Gabi Dombrowski',
     title: 'Mentor Director',
     img: 'assets/images/mentors/gabi.jpg',
     twitter: 'gabdom'
-  },
-  {
-    name: 'Kallie Riff',
-    title: 'Presentation Director',
-    img: 'assets/images/mentors/kallie.jpg',
-    twitter: 'KallieRiff'
   },
   {
     name: 'Kim Watt',
@@ -43,9 +31,33 @@ export const LEADERS: Hero[] = [
     twitter: 'codecocktailskc'
   },
   {
-    name: 'Hyunsu Kim',
+    name: 'Alex Herron',
+    title: 'Co-Director',
+    img: 'assets/images/mentors/alex.jpg',
+    twitter: 'AlexEHerron'
+  },
+  {
+    name: 'Nessa Shultz',
+    title: 'Co-Presentation Director',
+    img: 'assets/images/mentors/nessa.jpg',
+    twitter: 'codecocktailskc',
+  },
+  {
+    name: 'Alicia Villegas',
+    title: 'Co-Presentation Director',
+    img: 'assets/images/mentors/alicia.jpg',
+    twitter: 'codecocktailskc'
+  },
+  {
+    name: 'Tracy H.',
     title: 'Technical Materials Director',
-    img: 'assets/images/mentors/hyunsu.jpeg',
+    img: 'assets/images/mentors/tracy.jpg',
+    twitter: 'codecocktailskc'
+  },
+  {
+    name: 'Julie Batson',
+    title: 'Curriculum Director',
+    img: 'assets/images/mentors/julie.jpg',
     twitter: 'codecocktailskc'
   }
 ];
@@ -181,6 +193,18 @@ export const MENTORS: Hero[] = [
     name: 'Rachel Hagan',
     title: 'Mentor',
     img: 'assets/images/mentors/rachelh.jpg',
+    twitter: 'codecocktailskc'
+  },
+  {
+    name: 'Alisa Duncan',
+    title: 'Mentor',
+    img: 'assets/images/mentors/alisa.jpg',
+    twitter: 'AlisaDuncan'
+  },
+  {
+    name: 'Hyunsu Kim',
+    title: 'Technical Materials Director',
+    img: 'assets/images/mentors/hyunsu.jpeg',
     twitter: 'codecocktailskc'
   },
 ];
